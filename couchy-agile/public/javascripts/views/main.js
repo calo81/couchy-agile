@@ -7,15 +7,16 @@
  */
 
 window.MainView = Backbone.View.extend({
-    el: $("#main"),
+    el: "#main",
 
     panelView:Panel.View,
 
     refreshViewWhenTabSelected:function(event,ui){
-        alert("tabchanged");
+        this.panelView.render();
     },
     initialize: function() {
-      $("#main").tabs({
+        this.panelView=new Panel.View;
+        $(this.el).tabs({
             select: function(event,ui){
                   window.Main.refreshViewWhenTabSelected(event,ui);
             }

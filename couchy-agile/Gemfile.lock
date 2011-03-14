@@ -87,6 +87,11 @@ GEM
     rspec-expectations (2.5.0)
       diff-lcs (~> 1.1.2)
     rspec-mocks (2.5.0)
+    rspec-rails (2.5.0)
+      actionpack (~> 3.0)
+      activesupport (~> 3.0)
+      railties (~> 3.0)
+      rspec (~> 2.5.0)
     selenium-client (1.2.18)
     selenium-rc (2.3.2)
       selenium-client (>= 1.2.18)
@@ -103,3 +108,4 @@ DEPENDENCIES
   mongo_mapper
   rails (= 3.0.4)
   rspec
+  rspec-rails
