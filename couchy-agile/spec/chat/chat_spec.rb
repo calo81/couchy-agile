@@ -31,11 +31,11 @@ describe Chat do
     $mensaje1="this message shouldn't change"
     $mensaje2="this message should change"
     user=User.new("user-1-id")
-    def user.receive_chat_message(message)
+    def user.receive_chat_message(chatid,message)
        $mensaje1=message
     end
     user2=User.new("user-2-id")
-    def user2.receive_chat_message(message)
+    def user2.receive_chat_message(chatid,message)
          $mensaje2=message
     end
     chat.join(user)
