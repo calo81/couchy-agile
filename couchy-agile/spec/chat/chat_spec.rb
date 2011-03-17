@@ -22,8 +22,8 @@ describe Chat do
     chat=Chat.new("new chat")
     chat.join("user-1-id")
     chat.join("user-2-id")
-    chat.users.include?("user-1-id")
-    chat.users.include?("user-2-id")
+    chat.users.include?("user-1-id").should be_true
+    chat.users.include?("user-2-id").should be_true
   end
 
   it "receive messages from users and notify the other users" do
