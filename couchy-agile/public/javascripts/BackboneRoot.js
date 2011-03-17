@@ -7,3 +7,4 @@
  */
 
 Panel=function(){}
+Column=function(){}

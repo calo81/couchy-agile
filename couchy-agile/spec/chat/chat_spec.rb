@@ -26,16 +26,17 @@ describe Chat do
     chat.users.include?("user-2-id").should be_true
   end
 
+
   it "receive messages from users and notify the other users" do
     chat=Chat.new("new chat")
     $mensaje1="this message shouldn't change"
     $mensaje2="this message should change"
     user=User.new("user-1-id")
-    def user.receive_chat_message(chatid,message)
+    def user.receive_chat_message_notification(chatid,message,sender)
        $mensaje1=message
     end
     user2=User.new("user-2-id")
-    def user2.receive_chat_message(chatid,message)
+    def user2.receive_chat_message_notification(chatid,message,sender)
          $mensaje2=message
     end
     chat.join(user)

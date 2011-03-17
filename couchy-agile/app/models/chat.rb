@@ -12,6 +12,10 @@ class Chat
     return @@chats.has_key?(chatid)
   end
 
+  def self.find(chatid)
+    return @@chats[chatid]
+  end
+
   attr_reader :users, :id
 
   def initialize(chatid)
@@ -26,7 +30,7 @@ class Chat
 
   def send_message(userid, message)
     @users.each { |user|
-      user.receive_chat_message(self.id,message) unless user.id==userid
+      user.receive_chat_message_notification(self.id,message,userid) unless user.id==userid
     }
   end
 end

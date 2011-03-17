@@ -4,18 +4,18 @@ Panel.Template = {
 
 Panel.View = Backbone.View.extend({
     el: "#panel",
-    startedColumn: Panel.Column,
-    nonStartedColumn:Panel.Column,
-    doneColumn:Panel.Column,
-    inTestColumn:Panel.Column,
+    startedColumn: Column.View,
+    nonStartedColumn:Column.View,
+    doneColumn:Column.View,
+    inTestColumn:Column.View,
 
     render: function() {
-       $(this.el).html(_.template(Panel.Template.value));
+      // $(this.el).html(_.template(Panel.Template.value));
        return this;
      },
 
      initialize: function() {
-          this.startedColumn = new Panel.Column
+          this.startedColumn = new Column.View
     }
 
 })
