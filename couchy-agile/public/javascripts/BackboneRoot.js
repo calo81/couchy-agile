@@ -8,3 +8,4 @@
 
 Panel=function(){}
 Column=function(){}
+Chat=function(){}
