@@ -3,8 +3,8 @@
 <head>
   <title>CouchyAgile</title>
   <%= stylesheet_link_tag :all,:recursive => true %>
-  <%= javascript_include_tag 'underscore','backbone','jquery-1.5.1','jquery-ui-1.8.10.custom.min' %>
-  <%= javascript_include_tag 'BackboneRoot','views/column','views/panel','views/main' %>
+  <%= javascript_include_tag 'jquery-1.5.1','underscore','backbone','jquery-ui-1.8.10.custom.min' %>
+  <%= javascript_include_tag 'BackboneRoot','views/column','views/panel', 'models/chat','views/chatView','views/chatPanel','views/main' %>
   <%= csrf_meta_tag %>
 </head>
 <body>

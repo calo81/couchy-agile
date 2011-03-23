@@ -11,9 +11,27 @@ window.MainView = Backbone.View.extend({
 
     panelView:Panel.View,
 
+    chatPanelView:new ChatPanel,
+
+    currentTab:{},
+
+    currentView:{},
+
     refreshViewWhenTabSelected:function(event,ui){
-        this.panelView.render();
+        this.currentTab = ui.panel;
+        if(ui.index==0){
+            this.currentView=this.panelView;
+        }
+        else if(ui.index==5){
+            this.currentView=this.chatPanelView;
+        }
+        this.render();
     },
+
+    render:function(){
+       this.currentView.render(this.currentTab);
+    },
+
     initialize: function() {
         this.panelView=new Panel.View;
         $(this.el).tabs({
