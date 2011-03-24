@@ -1,6 +1,6 @@
 Chat.Template = {
 
-    text:"<div id='chddat<%= chatId %>'><%= chatName %><button id='join' value='join'/></div>",
+    text:"<li><div id='chat<%= chatId %>'><%= chatName %><button id='join'>Join</button></div></li>",
 
     compile:function(options){
         var compiled=_.template(this.text);
@@ -23,8 +23,7 @@ Chat.View = Backbone.View.extend({
     },
 
     render:function(elementToAppendTo){
-        var contentToAppend=this.template.compile({chatName:this.model.get("name"),chatId:this.model.get("id")});
-        $(elementToAppendTo).html(contentToAppend);
-        alert(contentToAppend);
+        var contentToAppend=this.template.compile({chatName:this.model.get("name"),chatId:this.model.cid});
+        $(elementToAppendTo).append(contentToAppend);
     }
 });

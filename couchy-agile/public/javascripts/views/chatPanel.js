@@ -1,7 +1,7 @@
 ChatPanelTemplate = {
 
     text:"",
-    tag: "<div id='chatPanel'></div>",
+    tag: "<div id='chatPanel'><input type='text' id='newChatName' size='10'/><button id='newChat' class='button'>New Chat</button><ul id='chatUl'></ul></div>",
     compile:function(options){
         var compiled=_.template(this.text);
         return compiled(options);
@@ -15,6 +15,10 @@ var ChatPanel = Backbone.View.extend({
 
        template:ChatPanelTemplate,
 
+       initEvents:function(){
+            $("#newChat").live('click',{self:this},this.createChat);
+        },
+
        chatViews:[],
 
        render: function(elementToAppendTo){
@@ -24,24 +28,24 @@ var ChatPanel = Backbone.View.extend({
        },
 
        renderChildren:function(){
-         this.chatViews.forEach(function(value,index,array){value.render('#chatPanel');});
+         $("#chatUl").html("");
+         this.chatViews.forEach(function(value,index,array){value.render("#chatUl");});
        },
 
        addChat:function(chat){
           var chatView = new Chat.View({model:chat});
           this.chatViews=this.chatViews.concat(chatView);
+          this.renderChildren();
+       },
 
+       createChat: function(event){
+           var self = event.data.self;
+           var chat = new Chat.Model({name:$("#newChatName").val()});
+           self.addChat(chat);
        },
 
        initialize: function() {
-           this.createExampleChat = function () {
-                var chat = new Chat.Model();
-                chat.set({id:"chat-1"});
-                chat.set({name:"chat-1"});
-                this.addChat(chat);
-           };
-           this.createExampleChat();
-
+             this.initEvents();
        }
 })
 
