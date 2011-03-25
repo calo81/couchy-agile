@@ -1,5 +1,6 @@
 CouchyAgile::Application.routes.draw do
   root :to => "home#index"
+  resources :chat
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

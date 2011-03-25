@@ -6,7 +6,7 @@ describe Chat do
     chat.should be_a Chat
   end
 
-    it "If joining existent no new is created" do
+  it "If joining existent no new is created" do
     chat = Chat.join("user-identifier", "chat 1")
     chat2 = Chat.join("user-2", "chat 1")
     chat.should be chat2

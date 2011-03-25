@@ -1,5 +1,5 @@
 class Chat
-
+  include ActiveModel::Serializers::JSON
   @@chats={}
 
   def self.join(user, chatid)
@@ -14,6 +14,10 @@ class Chat
 
   def self.find(chatid)
     return @@chats[chatid]
+  end
+
+  def self.all
+    @@chats
   end
 
   attr_reader :users, :id

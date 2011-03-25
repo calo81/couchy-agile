@@ -15,9 +15,20 @@
 
 .chat-small-box{
     border:solid 1px #DEDEDE;
-    background:#FFFFCC url(/images/join_button.gif) 8px 6px no-repeat;
+    background:#FFFFCC;
     color:#222222;
     padding:4px;
     text-align:center;
     width:200px;
+}
+
+.a-no-borders{
+    text-decoration: none;
+    border: none;
+    padding: 0;
+    margin: 0
+}
+
+.a-no-borders img{
+    border: none;
 }

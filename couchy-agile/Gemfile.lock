@@ -104,8 +104,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  activemodel
   jasmine
+  json_pure
   mongo_mapper
-  rails (= 3.0.4)
+  rails
   rspec
   rspec-rails

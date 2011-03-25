@@ -5,6 +5,8 @@ gem 'mongo_mapper'
 gem 'jasmine'
 gem 'rspec'
 gem 'rspec-rails'
+gem 'json_pure'
+gem 'activemodel'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'

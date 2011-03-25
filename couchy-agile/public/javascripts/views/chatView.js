@@ -1,6 +1,6 @@
 Chat.Template = {
 
-    text:"<li><div class='chat-small-box' id='chat<%= chatId %>'><%= chatName %><button id='join'>Join</button></div></li>",
+    text:"<li><div class='chat-small-box'><span id='chat<%= chatId %>'><%= chatName %></span><span><a class='a-no-borders joinaction' id='join<%= chatId %>' href='#'><img src='/images/join_button.gif' alt='join'/></a></span></div></li>",
 
     compile:function(options){
         var compiled=_.template(this.text);
@@ -15,12 +15,11 @@ Chat.View = Backbone.View.extend({
     template: Chat.Template,
 
     events: {
-     "click #join": "join"
+     "click .joinaction": "join"
     },
 
-    join:function(){
-        this.model.join(user);
-        this.save();
+    join:function(event){
+        this.model.join(window.user.get());
     },
 
     render:function(elementToAppendTo){
