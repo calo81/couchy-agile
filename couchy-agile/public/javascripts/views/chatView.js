@@ -1,6 +1,6 @@
 Chat.Template = {
 
-    text:"<li><div id='chat<%= chatId %>'><%= chatName %><button id='join'>Join</button></div></li>",
+    text:"<li><div class='chat-small-box' id='chat<%= chatId %>'><%= chatName %><button id='join'>Join</button></div></li>",
 
     compile:function(options){
         var compiled=_.template(this.text);
@@ -20,6 +20,7 @@ Chat.View = Backbone.View.extend({
 
     join:function(){
         this.model.join(user);
+        this.save();
     },
 
     render:function(elementToAppendTo){

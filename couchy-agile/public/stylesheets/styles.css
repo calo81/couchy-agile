@@ -12,3 +12,12 @@
 #columns .right {
     float: right;
 }
+
+.chat-small-box{
+    border:solid 1px #DEDEDE;
+    background:#FFFFCC url(/images/join_button.gif) 8px 6px no-repeat;
+    color:#222222;
+    padding:4px;
+    text-align:center;
+    width:200px;
+}
