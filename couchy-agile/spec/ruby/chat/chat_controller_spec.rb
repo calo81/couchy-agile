@@ -17,6 +17,25 @@ describe ChatController do
     chat_mock = mock("chat_mock")
     Chat.should_receive(:find).with("chat-1").and_return(chat_mock)
     chat_mock.should_receive(:send_message).with("user-1","El mensaje enviado al chat")
+    chat_mock.should_receive(:to_json).and_return({"id"=>"xx"})
+    chat_controller.should_receive(:render).with({:json=>{"id"=>"xx"}})
     chat_controller.update
+  end
+
+  it "when getting a creation request, puts the name as the id" do
+    chat_controller = ChatController.new
+    chat_controller.params={:name=>"chat-1", :user_id =>"user-1"}
+    chat_mock = mock("chat_mock")
+    Chat.should_receive(:join).with("user-1","chat-1").and_return(chat_mock)
+    chat_mock.should_receive(:to_json).and_return({"id"=>"xx"})
+    chat_controller.should_receive(:render).with({:json=>{"id"=>"xx"}})
+    chat_controller.create
+  end
+
+  it "will return all json chats when index called" do
+     chat_controller = ChatController.new
+     chat1=Chat.new("chat-1")
+     chat2=Chat.new("chat-2")
+     chat_controller.index
   end
 end

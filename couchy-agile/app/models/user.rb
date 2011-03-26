@@ -1,4 +1,5 @@
 class User
+  include ActiveModel::Serializers::JSON
   attr_accessor :id
 
   def initialize(id)
