@@ -17,6 +17,7 @@ var ChatPanel = Backbone.View.extend({
 
        initEvents:function(){
             $("#newChat").live('click',{self:this},this.createChat);
+            this.bind("chat:remove",this.chatRemoved);
         },
 
        chatViews:[],
@@ -25,6 +26,9 @@ var ChatPanel = Backbone.View.extend({
            $(elementToAppendTo).html(this.template.tag);
            this.renderChildren();
 
+       },
+       chatRemoved: function(chatid){
+         alert("removed");
        },
 
        renderChildren:function(){

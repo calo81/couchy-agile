@@ -25,4 +25,8 @@ class ChatController  < ApplicationController
     update
   end
 
+  def destroy
+    render :json=>{}
+  end
+
 end

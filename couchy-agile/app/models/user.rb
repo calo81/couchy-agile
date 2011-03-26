@@ -7,6 +7,10 @@ class User
     @chats ={}
   end
 
+  def attributes
+     @attributes ||= {:id => 'nil'}
+   end
+
   def get_mesages_for_chat(chatid)
     wait_for_messages(chatid)
     if no_messages_for_chat?(chatid)
@@ -27,6 +31,7 @@ class User
   def self.find(userid)
      User.new(userid)
   end
+
 
   private
   def no_messages_for_chat?(chatid)

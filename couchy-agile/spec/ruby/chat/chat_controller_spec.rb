@@ -38,4 +38,11 @@ describe ChatController do
      chat2=Chat.new("chat-2")
      chat_controller.index
   end
+
+    it "will just return on delete without id" do
+     chat_controller = ChatController.new
+     chat_controller.should_receive(:render).with({:json=>{}})
+     chat_controller.destroy
+    end
+
 end

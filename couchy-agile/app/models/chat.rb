@@ -28,6 +28,10 @@ class Chat
     @users=Set.new
   end
 
+  def attributes
+     @attributes ||= {:id => 'nil', :users=>'nil'}
+   end
+
   def join(user)
     @users << user
   end
@@ -37,4 +41,6 @@ class Chat
       user.receive_chat_message_notification(self.id,message,userid) unless user.id==userid
     }
   end
+
+
 end

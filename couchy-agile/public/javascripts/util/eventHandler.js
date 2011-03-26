@@ -1,0 +1,5 @@
+EventHandler = {
+    bind : function(){
+
+    }
+}
