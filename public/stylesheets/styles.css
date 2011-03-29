@@ -1,0 +1,97 @@
+.column {
+    position: relative;
+    width: 46%;
+    padding: 1%;
+    border: solid 1px #000;
+}
+
+#columns .left {
+    float: left;
+}
+
+#columns .right {
+    float: right;
+}
+
+.chat-small-box {
+    border: solid 1px #DEDEDE;
+    background: #FFFFCC;
+    color: #222222;
+    padding: 4px;
+    text-align: center;
+    width: 200px;
+}
+
+.a-no-borders {
+    text-decoration: none;
+    border: none;
+    padding: 0;
+    margin: 0
+}
+
+.a-no-borders img {
+    border: none;
+}
+
+#chatPanel {
+    width: 100%;
+}
+
+#chatCreation {
+    width: 50%;
+    float: left;
+}
+
+#mainChat {
+    width: 30%;
+    float: left;
+}
+
+#message {
+    width: 350px;
+    height: 22px;
+    border: 1px teal solid;
+    float: left;
+    margin-top: 1px;
+}
+
+#chatBox {
+    font-family: tahoma;
+    font-size: 12px;
+    color: black;
+    border: 1px teal solid;
+    height: 225px;
+    width: 400px;
+    overflow: scroll;
+    float: left;
+
+}
+
+#chatUsers {
+    font-family: tahoma;
+    font-size: 14;
+    color: orange;
+    border: 1px teal solid;
+    width: 150px;
+    height: 225px;
+    overflow: scroll;
+    margin-left: 1px;
+}
+
+#message {
+    width: 350px;
+    height: 22px;
+    border: 1px teal solid;
+    float: left;
+    margin-top: 1px;
+}
+
+#mainChatWindow {background:#DDDDDD}
+#mainChatWindow h2 {background:#0094ff;color:white;}
+#mainChatWindow div {color:#333;}
+#mainChatWindow {
+    -moz-border-radius-topright:5px;
+    -moz-border-radius-topleft:5px;
+    -webkit-border-top-right-radius:5px;
+    -webkit-border-top-left-radius:5px;
+}

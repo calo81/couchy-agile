@@ -1,0 +1,1559 @@
+
+
+Started GET "/panel" for 127.0.0.1 at 2011-03-10 19:30:11 +0000
+
+ActionController::RoutingError (No route matches "/panel"):
+  
+
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2011-03-10 19:32:16 +0000
+
+ActionController::RoutingError (No route matches "/home"):
+  
+
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2011-03-10 19:33:59 +0000
+
+ActionController::RoutingError (No route matches "/home"):
+  
+
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-10 19:36:01 +0000
+
+ActionController::RoutingError (uninitialized constant HomeController):
+  
+
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-10 19:38:33 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 31ms (Views: 30.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-10 19:40:05 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (36.6ms)
+Completed   in 40ms
+
+ActionView::Template::Error (undefined method `include_stylesheets' for #<#<Class:0x000000023f55c8>:0x000000023ed1e8>):
+    2: <html>
+    3: <head>
+    4:   <title>CouchyAgile</title>
+    5:     <%= include_stylesheets :app, :media => 'all' %>
+    6:     <%= include_javascripts :app %>
+    7:     <%= csrf_meta_tag %>
+    8: 
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___2671958719022833137_18808700_3635770350012470861'
+
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.7ms)
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-10 19:40:40 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (1.1ms)
+Completed   in 5ms
+
+ActionView::Template::Error (No expansion found for :app):
+    3: <head>
+    4:   <title>CouchyAgile</title>
+    5:   <%= stylesheet_link_tag :all %>
+    6:   <%= javascript_include_tag :app %>
+    7:   <%= csrf_meta_tag %>
+    8: </head>
+    9: <body>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___2671958719022833137_13590020_3635770350012470861'
+
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.8ms)
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-10 19:40:41 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed   in 4ms
+
+ActionView::Template::Error (No expansion found for :app):
+    3: <head>
+    4:   <title>CouchyAgile</title>
+    5:   <%= stylesheet_link_tag :all %>
+    6:   <%= javascript_include_tag :app %>
+    7:   <%= csrf_meta_tag %>
+    8: </head>
+    9: <body>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___2671958719022833137_27794180_3635770350012470861'
+
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.6ms)
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-10 19:40:51 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 5ms (Views: 5.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-10 19:47:46 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 6ms (Views: 5.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-13 16:21:30 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 6ms (Views: 5.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-13 16:37:24 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 6ms (Views: 5.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-13 16:37:51 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 7ms (Views: 6.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-13 16:42:42 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 6ms (Views: 5.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-13 16:43:24 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 7ms (Views: 6.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-13 16:43:26 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 7ms (Views: 6.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-13 16:44:04 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 6ms (Views: 5.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-13 16:45:18 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 36ms (Views: 6.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-13 16:46:42 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 6ms (Views: 5.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-13 16:47:23 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 6ms (Views: 5.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-13 16:52:39 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 6ms (Views: 5.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-13 16:52:40 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 6ms (Views: 5.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-13 16:52:43 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 7ms (Views: 6.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-13 16:55:04 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 6ms (Views: 5.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-13 16:55:07 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 6ms (Views: 5.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-13 16:55:08 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 6ms (Views: 5.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-13 16:56:34 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 6ms (Views: 5.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-13 16:57:12 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 6ms (Views: 5.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-13 16:58:05 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 6ms (Views: 5.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-13 16:58:32 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 6ms (Views: 5.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-13 16:58:37 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (32.8ms)
+Completed 200 OK in 36ms (Views: 36.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-13 16:59:02 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 6ms (Views: 5.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-13 16:59:29 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 5ms (Views: 4.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-13 16:59:31 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 6ms (Views: 5.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-13 16:59:44 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 6ms (Views: 5.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-13 17:00:54 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 6ms (Views: 5.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-13 17:02:18 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 6ms (Views: 5.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-13 17:03:27 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 6ms (Views: 5.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-13 17:05:14 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 6ms (Views: 5.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-13 17:10:34 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 6ms (Views: 5.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-13 17:13:00 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 6ms (Views: 5.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-13 17:13:03 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 6ms (Views: 5.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-13 17:13:17 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 6ms (Views: 5.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-13 17:13:20 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 6ms (Views: 5.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-13 17:13:36 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (31.7ms)
+Completed 200 OK in 36ms (Views: 35.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-13 17:13:39 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 6ms (Views: 5.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-13 17:14:31 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 6ms (Views: 5.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-13 17:17:57 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 6ms (Views: 5.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-13 17:18:21 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 6ms (Views: 5.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-13 17:18:42 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 5ms (Views: 5.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-13 17:18:45 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 6ms (Views: 5.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-13 17:18:47 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 6ms (Views: 5.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-13 17:19:08 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 6ms (Views: 5.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-13 17:19:33 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 6ms (Views: 5.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-13 17:25:35 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 6ms (Views: 5.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-13 17:25:36 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 5ms (Views: 5.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-13 17:26:09 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 6ms (Views: 5.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-13 17:27:42 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 6ms (Views: 5.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-13 17:27:45 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 6ms (Views: 5.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-13 17:27:56 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 6ms (Views: 5.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-13 19:54:20 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 6ms (Views: 5.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-13 19:54:43 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 6ms (Views: 5.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-13 19:56:16 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 6ms (Views: 5.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-13 19:57:58 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 6ms (Views: 5.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-13 19:59:24 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 6ms (Views: 5.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-13 20:01:37 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 6ms (Views: 5.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-13 20:01:40 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 6ms (Views: 5.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-13 20:02:33 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (34.4ms)
+Completed 200 OK in 38ms (Views: 37.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-13 20:02:54 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 6ms (Views: 5.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-13 20:05:17 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 6ms (Views: 5.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-13 20:06:27 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 6ms (Views: 5.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-13 20:07:29 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 6ms (Views: 5.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-17 23:08:58 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 40ms (Views: 39.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-17 23:09:03 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 6ms (Views: 5.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-17 23:12:17 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 6ms (Views: 5.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-17 23:12:27 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 6ms (Views: 5.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-17 23:12:49 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 6ms (Views: 5.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-17 23:13:17 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 6ms (Views: 5.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-17 23:13:48 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 6ms (Views: 5.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-17 23:14:59 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 6ms (Views: 5.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-21 23:00:12 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 13ms (Views: 12.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-23 21:16:40 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 6ms (Views: 6.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-23 21:29:06 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 6ms (Views: 5.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-23 21:31:02 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 6ms (Views: 5.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-23 21:32:04 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 6ms (Views: 5.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-23 21:32:19 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 6ms (Views: 5.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-23 21:32:22 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 6ms (Views: 5.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-23 21:32:56 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 6ms (Views: 5.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-23 21:33:55 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 6ms (Views: 5.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-23 21:34:01 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 6ms (Views: 5.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-23 21:34:51 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 6ms (Views: 5.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-23 21:35:51 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 6ms (Views: 5.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-23 21:36:19 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 6ms (Views: 5.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-23 21:37:01 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 6ms (Views: 5.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-23 21:42:38 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 6ms (Views: 5.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-23 21:45:20 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 6ms (Views: 5.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-23 21:45:26 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 6ms (Views: 5.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-23 21:46:39 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 6ms (Views: 5.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-23 21:47:45 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 6ms (Views: 5.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-23 21:50:42 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 6ms (Views: 5.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-23 21:51:12 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 6ms (Views: 5.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-23 22:04:56 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 6ms (Views: 5.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-23 22:05:36 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 6ms (Views: 5.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-23 22:06:47 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 6ms (Views: 5.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-23 22:12:07 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 6ms (Views: 5.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-23 22:12:50 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 6ms (Views: 5.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-23 22:13:39 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 6ms (Views: 5.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-23 22:14:11 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 6ms (Views: 5.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-23 22:14:39 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 6ms (Views: 5.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-23 22:15:22 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 6ms (Views: 5.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-23 22:16:04 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 6ms (Views: 5.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-23 22:17:06 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 6ms (Views: 5.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-23 22:18:23 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 6ms (Views: 5.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-23 22:20:36 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 6ms (Views: 5.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-23 22:21:58 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 6ms (Views: 5.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-23 22:25:23 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 6ms (Views: 5.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-23 22:27:20 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 6ms (Views: 5.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-23 22:31:30 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 6ms (Views: 5.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-23 22:33:07 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 6ms (Views: 5.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-23 22:34:50 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 6ms (Views: 5.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-23 22:41:45 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 6ms (Views: 5.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-23 22:42:04 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 6ms (Views: 5.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-26 19:55:24 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 6ms (Views: 5.7ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-26 19:56:03 +0000
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"AAA", "user_id"=>""}
+Completed   in 23ms
+
+NameError (undefined local variable or method `attributes' for #<Chat:0x000000040f35d0 @id="AAA", @users=#<Set: {""}>>):
+  app/controllers/chat_controller.rb:20:in `update'
+  app/controllers/chat_controller.rb:25:in `create'
+
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-26 20:01:06 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 6ms (Views: 5.7ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-26 20:01:13 +0000
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"vvv", "user_id"=>"cdc"}
+Completed   in 22ms
+
+NameError (undefined local variable or method `attributes' for #<Chat:0x00000004270ac0 @id="vvv", @users=#<Set: {"cdc"}>>):
+  app/controllers/chat_controller.rb:20:in `update'
+  app/controllers/chat_controller.rb:25:in `create'
+
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.2ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-26 20:05:53 +0000
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"cdc", "user_id"=>"cdc"}
+Completed   in 39ms
+
+NameError (undefined local variable or method `attributes' for #<Chat:0x000000044e82a8 @id="cdc", @users=#<Set: {"cdc"}>>):
+  app/models/chat.rb:42:in `to_json'
+  app/controllers/chat_controller.rb:20:in `update'
+  app/controllers/chat_controller.rb:25:in `create'
+
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.9ms)
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.1ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-26 20:07:59 +0000
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"cdc", "user_id"=>"cdc"}
+Completed   in 5ms
+
+NameError (undefined local variable or method `attributes' for #<Chat:0x00000004304db0 @id="cdc", @users=#<Set: {"cdc"}>>):
+  app/controllers/chat_controller.rb:20:in `update'
+  app/controllers/chat_controller.rb:25:in `create'
+
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.1ms)
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.3ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-26 20:10:49 +0000
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"aaaaaa", "user_id"=>"cdc"}
+Completed 200 OK in 8ms (Views: 2.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-26 20:15:37 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 6ms (Views: 5.9ms)
+
+
+Started DELETE "/chat" for 127.0.0.1 at 2011-03-26 20:17:11 +0000
+
+ActionController::RoutingError (No route matches "/chat"):
+  
+
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started DELETE "/chat" for 127.0.0.1 at 2011-03-26 20:17:28 +0000
+
+ActionController::RoutingError (No route matches "/chat"):
+  
+
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-26 20:17:47 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 6ms (Views: 5.7ms)
+
+
+Started DELETE "/chat" for 127.0.0.1 at 2011-03-26 20:18:05 +0000
+
+ActionController::RoutingError (No route matches "/chat"):
+  
+
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started DELETE "/chat" for 127.0.0.1 at 2011-03-26 20:26:42 +0000
+
+ActionController::RoutingError (No route matches "/chat"):
+  
+
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-26 20:26:46 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 6ms (Views: 5.5ms)
+
+
+Started DELETE "/chat" for 127.0.0.1 at 2011-03-26 20:26:51 +0000
+
+ActionController::RoutingError (No route matches "/chat"):
+  
+
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-26 21:02:19 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 40ms (Views: 39.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-26 21:04:07 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 6ms (Views: 5.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-26 21:04:52 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 6ms (Views: 5.5ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-26 21:04:56 +0000
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"svsvv", "user_id"=>"cdc"}
+Completed 200 OK in 7ms (Views: 2.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-26 21:05:17 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 6ms (Views: 5.6ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-26 21:05:22 +0000
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"svsv", "user_id"=>"cdc"}
+Completed 200 OK in 7ms (Views: 2.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-26 21:05:51 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 6ms (Views: 5.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-26 21:09:32 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 6ms (Views: 5.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-26 21:12:26 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 6ms (Views: 5.4ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-26 21:12:31 +0000
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"scc", "user_id"=>"cdc"}
+Completed 200 OK in 7ms (Views: 2.0ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-26 21:12:34 +0000
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"scc", "user_id"=>"cdc", "chat"=>{"id"=>"scc", "users"=>["cdc"]}}
+Completed 200 OK in 17ms (Views: 2.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-26 21:21:38 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 6ms (Views: 5.7ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-26 21:21:43 +0000
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"svsv", "user_id"=>"cdc"}
+Completed 200 OK in 7ms (Views: 2.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-26 21:23:26 +0000
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 6ms (Views: 5.8ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-26 21:23:32 +0000
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"svsvv", "user_id"=>"cdc"}
+Completed 200 OK in 7ms (Views: 2.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-27 15:19:54 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 30ms (Views: 29.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-27 15:20:52 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 6ms (Views: 5.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-27 15:21:04 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 6ms (Views: 5.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-27 15:21:35 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 6ms (Views: 5.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-27 15:21:47 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 6ms (Views: 5.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-27 15:22:19 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 6ms (Views: 5.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-27 15:22:46 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 6ms (Views: 5.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-27 15:25:17 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 7ms (Views: 6.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-27 15:27:24 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 6ms (Views: 5.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-27 15:28:06 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 6ms (Views: 5.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-27 15:28:26 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 6ms (Views: 5.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-27 15:28:58 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 6ms (Views: 6.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-27 15:29:30 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 6ms (Views: 5.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-27 15:29:56 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 6ms (Views: 5.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-27 15:30:26 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 6ms (Views: 5.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-27 15:31:36 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 6ms (Views: 5.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-27 15:32:04 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 6ms (Views: 5.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-27 15:33:28 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 6ms (Views: 5.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-27 15:35:56 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 6ms (Views: 5.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-27 15:36:51 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 7ms (Views: 6.8ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-27 15:42:03 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"bbbbbb", "user_id"=>"dcdc"}
+Completed 200 OK in 24ms (Views: 2.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-27 15:42:47 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 6ms (Views: 5.7ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-27 15:42:51 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"vfvfv", "user_id"=>"dcdc"}
+Completed 200 OK in 7ms (Views: 2.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-27 15:46:54 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 6ms (Views: 5.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-27 15:52:40 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 7ms (Views: 6.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-27 15:54:03 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 6ms (Views: 5.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-27 15:54:21 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 6ms (Views: 5.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-27 15:55:25 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 7ms (Views: 6.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-27 15:58:23 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 6ms (Views: 5.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-27 16:04:21 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 6ms (Views: 6.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-27 16:07:59 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 6ms (Views: 6.0ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-27 16:08:03 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"dvdv", "user_id"=>"dcdc"}
+Completed 200 OK in 7ms (Views: 2.1ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-27 16:12:20 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"aaaa", "user_id"=>"dcdc"}
+Completed 200 OK in 7ms (Views: 2.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-27 19:25:36 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 6ms (Views: 5.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-27 19:27:07 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 6ms (Views: 5.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-27 19:28:40 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 6ms (Views: 5.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-27 19:29:31 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 6ms (Views: 5.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-27 19:31:05 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 7ms (Views: 6.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-27 19:33:04 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 6ms (Views: 5.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-27 19:33:36 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 7ms (Views: 6.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-27 19:34:16 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 6ms (Views: 5.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-27 19:36:06 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 6ms (Views: 5.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-27 19:38:13 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 6ms (Views: 5.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-27 19:38:39 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 6ms (Views: 5.7ms)
+
+
+Started GET "/stylesheets/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" for 127.0.0.1 at 2011-03-27 19:38:41 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/images/ui-bg_highlight-soft_100_eeeeee_1x100.png"):
+  
+
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/stylesheets/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" for 127.0.0.1 at 2011-03-27 19:39:00 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/images/ui-bg_highlight-soft_100_eeeeee_1x100.png"):
+  
+
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/stylesheets/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" for 127.0.0.1 at 2011-03-27 19:39:02 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/images/ui-bg_highlight-soft_100_eeeeee_1x100.png"):
+  
+
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/stylesheets/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" for 127.0.0.1 at 2011-03-27 19:39:04 +0100
+
+ActionController::RoutingError (No route matches "/stylesheets/images/ui-bg_highlight-soft_100_eeeeee_1x100.png"):
+  
+
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-27 19:50:01 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 6ms (Views: 5.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-27 19:50:49 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 6ms (Views: 5.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-27 19:51:22 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 6ms (Views: 5.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-27 19:51:30 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 6ms (Views: 5.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-27 19:52:01 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 7ms (Views: 6.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-27 19:52:58 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 6ms (Views: 5.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-27 19:54:22 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 6ms (Views: 5.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-27 19:54:53 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 6ms (Views: 5.8ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-27 19:55:02 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"svsv", "user_id"=>"dcdc"}
+Completed 200 OK in 8ms (Views: 2.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-27 20:06:12 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 6ms (Views: 5.7ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-27 20:06:20 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"fvd", "user_id"=>"dcdc"}
+Completed 200 OK in 7ms (Views: 2.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-27 20:08:27 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 6ms (Views: 5.9ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-27 20:08:31 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"fvfv", "user_id"=>"dcdc"}
+Completed 200 OK in 7ms (Views: 2.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-27 20:08:52 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 6ms (Views: 5.8ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-27 20:08:56 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"vfvf", "user_id"=>"dcdc"}
+Completed 200 OK in 8ms (Views: 2.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-27 20:12:26 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 6ms (Views: 5.9ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-27 20:12:31 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"vsvs", "user_id"=>"dcdc"}
+Completed 200 OK in 14ms (Views: 2.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-27 20:12:47 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 6ms (Views: 5.7ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-27 20:12:51 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"svsv", "user_id"=>"dcdc"}
+Completed 200 OK in 8ms (Views: 2.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-27 20:19:03 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 10ms (Views: 9.2ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-27 20:19:08 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"fvfv", "user_id"=>"dcdc"}
+Completed 200 OK in 7ms (Views: 2.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-27 20:20:02 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 6ms (Views: 5.8ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-27 20:20:06 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"dcdc", "user_id"=>"dcdc"}
+Completed 200 OK in 8ms (Views: 2.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-27 20:21:25 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 6ms (Views: 5.8ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-27 20:21:29 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"vvv", "user_id"=>"dcdc"}
+Completed 200 OK in 8ms (Views: 2.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-27 20:22:33 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 7ms (Views: 6.3ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-27 20:22:37 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"cdc", "user_id"=>"dcdc"}
+Completed 200 OK in 7ms (Views: 2.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-27 20:24:12 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 6ms (Views: 5.8ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-27 20:24:16 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"vfvf", "user_id"=>"dcdc"}
+Completed 200 OK in 7ms (Views: 2.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-27 20:24:51 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 6ms (Views: 5.8ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-27 20:24:55 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"efef", "user_id"=>"dcdc"}
+Completed 200 OK in 7ms (Views: 2.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-27 20:28:56 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 7ms (Views: 6.2ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-27 20:28:59 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"xsxs", "user_id"=>"dcdc"}
+Completed 200 OK in 7ms (Views: 2.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-27 20:32:42 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 6ms (Views: 5.8ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-27 20:32:47 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"dvdv", "user_id"=>"dcdc"}
+Completed 200 OK in 8ms (Views: 2.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-27 20:34:24 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 6ms (Views: 5.9ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-27 20:34:28 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"vdvd", "user_id"=>"dcdc"}
+Completed 200 OK in 7ms (Views: 2.0ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-27 20:34:44 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"vdvd", "user_id"=>"dcdc", "chat"=>{"id"=>"vdvd", "users"=>["dcdc"]}}
+Completed 200 OK in 7ms (Views: 2.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-27 20:39:21 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 6ms (Views: 6.0ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-27 20:39:25 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"vdfvdf", "user_id"=>"dcdc"}
+Completed 200 OK in 8ms (Views: 2.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-27 20:40:40 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 7ms (Views: 6.3ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-27 20:40:45 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"erfrf", "user_id"=>"dcdc"}
+Completed 200 OK in 7ms (Views: 2.1ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-27 20:40:51 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"erfrf", "user_id"=>"dcdc", "chat"=>{"id"=>"erfrf", "users"=>["dcdc"]}, "message"=>"rgrgr"}
+Completed 200 OK in 42ms (Views: 2.1ms)

@@ -1,5 +1,0 @@
-EventHandler = {
-    bind : function(){
-
-    }
-}

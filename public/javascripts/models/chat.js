@@ -4,6 +4,10 @@ Chat.Model = Backbone.Model.extend({
 
     join: function(userid){
         this.save({user_id:userid})
+    },
+
+    sendMessage:function(message){
+        this.save({message:message});
     }
 });
 
