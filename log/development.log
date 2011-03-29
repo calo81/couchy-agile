@@ -1557,3 +1557,21 @@ Started POST "/chat" for 127.0.0.1 at 2011-03-27 20:40:51 +0100
   Processing by ChatController#create as JSON
   Parameters: {"name"=>"erfrf", "user_id"=>"dcdc", "chat"=>{"id"=>"erfrf", "users"=>["dcdc"]}, "message"=>"rgrgr"}
 Completed 200 OK in 42ms (Views: 2.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-29 13:30:27 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 7ms (Views: 6.1ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-29 13:30:49 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"cdcdc", "user_id"=>""}
+Completed 200 OK in 49ms (Views: 2.1ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-29 13:31:15 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"aaa", "user_id"=>""}
+Completed 200 OK in 39ms (Views: 1.9ms)
