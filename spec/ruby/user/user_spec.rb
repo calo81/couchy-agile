@@ -33,4 +33,11 @@ describe User do
     t1.alive?.should be_false
   end
 
+
+  it "When creating one user I should be able to find it" do
+    user=User.new("user-1")
+    user_found=User.find("user-1")
+    user.should be user_found
+  end
+
 end

@@ -23,6 +23,12 @@ MainChatView = Backbone.View.extend({
 
        render:function(appendTo){
          $(appendTo).html(this.template.compile({chatName:this.model.get("name")}));
+         this.startPolling();
+       },
+
+       startPolling:function(){
+            alert(this.model.id);
+            this.model.fetch({user_id:window.user.get()});
        },
 
        sendMessage:function(event){

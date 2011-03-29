@@ -1,12 +1,15 @@
 source 'http://rubygems.org'
 
-gem 'rails'
+gem 'rails', "3.0.1"
 gem 'mongo_mapper'
 gem 'jasmine'
 gem 'rspec'
 gem 'rspec-rails'
 gem 'json_pure'
 gem 'activemodel'
+gem 'ruby-debug-base19', "0.11.24"
+gem 'ruby-debug19', "0.11.6"
+
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'

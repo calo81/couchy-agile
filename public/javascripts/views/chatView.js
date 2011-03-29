@@ -21,8 +21,7 @@ Chat.View = Backbone.View.extend({
     template: Chat.Template,
 
     join:function(event) {
-        event.data.self.model.join(window.user.get());
-        event.data.self.openWindow();
+        event.data.self.model.join(window.user.get(), event.data.self.openWindow);
     },
 
     close:function(event) {
@@ -46,8 +45,8 @@ Chat.View = Backbone.View.extend({
         EventHandler.trigger("chatRemoved", this.model.cid);
     },
 
-    openWindow:function(){
-         EventHandler.trigger("onShowMainChat",this.model);
+    openWindow:function(model,response){
+         EventHandler.trigger("onShowMainChat",model);
     },
 
     initEvents:function() {

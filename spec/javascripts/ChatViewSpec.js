@@ -17,7 +17,6 @@ describe("ChatView", function() {
     spyOn(chatView,"openWindow");
     chatView.join(event)
     expect(chat.join).toHaveBeenCalled();
-    expect(chatView.openWindow).toHaveBeenCalled();
   });
 
   it("When delete chat and no id just remove chat from view", function() {

@@ -1,5 +1,6 @@
 class Chat
   include ActiveModel::Serializers::JSON
+  self.include_root_in_json = false
   @@chats={}
 
   def self.join(user, chatid)

@@ -1575,3 +1575,1314 @@ Started POST "/chat" for 127.0.0.1 at 2011-03-29 13:31:15 +0100
   Processing by ChatController#create as JSON
   Parameters: {"name"=>"aaa", "user_id"=>""}
 Completed 200 OK in 39ms (Views: 1.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-29 14:24:05 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 6ms (Views: 5.4ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-29 14:24:24 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"cdcdc", "user_id"=>""}
+Completed 200 OK in 25ms (Views: 1.9ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-29 14:24:29 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"cdcdc", "user_id"=>"", "chat"=>{"id"=>"cdcdc", "users"=>[""]}, "message"=>"cdcd"}
+Completed 200 OK in 38ms (Views: 1.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-29 14:30:33 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 6ms (Views: 5.7ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-29 14:30:37 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"vfv", "user_id"=>""}
+Completed 200 OK in 7ms (Views: 1.9ms)
+
+
+Started PUT "/chat" for 127.0.0.1 at 2011-03-29 14:30:49 +0100
+
+ActionController::RoutingError (No route matches "/chat"):
+  
+
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-29 14:35:51 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 6ms (Views: 5.7ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-29 14:35:57 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"dfvv", "user_id"=>""}
+Completed 200 OK in 7ms (Views: 1.9ms)
+
+
+Started GET "/chat" for 127.0.0.1 at 2011-03-29 14:35:57 +0100
+  Processing by ChatController#index as JSON
+Completed   in 41ms
+
+ActionView::MissingTemplate (Missing template chat/index with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml], :formats=>[:json, :js, "*/*"], :locale=>[:en, :en]} in view paths "/home/cscarioni/ossurces/couchy-agile/app/views"):
+  
+
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (36.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-29 14:37:05 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 6ms (Views: 5.7ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-29 14:37:08 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"vsvsv", "user_id"=>""}
+Completed 200 OK in 12ms (Views: 1.9ms)
+
+
+Started GET "/chat" for 127.0.0.1 at 2011-03-29 14:37:09 +0100
+  Processing by ChatController#index as JSON
+Completed   in 3ms
+
+ActionView::MissingTemplate (Missing template chat/index with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml], :formats=>[:json, :js, "*/*"], :locale=>[:en, :en]} in view paths "/home/cscarioni/ossurces/couchy-agile/app/views"):
+  
+
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (37.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-29 14:37:53 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 7ms (Views: 6.1ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-29 14:37:58 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"svv", "user_id"=>""}
+Completed 200 OK in 7ms (Views: 1.9ms)
+
+
+Started GET "/chat" for 127.0.0.1 at 2011-03-29 14:37:59 +0100
+  Processing by ChatController#index as JSON
+Completed   in 4ms
+
+ActionView::MissingTemplate (Missing template chat/index with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml], :formats=>[:json, :js, "*/*"], :locale=>[:en, :en]} in view paths "/home/cscarioni/ossurces/couchy-agile/app/views"):
+  
+
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (33.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-29 14:39:29 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 6ms (Views: 5.9ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-29 14:39:32 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"vsvs", "user_id"=>""}
+Completed 200 OK in 7ms (Views: 1.9ms)
+
+
+Started GET "/chat" for 127.0.0.1 at 2011-03-29 14:39:34 +0100
+  Processing by ChatController#index as JSON
+Completed   in 4ms
+
+ActionView::MissingTemplate (Missing template chat/index with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml], :formats=>[:json, :js, "*/*"], :locale=>[:en, :en]} in view paths "/home/cscarioni/ossurces/couchy-agile/app/views"):
+  
+
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-29 14:39:54 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 6ms (Views: 5.7ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-29 14:39:58 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"svsv", "user_id"=>""}
+Completed 200 OK in 7ms (Views: 1.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-29 14:40:13 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 6ms (Views: 5.9ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-29 14:40:16 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"dvf", "user_id"=>""}
+Completed 200 OK in 7ms (Views: 1.9ms)
+
+
+Started GET "/chat" for 127.0.0.1 at 2011-03-29 14:40:18 +0100
+  Processing by ChatController#index as JSON
+Completed   in 3ms
+
+ActionView::MissingTemplate (Missing template chat/index with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml], :formats=>[:json, :js, "*/*"], :locale=>[:en, :en]} in view paths "/home/cscarioni/ossurces/couchy-agile/app/views"):
+  
+
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/chat" for 127.0.0.1 at 2011-03-29 14:40:24 +0100
+
+ActionController::RoutingError (No route matches "/chat"):
+  
+
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/chat" for 127.0.0.1 at 2011-03-29 14:40:26 +0100
+  Processing by ChatController#index as JSON
+Completed   in 4ms
+
+ActionView::MissingTemplate (Missing template chat/index with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml], :formats=>[:json, :js, "*/*"], :locale=>[:en, :en]} in view paths "/home/cscarioni/ossurces/couchy-agile/app/views"):
+  
+
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-29 14:40:32 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 6ms (Views: 5.5ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-29 14:40:36 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"fvv", "user_id"=>""}
+Completed 200 OK in 7ms (Views: 1.9ms)
+
+
+Started GET "/chat" for 127.0.0.1 at 2011-03-29 14:40:42 +0100
+  Processing by ChatController#index as JSON
+Completed   in 3ms
+
+ActionView::MissingTemplate (Missing template chat/index with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml], :formats=>[:json, :js, "*/*"], :locale=>[:en, :en]} in view paths "/home/cscarioni/ossurces/couchy-agile/app/views"):
+  
+
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-29 14:41:25 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 6ms (Views: 5.9ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-29 14:41:50 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"vfvf", "user_id"=>""}
+Completed 200 OK in 7ms (Views: 1.9ms)
+
+
+Started GET "/chat" for 127.0.0.1 at 2011-03-29 14:41:54 +0100
+  Processing by ChatController#index as JSON
+Completed   in 3ms
+
+ActionView::MissingTemplate (Missing template chat/index with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml], :formats=>[:json, :js, "*/*"], :locale=>[:en, :en]} in view paths "/home/cscarioni/ossurces/couchy-agile/app/views"):
+  
+
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-29 14:42:25 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 6ms (Views: 6.0ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-29 14:42:36 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"cdc", "user_id"=>""}
+Completed 200 OK in 7ms (Views: 1.9ms)
+
+
+Started GET "/chat" for 127.0.0.1 at 2011-03-29 14:42:42 +0100
+  Processing by ChatController#index as JSON
+Completed   in 4ms
+
+ActionView::MissingTemplate (Missing template chat/index with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml], :formats=>[:json, :js, "*/*"], :locale=>[:en, :en]} in view paths "/home/cscarioni/ossurces/couchy-agile/app/views"):
+  
+
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.7ms)
+
+
+Started PUT "/chat" for 127.0.0.1 at 2011-03-29 14:50:39 +0100
+
+ActionController::RoutingError (No route matches "/chat"):
+  
+
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/chat" for 127.0.0.1 at 2011-03-29 14:53:11 +0100
+  Processing by ChatController#index as JSON
+Completed   in 3ms
+
+ActionView::MissingTemplate (Missing template chat/index with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml], :formats=>[:json, :js, "*/*"], :locale=>[:en, :en]} in view paths "/home/cscarioni/ossurces/couchy-agile/app/views"):
+  
+
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-29 14:58:01 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 6ms (Views: 5.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-29 14:58:54 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 6ms (Views: 5.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-29 15:00:03 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 6ms (Views: 5.6ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-29 15:00:07 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"sdc", "user_id"=>""}
+Completed 200 OK in 7ms (Views: 1.8ms)
+
+
+Started GET "/chat/sdc" for 127.0.0.1 at 2011-03-29 15:00:09 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"id"=>"sdc"}
+Completed 200 OK in 30021ms (Views: 6.8ms)
+
+
+Started PUT "/chat" for 127.0.0.1 at 2011-03-29 15:01:24 +0100
+
+ActionController::RoutingError (No route matches "/chat"):
+  
+
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-29 15:03:19 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 6ms (Views: 5.7ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-29 15:03:23 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"vsv", "user_id"=>""}
+Completed 200 OK in 8ms (Views: 1.9ms)
+
+
+Started GET "/chat/vsv" for 127.0.0.1 at 2011-03-29 15:03:25 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"id"=>"vsv"}
+Completed 200 OK in 30020ms (Views: 6.5ms)
+
+
+Started PUT "/chat/vsv" for 127.0.0.1 at 2011-03-29 15:04:22 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"name"=>"vsv", "user_id"=>"", "id"=>"vsv", "users"=>[""], "message"=>"scsc"}
+Completed 200 OK in 7ms (Views: 1.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-29 15:04:33 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 6ms (Views: 5.7ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-29 15:04:42 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"vvv", "user_id"=>"scscc"}
+Completed 200 OK in 7ms (Views: 1.9ms)
+
+
+Started GET "/chat/vvv" for 127.0.0.1 at 2011-03-29 15:04:44 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"id"=>"vvv"}
+Completed 200 OK in 30020ms (Views: 6.7ms)
+
+
+Started PUT "/chat/vvv" for 127.0.0.1 at 2011-03-29 15:05:14 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"name"=>"vvv", "user_id"=>"scscc", "id"=>"vvv", "users"=>["scscc"], "message"=>"ffff"}
+Completed 200 OK in 7ms (Views: 1.9ms)
+
+
+Started PUT "/chat/vvv" for 127.0.0.1 at 2011-03-29 15:05:20 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"name"=>"vvv", "user_id"=>"scscc", "id"=>"vvv", "users"=>["scscc"], "message"=>"qrqw"}
+Completed 200 OK in 7ms (Views: 1.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-29 15:09:45 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 6ms (Views: 5.8ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-29 15:10:13 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"cdc", "user_id"=>"bbb"}
+Completed 200 OK in 7ms (Views: 1.9ms)
+
+
+Started GET "/chat/cdc" for 127.0.0.1 at 2011-03-29 15:10:14 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"id"=>"cdc"}
+Completed 200 OK in 30020ms (Views: 6.7ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-29 15:10:44 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"cdc", "user_id"=>"aaaa"}
+Completed 200 OK in 7ms (Views: 1.9ms)
+
+
+Started GET "/chat" for 127.0.0.1 at 2011-03-29 15:10:44 +0100
+  Processing by ChatController#index as JSON
+Completed   in 11ms
+
+ActionView::MissingTemplate (Missing template chat/index with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml], :formats=>[:json, :js, "*/*"], :locale=>[:en, :en]} in view paths "/home/cscarioni/ossurces/couchy-agile/app/views"):
+  
+
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.7ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-29 15:10:44 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"cdc", "user_id"=>"aaaa", "message"=>"ddfdf"}
+Completed 200 OK in 16ms (Views: 2.1ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-29 15:10:44 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"cdc", "user_id"=>"aaaa", "message"=>"bdfbb"}
+Completed 200 OK in 8ms (Views: 2.0ms)
+
+
+Started PUT "/chat/vvv" for 127.0.0.1 at 2011-03-29 15:11:50 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"name"=>"vvv", "user_id"=>"scscc", "id"=>"vvv", "users"=>["scscc"], "message"=>"fvfv"}
+Completed 200 OK in 7ms (Views: 1.9ms)
+
+
+Started PUT "/chat/cdc" for 127.0.0.1 at 2011-03-29 15:11:50 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"name"=>"cdc", "user_id"=>"bbb", "id"=>"cdc", "users"=>["bbb"], "message"=>"fvfv"}
+Completed 200 OK in 7ms (Views: 1.9ms)
+
+
+Started PUT "/chat/cdc" for 127.0.0.1 at 2011-03-29 15:12:11 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"name"=>"cdc", "user_id"=>"aaaa", "message"=>"bdfbb", "id"=>"cdc", "users"=>["aaaa"]}
+Completed 200 OK in 8ms (Views: 2.0ms)
+
+
+Started GET "/chat/cdc" for 127.0.0.1 at 2011-03-29 15:12:12 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"id"=>"cdc"}
+Completed 200 OK in 30020ms (Views: 6.7ms)
+
+
+Started PUT "/chat/cdc" for 127.0.0.1 at 2011-03-29 15:12:42 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"name"=>"cdc", "user_id"=>"bbb", "id"=>"cdc", "users"=>["bbb"], "message"=>"fvfv"}
+Completed 200 OK in 40ms (Views: 1.9ms)
+
+
+Started GET "/chat/cdc" for 127.0.0.1 at 2011-03-29 15:12:42 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"id"=>"cdc"}
+Completed 200 OK in 30022ms (Views: 6.9ms)
+
+
+Started PUT "/chat/cdc" for 127.0.0.1 at 2011-03-29 15:13:12 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"name"=>"cdc", "user_id"=>"aaaa", "message"=>"dfvdfbfb", "id"=>"cdc", "users"=>["aaaa"]}
+Completed 200 OK in 7ms (Views: 1.9ms)
+
+
+Started PUT "/chat/cdc" for 127.0.0.1 at 2011-03-29 15:13:12 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"name"=>"cdc", "user_id"=>"aaaa", "message"=>"dfvdfbfb", "id"=>"cdc", "users"=>["aaaa"]}
+Completed 200 OK in 7ms (Views: 1.9ms)
+
+
+Started PUT "/chat/cdc" for 127.0.0.1 at 2011-03-29 15:13:13 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"name"=>"cdc", "user_id"=>"aaaa", "message"=>"dfvdfbfb", "id"=>"cdc", "users"=>["aaaa"]}
+Completed 200 OK in 8ms (Views: 2.4ms)
+
+
+Started PUT "/chat/cdc" for 127.0.0.1 at 2011-03-29 15:13:13 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"name"=>"cdc", "user_id"=>"aaaa", "message"=>"dfvdfbfb", "id"=>"cdc", "users"=>["aaaa"]}
+Completed 200 OK in 7ms (Views: 1.9ms)
+
+
+Started PUT "/chat/cdc" for 127.0.0.1 at 2011-03-29 15:13:13 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"name"=>"cdc", "user_id"=>"aaaa", "message"=>"dfvdfbfb", "id"=>"cdc", "users"=>["aaaa"]}
+Completed 200 OK in 42ms (Views: 1.9ms)
+
+
+Started PUT "/chat/cdc" for 127.0.0.1 at 2011-03-29 15:13:13 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"name"=>"cdc", "user_id"=>"aaaa", "message"=>"dfvdfbfb", "id"=>"cdc", "users"=>["aaaa"]}
+Completed 200 OK in 7ms (Views: 1.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-29 15:20:39 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 6ms (Views: 5.5ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-29 15:20:43 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"vdfv", "user_id"=>""}
+Completed 200 OK in 26ms (Views: 2.0ms)
+
+
+Started GET "/chat" for 127.0.0.1 at 2011-03-29 15:20:44 +0100
+  Processing by ChatController#index as JSON
+Completed   in 17ms
+
+ActionView::MissingTemplate (Missing template chat/index with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml], :formats=>[:json, :js, "*/*"], :locale=>[:en, :en]} in view paths "/home/cscarioni/ossurces/couchy-agile/app/views"):
+  
+
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.7ms)
+
+
+Started PUT "/chat/vdfv" for 127.0.0.1 at 2011-03-29 15:20:46 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"name"=>"vdfv", "user_id"=>"", "id"=>"vdfv", "users"=>[""]}
+Completed 200 OK in 7ms (Views: 2.0ms)
+
+
+Started GET "/chat/vdfv" for 127.0.0.1 at 2011-03-29 15:20:47 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"id"=>"vdfv"}
+Completed 200 OK in 30027ms (Views: 6.7ms)
+
+
+Started PUT "/chat/vdfv" for 127.0.0.1 at 2011-03-29 15:21:17 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"name"=>"vdfv", "user_id"=>"", "id"=>"vdfv", "users"=>[""], "message"=>"dfbdfb"}
+Completed 200 OK in 7ms (Views: 2.0ms)
+
+
+Started PUT "/chat/vdfv" for 127.0.0.1 at 2011-03-29 15:21:17 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"name"=>"vdfv", "user_id"=>"", "id"=>"vdfv", "users"=>[""], "message"=>"dfbdfb"}
+Completed 200 OK in 16ms (Views: 2.0ms)
+
+
+Started PUT "/chat/vdfv" for 127.0.0.1 at 2011-03-29 15:21:18 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"name"=>"vdfv", "user_id"=>"", "id"=>"vdfv", "users"=>[""], "message"=>"dfbdfb"}
+Completed 200 OK in 18ms (Views: 2.1ms)
+
+
+Started PUT "/chat/vdfv" for 127.0.0.1 at 2011-03-29 15:21:18 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"name"=>"vdfv", "user_id"=>"", "id"=>"vdfv", "users"=>[""], "message"=>"dfbdfb"}
+Completed 200 OK in 16ms (Views: 1.9ms)
+
+
+Started PUT "/chat/vdfv" for 127.0.0.1 at 2011-03-29 15:21:18 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"name"=>"vdfv", "user_id"=>"", "id"=>"vdfv", "users"=>[""], "message"=>"dfbdfb"}
+Completed 200 OK in 7ms (Views: 2.0ms)
+
+
+Started PUT "/chat/vdfv" for 127.0.0.1 at 2011-03-29 15:21:18 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"name"=>"vdfv", "user_id"=>"", "id"=>"vdfv", "users"=>[""], "message"=>"dfbdfb"}
+Completed 200 OK in 7ms (Views: 1.9ms)
+
+
+Started PUT "/chat/vdfv" for 127.0.0.1 at 2011-03-29 15:21:37 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"name"=>"vdfv", "user_id"=>"", "id"=>"vdfv", "users"=>[""], "message"=>"dfbdfb"}
+Completed 200 OK in 7ms (Views: 1.9ms)
+
+
+Started PUT "/chat/vdfv" for 127.0.0.1 at 2011-03-29 15:21:38 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"name"=>"vdfv", "user_id"=>"", "id"=>"vdfv", "users"=>[""], "message"=>"dfbdfb"}
+Completed 200 OK in 7ms (Views: 1.9ms)
+
+
+Started PUT "/chat/vdfv" for 127.0.0.1 at 2011-03-29 15:23:20 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"name"=>"vdfv", "user_id"=>"", "id"=>"vdfv", "users"=>[""], "message"=>"dfbdfb"}
+Completed 200 OK in 7ms (Views: 2.0ms)
+
+
+Started GET "/chat/vdfv" for 127.0.0.1 at 2011-03-29 15:23:22 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"id"=>"vdfv"}
+Completed 200 OK in 30020ms (Views: 6.7ms)
+
+
+Started PUT "/chat/vdfv" for 127.0.0.1 at 2011-03-29 15:23:52 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"name"=>"vdfv", "user_id"=>"", "id"=>"vdfv", "users"=>[""], "message"=>""}
+Completed 200 OK in 7ms (Views: 1.9ms)
+
+
+Started PUT "/chat/vdfv" for 127.0.0.1 at 2011-03-29 15:23:52 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"name"=>"vdfv", "user_id"=>"", "id"=>"vdfv", "users"=>[""], "message"=>""}
+Completed 200 OK in 7ms (Views: 1.9ms)
+
+
+Started PUT "/chat/vdfv" for 127.0.0.1 at 2011-03-29 15:23:52 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"name"=>"vdfv", "user_id"=>"", "id"=>"vdfv", "users"=>[""], "message"=>""}
+Completed 200 OK in 7ms (Views: 2.0ms)
+
+
+Started PUT "/chat/vdfv" for 127.0.0.1 at 2011-03-29 15:27:23 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"name"=>"vdfv", "user_id"=>"", "id"=>"vdfv", "users"=>[""], "message"=>""}
+Completed 200 OK in 20ms (Views: 4.6ms)
+
+
+Started PUT "/chat/vdfv" for 127.0.0.1 at 2011-03-29 15:27:23 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"name"=>"vdfv", "user_id"=>"", "id"=>"vdfv", "users"=>[""], "message"=>""}
+Completed 200 OK in 7ms (Views: 1.9ms)
+
+
+Started PUT "/chat/vdfv" for 127.0.0.1 at 2011-03-29 15:27:23 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"name"=>"vdfv", "user_id"=>"", "id"=>"vdfv", "users"=>[""], "message"=>""}
+Completed 200 OK in 16ms (Views: 1.9ms)
+
+
+Started PUT "/chat/vdfv" for 127.0.0.1 at 2011-03-29 15:27:24 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"name"=>"vdfv", "user_id"=>"", "id"=>"vdfv", "users"=>[""], "message"=>""}
+Completed 200 OK in 7ms (Views: 1.9ms)
+
+
+Started PUT "/chat/vdfv" for 127.0.0.1 at 2011-03-29 15:27:24 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"name"=>"vdfv", "user_id"=>"", "id"=>"vdfv", "users"=>[""], "message"=>""}
+Completed 200 OK in 38ms (Views: 2.0ms)
+
+
+Started PUT "/chat/vdfv" for 127.0.0.1 at 2011-03-29 15:27:24 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"name"=>"vdfv", "user_id"=>"", "id"=>"vdfv", "users"=>[""], "message"=>""}
+Completed 200 OK in 7ms (Views: 1.9ms)
+
+
+Started PUT "/chat/vdfv" for 127.0.0.1 at 2011-03-29 15:27:24 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"name"=>"vdfv", "user_id"=>"", "id"=>"vdfv", "users"=>[""], "message"=>""}
+Completed 200 OK in 7ms (Views: 1.9ms)
+
+
+Started PUT "/chat/vdfv" for 127.0.0.1 at 2011-03-29 15:27:24 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"name"=>"vdfv", "user_id"=>"", "id"=>"vdfv", "users"=>[""], "message"=>""}
+Completed 200 OK in 9ms (Views: 3.1ms)
+
+
+Started PUT "/chat/vdfv" for 127.0.0.1 at 2011-03-29 15:27:24 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"name"=>"vdfv", "user_id"=>"", "id"=>"vdfv", "users"=>[""], "message"=>""}
+Completed 200 OK in 7ms (Views: 2.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-29 15:27:25 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 6ms (Views: 5.9ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-29 15:27:28 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"svd", "user_id"=>""}
+Completed 200 OK in 7ms (Views: 2.0ms)
+
+
+Started GET "/chat" for 127.0.0.1 at 2011-03-29 15:27:29 +0100
+  Processing by ChatController#index as JSON
+Completed   in 4ms
+
+ActionView::MissingTemplate (Missing template chat/index with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml], :formats=>[:json, :js, "*/*"], :locale=>[:en, :en]} in view paths "/home/cscarioni/ossurces/couchy-agile/app/views"):
+  
+
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.7ms)
+
+
+Started PUT "/chat/svd" for 127.0.0.1 at 2011-03-29 15:27:31 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"name"=>"svd", "user_id"=>"", "id"=>"svd", "users"=>[""], "message"=>"sdfb"}
+Completed 200 OK in 7ms (Views: 1.9ms)
+
+
+Started PUT "/chat/svd" for 127.0.0.1 at 2011-03-29 15:27:31 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"name"=>"svd", "user_id"=>"", "id"=>"svd", "users"=>[""], "message"=>"sdfb"}
+Completed 200 OK in 7ms (Views: 1.9ms)
+
+
+Started PUT "/chat/svd" for 127.0.0.1 at 2011-03-29 15:27:31 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"name"=>"svd", "user_id"=>"", "id"=>"svd", "users"=>[""], "message"=>"sdfb"}
+Completed 200 OK in 7ms (Views: 1.9ms)
+
+
+Started PUT "/chat/svd" for 127.0.0.1 at 2011-03-29 15:27:31 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"name"=>"svd", "user_id"=>"", "id"=>"svd", "users"=>[""], "message"=>"sdfb"}
+Completed 200 OK in 7ms (Views: 1.9ms)
+
+
+Started PUT "/chat/svd" for 127.0.0.1 at 2011-03-29 15:27:31 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"name"=>"svd", "user_id"=>"", "id"=>"svd", "users"=>[""], "message"=>"sdfb"}
+Completed 200 OK in 7ms (Views: 1.9ms)
+
+
+Started PUT "/chat/svd" for 127.0.0.1 at 2011-03-29 15:27:32 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"name"=>"svd", "user_id"=>"", "id"=>"svd", "users"=>[""], "message"=>"sdfb"}
+Completed 200 OK in 7ms (Views: 1.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-29 15:28:30 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 6ms (Views: 5.3ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-29 15:28:42 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"dfbfb", "user_id"=>"vdfvdf"}
+Completed 200 OK in 8ms (Views: 2.1ms)
+
+
+Started GET "/chat" for 127.0.0.1 at 2011-03-29 15:28:43 +0100
+  Processing by ChatController#index as JSON
+Completed   in 4ms
+
+ActionView::MissingTemplate (Missing template chat/index with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml], :formats=>[:json, :js, "*/*"], :locale=>[:en, :en]} in view paths "/home/cscarioni/ossurces/couchy-agile/app/views"):
+  
+
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/chat/dfbfb" for 127.0.0.1 at 2011-03-29 15:28:47 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"name"=>"dfbfb", "user_id"=>"vdfvdf", "id"=>"dfbfb", "users"=>["vdfvdf"], "message"=>"dfbfb"}
+Completed 200 OK in 7ms (Views: 2.0ms)
+
+
+Started PUT "/chat/dfbfb" for 127.0.0.1 at 2011-03-29 15:28:49 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"name"=>"dfbfb", "user_id"=>"vdfvdf", "id"=>"dfbfb", "users"=>["vdfvdf"], "message"=>"dfbfb"}
+Completed 200 OK in 7ms (Views: 1.9ms)
+
+
+Started PUT "/chat/dfbfb" for 127.0.0.1 at 2011-03-29 15:28:58 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"name"=>"dfbfb", "user_id"=>"vdfvdf", "id"=>"dfbfb", "users"=>["vdfvdf"], "message"=>"dfbfbbb"}
+Completed 200 OK in 7ms (Views: 2.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-29 15:29:12 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 6ms (Views: 5.8ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-29 15:29:27 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"dfbfb", "user_id"=>"bbb"}
+Completed 200 OK in 7ms (Views: 1.9ms)
+
+
+Started GET "/chat/dfbfb" for 127.0.0.1 at 2011-03-29 15:29:29 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"id"=>"dfbfb"}
+Completed 200 OK in 30019ms (Views: 6.7ms)
+
+
+Started PUT "/chat/dfbfb" for 127.0.0.1 at 2011-03-29 15:29:59 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"name"=>"dfbfb", "user_id"=>"vdfvdf", "id"=>"dfbfb", "users"=>["vdfvdf"], "message"=>"rrrr"}
+Completed 200 OK in 7ms (Views: 2.0ms)
+
+
+Started PUT "/chat/dfbfb" for 127.0.0.1 at 2011-03-29 15:30:06 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"name"=>"dfbfb", "user_id"=>"vdfvdf", "id"=>"dfbfb", "users"=>["vdfvdf"], "message"=>"rrrr"}
+Completed 200 OK in 8ms (Views: 2.0ms)
+
+
+Started PUT "/chat/dfbfb" for 127.0.0.1 at 2011-03-29 15:30:11 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"name"=>"dfbfb", "user_id"=>"bbb", "id"=>"dfbfb", "users"=>["bbb"]}
+Completed 200 OK in 7ms (Views: 2.0ms)
+
+
+Started GET "/chat/dfbfb" for 127.0.0.1 at 2011-03-29 15:30:12 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"id"=>"dfbfb"}
+Completed 200 OK in 30020ms (Views: 6.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-29 15:42:29 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 9ms (Views: 8.5ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-29 15:42:33 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"svsv", "user_id"=>"bbb"}
+Completed 200 OK in 31853ms (Views: 7.4ms)
+
+
+Started GET "/chat/svsv" for 127.0.0.1 at 2011-03-29 15:43:08 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"id"=>"svsv"}
+Completed 200 OK in 30025ms (Views: 7.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-29 15:43:38 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 9ms (Views: 8.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-29 15:43:39 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 9ms (Views: 8.3ms)
+
+
+Started PUT "/chat/svsv" for 127.0.0.1 at 2011-03-29 15:43:51 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"name"=>"svsv", "user_id"=>"bbb", "id"=>"svsv", "users"=>["bbb"], "message"=>"dfvdfvdf"}
+Completed 200 OK in 112747ms (Views: 7.4ms)
+
+
+Started PUT "/chat/svsv" for 127.0.0.1 at 2011-03-29 15:46:02 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"name"=>"svsv", "user_id"=>"bbb", "id"=>"svsv", "users"=>["bbb"], "message"=>"dfvdfvdf"}
+Completed 200 OK in 64674ms (Views: 7.2ms)
+
+
+Started PUT "/chat/svsv" for 127.0.0.1 at 2011-03-29 15:47:31 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"name"=>"svsv", "user_id"=>"bbb", "id"=>"svsv", "users"=>["bbb"], "message"=>"dfvdfvdf"}
+Completed 200 OK in 98153ms (Views: 7.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-29 15:53:16 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 9ms (Views: 8.3ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-29 15:53:21 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"sdfvfv", "user_id"=>"bbb"}
+Completed 200 OK in 11832ms (Views: 7.6ms)
+
+
+Started GET "/chat" for 127.0.0.1 at 2011-03-29 15:53:33 +0100
+  Processing by ChatController#index as JSON
+Completed   in 18ms
+
+ActionView::MissingTemplate (Missing template chat/index with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml], :formats=>[:json, :js, "*/*"], :locale=>[:en, :en]} in view paths "/home/cscarioni/ossurces/couchy-agile/app/views"):
+  
+
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (1.0ms)
+
+
+Started PUT "/chat/sdfvfv" for 127.0.0.1 at 2011-03-29 15:53:46 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"name"=>"sdfvfv", "user_id"=>"bbb", "id"=>"sdfvfv", "users"=>["bbb"], "message"=>"fdsfbsdfbb"}
+Completed   in 20066ms
+
+NoMethodError (undefined method `id' for "bbb":String):
+  app/models/chat.rb:42:in `block in send_message'
+  app/models/chat.rb:41:in `send_message'
+  app/controllers/chat_controller.rb:16:in `update'
+
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.9ms)
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (10.5ms)
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (28.9ms)
+
+
+Started PUT "/chat/sdfvfv" for 127.0.0.1 at 2011-03-29 15:54:09 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"name"=>"sdfvfv", "user_id"=>"bbb", "id"=>"sdfvfv", "users"=>["bbb"], "message"=>"fdsfbsdfbb"}
+Completed   in 50593ms
+
+NoMethodError (undefined method `id' for "bbb":String):
+  app/models/chat.rb:42:in `block in send_message'
+  app/models/chat.rb:41:in `send_message'
+  app/controllers/chat_controller.rb:16:in `update'
+
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.1ms)
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-29 18:07:13 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 5ms (Views: 5.2ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-29 18:07:45 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"cdcd", "user_id"=>"bbb"}
+Completed 200 OK in 6468ms (Views: 1.0ms)
+
+
+Started GET "/chat/cdcd" for 127.0.0.1 at 2011-03-29 18:07:57 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"id"=>"cdcd"}
+Completed 200 OK in 35251ms (Views: 1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-29 18:08:32 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (13.4ms)
+Completed 200 OK in 17ms (Views: 16.1ms)
+
+
+Started PUT "/chat/cdcd" for 127.0.0.1 at 2011-03-29 18:08:38 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"name"=>"cdcd", "user_id"=>"bbb", "id"=>"cdcd", "users"=>["bbb"], "message"=>"fvfvv"}
+Completed   in 76102ms
+
+NoMethodError (undefined method `id' for "bbb":String):
+  app/models/chat.rb:42:in `block in send_message'
+  app/models/chat.rb:41:in `send_message'
+  app/controllers/chat_controller.rb:16:in `update'
+
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.0ms)
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.9ms)
+
+
+Started PUT "/chat/cdcd" for 127.0.0.1 at 2011-03-29 18:10:00 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"name"=>"cdcd", "user_id"=>"bbb", "id"=>"cdcd", "users"=>["bbb"], "message"=>"fvfvv"}
+Completed   in 35656ms
+
+NoMethodError (undefined method `id' for "bbb":String):
+  app/models/chat.rb:42:in `block in send_message'
+  app/models/chat.rb:41:in `send_message'
+  app/controllers/chat_controller.rb:16:in `update'
+
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.0ms)
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.8ms)
+
+
+Started PUT "/chat/cdcd" for 127.0.0.1 at 2011-03-29 18:10:48 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"name"=>"cdcd", "user_id"=>"bbb", "id"=>"cdcd", "users"=>["bbb"], "message"=>"fvfvv"}
+Completed   in 5335ms
+
+NoMethodError (undefined method `id' for "bbb":String):
+  app/models/chat.rb:42:in `block in send_message'
+  app/models/chat.rb:41:in `send_message'
+  app/controllers/chat_controller.rb:16:in `update'
+
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.8ms)
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-29 18:13:13 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 9ms (Views: 8.2ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-29 18:13:22 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"cdcdc", "user_id"=>"aaaa"}
+Completed   in 3780ms
+
+NoMethodError (undefined method `encode_json' for #<User:0x00000004676250 @id="aaaa", @chats={}>):
+  app/controllers/chat_controller.rb:20:in `update'
+  app/controllers/chat_controller.rb:25:in `create'
+
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.1ms)
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.0ms)
+
+
+Started GET "/chat" for 127.0.0.1 at 2011-03-29 18:13:29 +0100
+  Processing by ChatController#index as JSON
+Completed   in 20ms
+
+ActionView::MissingTemplate (Missing template chat/index with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml], :formats=>[:json, :js, "*/*"], :locale=>[:en, :en]} in view paths "/home/cscarioni/ossurces/couchy-agile/app/views"):
+  
+
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (2.2ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-29 18:14:28 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"cdcdc", "user_id"=>"aaaa"}
+Completed   in 4239ms
+
+NoMethodError (undefined method `encode_json' for #<User:0x00000004676250 @id="aaaa", @chats={}>):
+  app/controllers/chat_controller.rb:20:in `update'
+  app/controllers/chat_controller.rb:25:in `create'
+
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.7ms)
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.3ms)
+
+
+Started GET "/chat" for 127.0.0.1 at 2011-03-29 18:14:37 +0100
+  Processing by ChatController#index as JSON
+Completed   in 1ms
+
+ActionView::MissingTemplate (Missing template chat/index with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml], :formats=>[:json, :js, "*/*"], :locale=>[:en, :en]} in view paths "/home/cscarioni/ossurces/couchy-agile/app/views"):
+  
+
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (1.0ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-29 18:15:12 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"cdcdc", "user_id"=>"aaaa"}
+Completed   in 40219ms
+
+
+Started GET "/chat" for 127.0.0.1 at 2011-03-29 18:27:24 +0100
+  Processing by ChatController#index as JSON
+Completed   in 23ms
+
+ActionView::MissingTemplate (Missing template chat/index with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml], :formats=>[:json, :js, "*/*"], :locale=>[:en, :en]} in view paths "/home/cscarioni/ossurces/couchy-agile/app/views"):
+  
+
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (1.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-29 18:27:25 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 9ms (Views: 8.4ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-29 18:27:30 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"cdcd", "user_id"=>"aaaa"}
+Completed   in 19800ms
+
+NoMethodError (undefined method `encode_json' for #<User:0x000000038954d8 @id="aaaa", @chats={}>):
+  app/controllers/chat_controller.rb:21:in `update'
+  app/controllers/chat_controller.rb:26:in `create'
+
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.1ms)
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.1ms)
+
+
+Started GET "/chat" for 127.0.0.1 at 2011-03-29 18:27:53 +0100
+  Processing by ChatController#index as JSON
+Completed   in 1ms
+
+ActionView::MissingTemplate (Missing template chat/index with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml], :formats=>[:json, :js, "*/*"], :locale=>[:en, :en]} in view paths "/home/cscarioni/ossurces/couchy-agile/app/views"):
+  
+
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (2.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-29 18:30:22 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 9ms (Views: 8.3ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-29 18:30:48 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"cdcdcdc", "user_id"=>"aaaa"}
+Completed   in 5173ms
+
+NoMethodError (undefined method `encode_json' for #<User:0x000000042d3828 @id="aaaa", @chats={}>):
+  app/controllers/chat_controller.rb:21:in `update'
+  app/controllers/chat_controller.rb:26:in `create'
+
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.9ms)
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.4ms)
+
+
+Started GET "/chat" for 127.0.0.1 at 2011-03-29 18:30:56 +0100
+  Processing by ChatController#index as JSON
+Completed   in 20ms
+
+ActionView::MissingTemplate (Missing template chat/index with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml], :formats=>[:json, :js, "*/*"], :locale=>[:en, :en]} in view paths "/home/cscarioni/ossurces/couchy-agile/app/views"):
+  
+
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.4/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-29 18:45:16 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 9ms (Views: 8.3ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-29 18:45:23 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"cscs", "user_id"=>"aaaa"}
+Completed 200 OK in 4033ms (Views: 7.5ms)
+
+
+Started GET "/chat/cscs" for 127.0.0.1 at 2011-03-29 18:45:31 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"id"=>"cscs"}
+Completed   in 3069ms
+
+NoMethodError (undefined method `get_mesages_for_chat' for nil:NilClass):
+  app/controllers/chat_controller.rb:9:in `show'
+
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.0ms)
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.0ms)
+
+
+Started PUT "/chat/cscs" for 127.0.0.1 at 2011-03-29 18:45:55 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"name"=>"cscs", "user_id"=>"aaaa", "id"=>"cscs", "users"=>[{"id"=>"aaaa"}]}
+Completed 200 OK in 4008ms (Views: 1.1ms)
+
+
+Started GET "/chat/cscs" for 127.0.0.1 at 2011-03-29 18:46:04 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"id"=>"cscs"}
+Completed   in 10940ms
+
+NoMethodError (undefined method `get_mesages_for_chat' for nil:NilClass):
+  app/controllers/chat_controller.rb:9:in `show'
+
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.8ms)
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.9ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-29 18:46:22 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"ssss", "user_id"=>"aaaa"}
+Completed 200 OK in 55961ms (Views: 0.5ms)
+
+
+Started GET "/chat/ssss" for 127.0.0.1 at 2011-03-29 18:47:21 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"id"=>"ssss"}
+Completed   in 45135ms
+
+NoMethodError (undefined method `get_mesages_for_chat' for nil:NilClass):
+  app/controllers/chat_controller.rb:9:in `show'
+
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.6ms)
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-29 18:51:28 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 5ms (Views: 5.0ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-29 18:51:33 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"svsvv", "user_id"=>"aaaa"}
+Completed 200 OK in 9011ms (Views: 1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-29 18:52:53 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 8ms (Views: 7.5ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-29 18:52:56 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"dbdb", "user_id"=>"aaaa"}
+Completed 200 OK in 3338ms (Views: 1.1ms)
+
+
+Started PUT "/chat/dbdb" for 127.0.0.1 at 2011-03-29 18:54:30 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"name"=>"dbdb", "user_id"=>"aaaa", "id"=>"dbdb", "users"=>[{"id"=>"aaaa"}]}
+Completed 200 OK in 13378ms (Views: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-29 18:55:52 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 5ms (Views: 4.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-29 18:55:53 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 5ms (Views: 5.2ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-29 18:55:58 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"sdvsdv", "user_id"=>"aaaa"}
+Completed 200 OK in 2852ms (Views: 1.0ms)
+
+
+Started GET "/chat/sdvsdv" for 127.0.0.1 at 2011-03-29 18:56:02 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"id"=>"sdvsdv"}
+Completed   in 2220ms
+
+NoMethodError (undefined method `get_mesages_for_chat' for nil:NilClass):
+  app/controllers/chat_controller.rb:9:in `show'
+
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.7ms)
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.2ms)
+
+
+Started PUT "/chat/sdvsdv" for 127.0.0.1 at 2011-03-29 18:57:14 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"name"=>"sdvsdv", "user_id"=>"aaaa", "id"=>"sdvsdv", "users"=>[{"id"=>"aaaa"}]}
+Completed 200 OK in 4916ms (Views: 1.0ms)
+
+
+Started GET "/chat/sdvsdv" for 127.0.0.1 at 2011-03-29 18:57:23 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"id"=>"sdvsdv"}
+Completed   in 26766ms
+
+NoMethodError (undefined method `get_mesages_for_chat' for nil:NilClass):
+  app/controllers/chat_controller.rb:9:in `show'
+
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.4ms)
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.9ms)
+
+
+Started PUT "/chat/sdvsdv" for 127.0.0.1 at 2011-03-29 18:57:57 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"name"=>"sdvsdv", "user_id"=>"aaaa", "id"=>"sdvsdv", "users"=>[{"id"=>"aaaa"}]}
+Completed 200 OK in 18720ms (Views: 1.1ms)
+
+
+Started GET "/chat/sdvsdv" for 127.0.0.1 at 2011-03-29 18:58:17 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"id"=>"sdvsdv"}
+Completed   in 8734ms
+
+NoMethodError (undefined method `get_mesages_for_chat' for nil:NilClass):
+  app/controllers/chat_controller.rb:9:in `show'
+
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.4ms)
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-29 19:08:40 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 5ms (Views: 4.9ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-29 19:08:45 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"svsv", "user_id"=>"aaaa"}
+Completed 200 OK in 2664ms (Views: 1.3ms)
+
+
+Started GET "/chat/svsv?user_id=aaaa" for 127.0.0.1 at 2011-03-29 19:08:49 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"aaaa", "id"=>"svsv"}
+Completed 200 OK in 55766ms (Views: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-29 19:31:40 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 7ms (Views: 5.9ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-29 19:31:46 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"dvffv", "user_id"=>"aaaa"}
+Completed 200 OK in 9029ms (Views: 1.0ms)
+
+
+Started GET "/chat/dvffv?user_id=aaaa" for 127.0.0.1 at 2011-03-29 19:31:56 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"aaaa", "id"=>"dvffv"}
+Completed 200 OK in 30011ms (Views: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-03-29 19:32:26 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 12ms (Views: 11.5ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-03-29 19:32:39 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"dvffv", "user_id"=>"ttttt"}
+Completed 200 OK in 1ms (Views: 0.3ms)
+
+
+Started GET "/chat/dvffv?user_id=ttttt" for 127.0.0.1 at 2011-03-29 19:32:40 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"ttttt", "id"=>"dvffv"}
+Completed 200 OK in 30012ms (Views: 0.8ms)
+
+
+Started PUT "/chat/dvffv" for 127.0.0.1 at 2011-03-29 19:33:10 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"name"=>"dvffv", "user_id"=>"aaaa", "id"=>"dvffv", "users"=>[{"id"=>"aaaa"}], "message"=>"dfsdffg"}
+Completed 200 OK in 11846ms (Views: 0.3ms)
+
+
+Started PUT "/chat/dvffv" for 127.0.0.1 at 2011-03-29 19:33:53 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"name"=>"dvffv", "user_id"=>"aaaa", "id"=>"dvffv", "users"=>[{"id"=>"aaaa"}, {"id"=>"ttttt"}], "message"=>"dfsdffg"}
+Completed 200 OK in 1ms (Views: 0.5ms)
+
+
+Started GET "/chat/dvffv?user_id=aaaa" for 127.0.0.1 at 2011-03-29 19:33:55 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"aaaa", "id"=>"dvffv"}
+Completed 200 OK in 1ms (Views: 0.7ms)

@@ -7,15 +7,16 @@ class ChatController  < ApplicationController
   def show
     user = User.find(params[:user_id])
     messages=user.get_mesages_for_chat(params[:id])
-    messages.to_json
+    render :json =>  messages.to_json
   end
 
   def update
     chat = Chat.find(params[:id])
     if chat and params[:message]
-      chat.send_message(params[:user_id],params[:message])
+      chat.send_message(User.find(params[:user_id]),params[:message])
     else
-       chat=Chat.join(params[:user_id],params[:id])
+       user = User.find(params[:user_id]) || User.new(params[:user_id])
+       chat=Chat.join(User.find(params[:user_id]),params[:id])
     end
     render :json => chat.to_json
   end

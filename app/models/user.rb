@@ -1,10 +1,14 @@
 class User
   include ActiveModel::Serializers::JSON
+  self.include_root_in_json = false
   attr_accessor :id
+
+  @@users={}
 
   def initialize(id)
     @id=id
     @chats ={}
+    @@users[id]=self
   end
 
   def attributes
@@ -28,8 +32,8 @@ class User
     end
   end
 
-  def self.find(userid)
-     User.new(userid)
+  def self.find(user_id)
+     @@users[user_id]
   end
 
 
