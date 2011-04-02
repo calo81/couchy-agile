@@ -24,11 +24,11 @@ class User
     end
   end
 
-  def receive_chat_message_notification(chatid, message,sender_id)
+  def receive_chat_message_notification(chatid, message,sender)
     if !@chats[chatid]
-      @chats[chatid] = ["#{sender_id}:#{message}"]
+      @chats[chatid] = ["#{sender.id}:#{message}"]
     else
-      @chats[chatid] << "#{sender_id}:#{message}"
+      @chats[chatid] << "#{sender.id}:#{message}"
     end
   end
 
@@ -43,10 +43,10 @@ class User
   end
 
   def wait_for_messages(chatid)
-    maxWaitingSeconds=30
+    maxWaitingSeconds=3
     while (no_messages_for_chat?(chatid)) and maxWaitingSeconds>0
-      sleep(0.5)
-      maxWaitingSeconds -= 0.5
+      sleep(1)
+      maxWaitingSeconds -= 1
     end
   end
 

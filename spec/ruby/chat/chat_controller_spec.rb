@@ -4,7 +4,10 @@ describe ChatController do
     chat_controller = ChatController.new
     chat_controller.params={:id=>"chat-1", :user_id =>"user-1"}
     user_mock = mock("user_mock")
+    chat_mock = mock("chat_mock")
     User.should_receive(:find).with("user-1").and_return(user_mock)
+    Chat.should_receive(:find).with("chat-1").and_return(chat_mock)
+    chat_mock.should_receive(:users).and_return([User.new("user-1")])
     user_mock.should_receive(:get_mesages_for_chat).and_return({"user-2"=>"message-1", "user-3"=>"message xxx"})
     chat_controller.should_receive(:render)
     json_returned = chat_controller.show

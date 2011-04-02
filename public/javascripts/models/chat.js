@@ -2,6 +2,12 @@ Chat.Model = Backbone.Model.extend({
 
     url:"/chat",
 
+    /**
+     * Specify if the Get operation on the object will go to a Long polling using the jquery periodic updater
+     */
+
+    longPollingGet:true,
+
     queryAttribute:function(){
       return "user_id";
     },

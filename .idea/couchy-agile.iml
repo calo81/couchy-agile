@@ -125,6 +125,16 @@
     <orderEntry type="library" scope="PROVIDED" name="[gem] treetop (v1.4.9, /var/lib/gems/1.9.1/gems/treetop-1.4.9)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] bson (v1.2.4, /var/lib/gems/1.9.1/gems/bson-1.2.4)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] abstract (v1.0.0, /var/lib/gems/1.9.1/gems/abstract-1.0.0)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] activemodel (v3.0.5, /var/lib/gems/1.9.1/gems/activemodel-3.0.5)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] rails (v3.0.5, /var/lib/gems/1.9.1/gems/rails-3.0.5)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] activemodel (v3.0.5, /var/lib/gems/1.9.1/gems/activemodel-3.0.5)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] activesupport (v3.0.5, /var/lib/gems/1.9.1/gems/activesupport-3.0.5)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] actionpack (v3.0.5, /var/lib/gems/1.9.1/gems/actionpack-3.0.5)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] activeresource (v3.0.5, /var/lib/gems/1.9.1/gems/activeresource-3.0.5)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] arel (v2.0.9, /var/lib/gems/1.9.1/gems/arel-2.0.9)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] activerecord (v3.0.5, /var/lib/gems/1.9.1/gems/activerecord-3.0.5)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] railties (v3.0.5, /var/lib/gems/1.9.1/gems/railties-3.0.5)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] actionmailer (v3.0.5, /var/lib/gems/1.9.1/gems/actionmailer-3.0.5)" level="application" />
   </component>
 </module>
 

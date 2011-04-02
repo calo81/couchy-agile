@@ -14,8 +14,9 @@ describe User do
 
   it "returns the chat messages when there are any" do
     user=User.new("user-1")
-    user.receive_chat_message_notification("chat-1", "message 1","sender")
-    user.receive_chat_message_notification("chat-1", "message 2","sender")
+    sender=User.new("sender")
+    user.receive_chat_message_notification("chat-1", "message 1",sender)
+    user.receive_chat_message_notification("chat-1", "message 2",sender)
     messages = user.get_mesages_for_chat("chat-1")
     messages.empty?.should be_false
     messages.include?("sender:message 1").should be_true
@@ -24,11 +25,12 @@ describe User do
 
   it "must unblock on message arriving" do
     user=User.new("user-1")
+    sender=User.new("sender")
     t1=Thread.new {
       user.get_mesages_for_chat("chat-1")
     }
     t1.alive?.should be_true
-    user.receive_chat_message_notification("chat-1", "message 2","sender")
+    user.receive_chat_message_notification("chat-1", "message 2",sender)
     sleep(2)
     t1.alive?.should be_false
   end

@@ -6,8 +6,9 @@ class ChatController  < ApplicationController
 
   def show
     user = User.find(params[:user_id])
+    chat = Chat.find(params[:id])
     messages=user.get_mesages_for_chat(params[:id])
-    render :json =>  messages.to_json
+    render :json =>  {:id => params[:id],:messages => messages,:users => chat.users.map{|user| user.id}}.to_json
   end
 
   def update

@@ -5,42 +5,57 @@ MainChatViewTemplate = {
             "<div id='chatBox'></div>" +
             "<div id='chatUsers'></div>" +
             "<input id='message' type='text'>" +
-	        "<button id='sendMessage'>Send</button>" +
+            "<button id='sendMessage'>Send</button>" +
             "</div>" +
-           "</div>",
+            "</div>",
 
-   compile:function(options){
-        var compiled=_.template(this.text);
+    compile:function(options) {
+        var compiled = _.template(this.text);
         return compiled(options);
     }
 }
 
 MainChatView = Backbone.View.extend({
 
-       el:"#mainChatWindow",
+    el:"#mainChatWindow",
 
-       template:MainChatViewTemplate,
+    template:MainChatViewTemplate,
 
-       render:function(appendTo){
-         $(appendTo).html(this.template.compile({chatName:this.model.get("name")}));
-         this.startPolling();
-       },
+    render:function(appendTo) {
+        var chatName = this.model.get("name");
+        $(appendTo).html(this.template.compile({"chatName":chatName}));
+        this.startPolling();
+    },
 
-       startPolling:function(){
-            alert(this.model.id);
-            this.model.fetch({user_id:window.user.get()});
-       },
+    renderFromUpdate:function() {
+        var messages = this.get("messages");
+        var users = this.get("users");
+        for (var i in messages) {
+            $("#chatBox").append(messages[i]+"<br/>");
+        }
+        var usersString="";
+        for (var i in users) {
+            usersString += users[i].id+"<br/>";
+        }
+        $("#chatUsers").html(usersString);
+    },
 
-       sendMessage:function(event){
-          event.data.self.model.sendMessage($("#message").val());
-       },
+    startPolling:function() {
+        this.model.fetch({user_id:window.user.get()});
+    },
 
-       initEvents:function(){
-          $( "#mainChatWindow" ).liveDraggable();
-          $("#sendMessage").live("click",{self:this},this.sendMessage);
-       },
+    sendMessage:function(event) {
+        event.data.self.model.sendMessage($("#message").val());
+    },
 
-       initialize:function(){
-           this.initEvents();
-       }
+    initEvents:function() {
+        $("#mainChatWindow").liveDraggable();
+        $("#sendMessage").live("click", {self:this}, this.sendMessage);
+        this.model.bind("change", this.renderFromUpdate);
+
+    },
+
+    initialize:function() {
+        this.initEvents();
+    }
 })
