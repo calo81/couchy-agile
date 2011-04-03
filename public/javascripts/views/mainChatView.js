@@ -31,11 +31,11 @@ MainChatView = Backbone.View.extend({
         var messages = this.get("messages");
         var users = this.get("users");
         for (var i in messages) {
-            $("#chatBox").append(messages[i]+"<br/>");
+            $("#chatBox").append(messages[i] + "<br/>");
         }
-        var usersString="";
+        var usersString = "";
         for (var i in users) {
-            usersString += users[i]+"<br/>";
+            usersString += users[i] + "<br/>";
         }
         $("#chatUsers").html(usersString);
     },
@@ -48,9 +48,17 @@ MainChatView = Backbone.View.extend({
         event.data.self.model.sendMessage($("#message").val());
     },
 
+    sendMessageOnEnter:function(event) {
+        var code = (event.keyCode ? event.keyCode : event.which);
+        if (code == 13) {
+           event.data.self.sendMessage(event);
+        }
+    },
+
     initEvents:function() {
         $("#mainChatWindow").liveDraggable();
         $("#sendMessage").live("click", {self:this}, this.sendMessage);
+        $('#mainChatWindow input').live("keypress",{self:this}, this.sendMessageOnEnter);
         this.model.bind("change", this.renderFromUpdate);
 
     },

@@ -19,7 +19,7 @@ class ChatController < ApplicationController
       user = User.find(params[:user_id]) || User.new(params[:user_id])
       chat=Chat.join(User.find(params[:user_id]), params[:id])
     end
-    render :json => chat.to_json
+     render :json => {:id => params[:id], :users => chat.users.map { |user| user.id }}.to_json
   end
 
   def create
