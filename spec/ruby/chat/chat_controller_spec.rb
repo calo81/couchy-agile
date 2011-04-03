@@ -19,7 +19,7 @@ describe ChatController do
     chat_mock = mock("chat_mock")
     Chat.should_receive(:find).with("chat-1").and_return(chat_mock)
     User.should_receive(:find).with("user-1").and_return("user-1")
-    chat_mock.should_receive(:send_message).with("user-1","El mensaje enviado al chat")
+    chat_mock.should_receive(:send_message).with("user-1", "El mensaje enviado al chat")
     chat_mock.should_receive(:to_json).and_return({"id"=>"xx"})
     chat_controller.should_receive(:render).with({:json=>{"id"=>"xx"}})
     chat_controller.update
@@ -29,23 +29,44 @@ describe ChatController do
     chat_controller = ChatController.new
     chat_controller.params={:name=>"chat-1", :user_id =>"user-1"}
     chat_mock = mock("chat_mock")
-    Chat.should_receive(:join).with(an_instance_of(User),"chat-1").and_return(chat_mock)
+    Chat.should_receive(:join).with(an_instance_of(User), "chat-1").and_return(chat_mock)
     chat_mock.should_receive(:to_json).and_return({"id"=>"xx"})
     chat_controller.should_receive(:render).with({:json=>{"id"=>"xx"}})
     chat_controller.create
   end
 
   it "will return all json chats when index called" do
-     chat_controller = ChatController.new
-     chat1=Chat.new("chat-1")
-     chat2=Chat.new("chat-2")
-     chat_controller.index
+    chat_controller = ChatController.new
+    chat1=Chat.new("chat-1")
+    chat2=Chat.new("chat-2")
+    chat_controller.index
   end
 
-    it "will just return on delete without id" do
-     chat_controller = ChatController.new
-     chat_controller.should_receive(:render).with({:json=>{}})
-     chat_controller.destroy
-    end
+  it "will just return on delete without id" do
+    chat_controller = ChatController.new
+    chat_controller.params={}
+    chat_controller.should_receive(:render).with({:json=>{}})
+    chat_controller.destroy
+  end
+
+  it "will delete the full chat when no user_id provided" do
+    chat_controller = ChatController.new
+    chat = Chat.new("chat-1")
+    chat_controller.params={:id => "chat-1"}
+    Chat.should_receive(:find).with("chat-1").and_return(chat)
+    chat.should_receive(:delete)
+    chat_controller.should_receive(:render).with({:json=>{}})
+    chat_controller.destroy
+  end
+
+   it "will delete the user from the chat and the chat from the user when id and user id arrives" do
+    chat_controller = ChatController.new
+    chat = Chat.new("chat-1")
+    chat_controller.params={:id => "chat-1",:user_id => "user-1"}
+    Chat.should_receive(:find).with("chat-1").and_return(chat)
+    chat.should_receive(:leave).with("user-1")
+    chat_controller.should_receive(:render)
+    chat_controller.destroy
+  end
 
 end

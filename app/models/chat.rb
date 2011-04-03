@@ -43,5 +43,16 @@ class Chat
     }
   end
 
+  def delete
+    @@chats.delete(self.id)
+  end
+
+  def leave(user)
+    if !user.respond_to?(:id)
+      user=User.find(user)
+    end
+    @users.delete user
+  end
+
 
 end

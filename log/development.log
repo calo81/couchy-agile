@@ -5136,3 +5136,632 @@ Started GET "/chat/a?user_id=1&_=1301780265047" for 127.0.0.1 at 2011-04-02 22:3
   Processing by ChatController#show as JSON
   Parameters: {"user_id"=>"1", "_"=>"1301780265047", "id"=>"a"}
 Completed 200 OK in 3002ms (Views: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-04-03 17:31:43 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 15ms (Views: 14.6ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-04-03 17:31:59 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"qqqq", "user_id"=>"aaaaa"}
+Completed 200 OK in 3ms (Views: 1.8ms)
+
+
+Started GET "/chat/qqqq?user_id=aaaaa&_=1301848320601" for 127.0.0.1 at 2011-04-03 17:32:00 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"aaaaa", "_"=>"1301848320601", "id"=>"qqqq"}
+Completed 200 OK in 3002ms (Views: 0.5ms)
+
+
+Started DELETE "/chat" for 127.0.0.1 at 2011-04-03 17:32:03 +0100
+
+ActionController::RoutingError (No route matches "/chat"):
+  
+
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.6ms)
+
+
+Started GET "/chat/qqqq?user_id=aaaaa&_=1301848324649" for 127.0.0.1 at 2011-04-03 17:32:04 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"aaaaa", "_"=>"1301848324649", "id"=>"qqqq"}
+Completed 200 OK in 3002ms (Views: 0.5ms)
+
+
+Started GET "/chat/qqqq?user_id=aaaaa&_=1301848328687" for 127.0.0.1 at 2011-04-03 17:32:08 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"aaaaa", "_"=>"1301848328687", "id"=>"qqqq"}
+Completed 200 OK in 3001ms (Views: 0.4ms)
+
+
+Started GET "/chat/qqqq?user_id=aaaaa&_=1301848333720" for 127.0.0.1 at 2011-04-03 17:32:13 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"aaaaa", "_"=>"1301848333720", "id"=>"qqqq"}
+Completed 200 OK in 3001ms (Views: 0.4ms)
+
+
+Started GET "/chat/qqqq?user_id=aaaaa&_=1301848340754" for 127.0.0.1 at 2011-04-03 17:32:20 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"aaaaa", "_"=>"1301848340754", "id"=>"qqqq"}
+Completed 200 OK in 3001ms (Views: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-04-03 17:32:29 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 3ms (Views: 2.5ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-04-03 17:34:06 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"qqqqq", "user_id"=>"aaaaa"}
+Completed 200 OK in 1ms (Views: 0.4ms)
+
+
+Started GET "/chat/qqqqq?user_id=aaaaa&_=1301848447395" for 127.0.0.1 at 2011-04-03 17:34:07 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"aaaaa", "_"=>"1301848447395", "id"=>"qqqqq"}
+Completed 200 OK in 3001ms (Views: 0.4ms)
+
+
+Started DELETE "/chat" for 127.0.0.1 at 2011-04-03 17:34:10 +0100
+
+ActionController::RoutingError (No route matches "/chat"):
+  
+
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/chat/qqqqq?user_id=aaaaa&_=1301848451446" for 127.0.0.1 at 2011-04-03 17:34:11 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"aaaaa", "_"=>"1301848451446", "id"=>"qqqqq"}
+Completed 200 OK in 3002ms (Views: 0.5ms)
+
+
+Started GET "/chat/qqqqq?user_id=aaaaa&_=1301848455492" for 127.0.0.1 at 2011-04-03 17:34:15 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"aaaaa", "_"=>"1301848455492", "id"=>"qqqqq"}
+Completed 200 OK in 3001ms (Views: 0.4ms)
+
+
+Started GET "/chat/qqqqq?user_id=aaaaa&_=1301848460534" for 127.0.0.1 at 2011-04-03 17:34:20 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"aaaaa", "_"=>"1301848460534", "id"=>"qqqqq"}
+Completed 200 OK in 3001ms (Views: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-04-03 17:34:23 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 8ms (Views: 7.4ms)
+
+
+Started GET "/chat/qqqqq?user_id=aaaaa&_=1301848461572" for 127.0.0.1 at 2011-04-03 17:34:23 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"aaaaa", "_"=>"1301848461572", "id"=>"qqqqq"}
+Completed 200 OK in 3002ms (Views: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-04-03 17:34:38 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 8ms (Views: 7.4ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-04-03 17:34:43 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"qqqq", "user_id"=>"aaaaa"}
+Completed 200 OK in 1ms (Views: 0.4ms)
+
+
+Started GET "/chat/qqqq?user_id=aaaaa" for 127.0.0.1 at 2011-04-03 17:34:43 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"aaaaa", "id"=>"qqqq"}
+Completed 200 OK in 3001ms (Views: 0.4ms)
+
+
+Started DELETE "/chat/qqqq" for 127.0.0.1 at 2011-04-03 17:34:49 +0100
+  Processing by ChatController#destroy as JSON
+  Parameters: {"id"=>"qqqq"}
+Completed 200 OK in 2ms (Views: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-04-03 17:38:46 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 8ms (Views: 7.5ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-04-03 17:38:50 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"vsvsv", "user_id"=>"aaaaa"}
+Completed 200 OK in 0ms (Views: 0.2ms)
+
+
+Started GET "/chat/vsvsv?user_id=aaaaa" for 127.0.0.1 at 2011-04-03 17:38:51 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"aaaaa", "id"=>"vsvsv"}
+Completed 200 OK in 3002ms (Views: 0.4ms)
+
+
+Started DELETE "/chat/vsvsv?user_id=aaaaa" for 127.0.0.1 at 2011-04-03 17:39:00 +0100
+  Processing by ChatController#destroy as JSON
+  Parameters: {"user_id"=>"aaaaa", "id"=>"vsvsv"}
+Completed   in 1ms
+
+NoMethodError (undefined method `id' for "aaaaa":String):
+  app/models/chat.rb:52:in `leave'
+  app/controllers/chat_controller.rb:34:in `destroy'
+
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.9ms)
+Rendered /var/lib/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-04-03 17:40:15 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 6ms (Views: 5.5ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-04-03 17:40:22 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"qqqwww", "user_id"=>"aaaaa"}
+Completed 200 OK in 2ms (Views: 1.9ms)
+
+
+Started GET "/chat/qqqwww?user_id=aaaaa" for 127.0.0.1 at 2011-04-03 17:40:24 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"aaaaa", "id"=>"qqqwww"}
+Completed 200 OK in 3002ms (Views: 0.5ms)
+
+
+Started DELETE "/chat/qqqwww?user_id=aaaaa" for 127.0.0.1 at 2011-04-03 17:40:30 +0100
+  Processing by ChatController#destroy as JSON
+  Parameters: {"user_id"=>"aaaaa", "id"=>"qqqwww"}
+Completed 200 OK in 2ms (Views: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-04-03 17:42:49 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 6ms (Views: 5.4ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-04-03 17:42:56 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"qqq", "user_id"=>"aaaaa"}
+Completed 200 OK in 1ms (Views: 0.5ms)
+
+
+Started GET "/chat/qqq?user_id=aaaaa" for 127.0.0.1 at 2011-04-03 17:42:58 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"aaaaa", "id"=>"qqq"}
+Completed 200 OK in 3001ms (Views: 0.4ms)
+
+
+Started DELETE "/chat/qqq?user_id=aaaaa" for 127.0.0.1 at 2011-04-03 17:43:12 +0100
+  Processing by ChatController#destroy as JSON
+  Parameters: {"user_id"=>"aaaaa", "id"=>"qqq"}
+Completed 200 OK in 1ms (Views: 0.4ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-04-03 17:43:47 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"qqq", "user_id"=>"aaaaa"}
+Completed 200 OK in 1ms (Views: 0.3ms)
+
+
+Started GET "/chat/qqq?user_id=aaaaa" for 127.0.0.1 at 2011-04-03 17:43:48 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"aaaaa", "id"=>"qqq"}
+Completed 200 OK in 3001ms (Views: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-04-03 17:45:28 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 7ms (Views: 6.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-04-03 17:45:37 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 5ms (Views: 4.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-04-03 17:45:39 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 7ms (Views: 6.8ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-04-03 17:45:47 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"qqqq", "user_id"=>"bbbb"}
+Completed 200 OK in 1ms (Views: 0.4ms)
+
+
+Started GET "/chat/qqqq?user_id=bbbb&_=1301849149918" for 127.0.0.1 at 2011-04-03 17:45:49 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"bbbb", "_"=>"1301849149918", "id"=>"qqqq"}
+Completed 200 OK in 3001ms (Views: 0.4ms)
+
+
+Started GET "/chat/qqqq?user_id=bbbb&_=1301849153934" for 127.0.0.1 at 2011-04-03 17:45:53 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"bbbb", "_"=>"1301849153934", "id"=>"qqqq"}
+Completed 200 OK in 3001ms (Views: 0.4ms)
+
+
+Started GET "/chat/qqqq?user_id=bbbb&_=1301849157947" for 127.0.0.1 at 2011-04-03 17:45:57 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"bbbb", "_"=>"1301849157947", "id"=>"qqqq"}
+Completed 200 OK in 3001ms (Views: 0.4ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-04-03 17:46:00 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"qqqq", "user_id"=>"aaaaa"}
+Completed 200 OK in 1ms (Views: 0.3ms)
+
+
+Started GET "/chat/qqqq?user_id=bbbb&_=1301849161965" for 127.0.0.1 at 2011-04-03 17:46:01 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"bbbb", "_"=>"1301849161965", "id"=>"qqqq"}
+Completed 200 OK in 3001ms (Views: 0.4ms)
+
+
+Started GET "/chat/qqqq?user_id=aaaaa&_=1301849163117" for 127.0.0.1 at 2011-04-03 17:46:04 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"aaaaa", "_"=>"1301849163117", "id"=>"qqqq"}
+Completed 200 OK in 3001ms (Views: 0.4ms)
+
+
+Started GET "/chat/qqqq?user_id=bbbb&_=1301849165982" for 127.0.0.1 at 2011-04-03 17:46:07 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"bbbb", "_"=>"1301849165982", "id"=>"qqqq"}
+Completed 200 OK in 3001ms (Views: 0.4ms)
+
+
+Started PUT "/chat/qqqq" for 127.0.0.1 at 2011-04-03 17:46:10 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"name"=>"qqqq", "user_id"=>"bbbb", "id"=>"qqqq", "users"=>["bbbb", "aaaaa"], "messages"=>"", "message"=>"sadvasdvsdv"}
+Completed 200 OK in 2ms (Views: 0.5ms)
+
+
+Started GET "/chat/qqqq?user_id=aaaaa&_=1301849169004" for 127.0.0.1 at 2011-04-03 17:46:10 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"aaaaa", "_"=>"1301849169004", "id"=>"qqqq"}
+Completed 200 OK in 1ms (Views: 0.3ms)
+
+
+Started GET "/chat/qqqq?user_id=bbbb&_=1301849171991" for 127.0.0.1 at 2011-04-03 17:46:11 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"bbbb", "_"=>"1301849171991", "id"=>"qqqq"}
+Completed 200 OK in 1ms (Views: 0.3ms)
+
+
+Started GET "/chat/qqqq?user_id=aaaaa&_=1301849172017" for 127.0.0.1 at 2011-04-03 17:46:12 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"aaaaa", "_"=>"1301849172017", "id"=>"qqqq"}
+Completed 200 OK in 3001ms (Views: 0.4ms)
+
+
+Started GET "/chat/qqqq?user_id=bbbb&_=1301849173006" for 127.0.0.1 at 2011-04-03 17:46:15 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"bbbb", "_"=>"1301849173006", "id"=>"qqqq"}
+Completed 200 OK in 3001ms (Views: 0.4ms)
+
+
+Started GET "/chat/qqqq?user_id=aaaaa&_=1301849176064" for 127.0.0.1 at 2011-04-03 17:46:18 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"aaaaa", "_"=>"1301849176064", "id"=>"qqqq"}
+Completed 200 OK in 3002ms (Views: 0.4ms)
+
+
+Started GET "/chat/qqqq?user_id=bbbb&_=1301849179054" for 127.0.0.1 at 2011-04-03 17:46:21 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"bbbb", "_"=>"1301849179054", "id"=>"qqqq"}
+Completed 200 OK in 3001ms (Views: 0.4ms)
+
+
+Started PUT "/chat/qqqq" for 127.0.0.1 at 2011-04-03 17:46:24 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"name"=>"qqqq", "user_id"=>"aaaaa", "id"=>"qqqq", "users"=>["bbbb", "aaaaa"], "messages"=>"", "message"=>"sadasfsafasfsaf"}
+Completed 200 OK in 1ms (Views: 0.3ms)
+
+
+Started GET "/chat/qqqq?user_id=aaaaa&_=1301849182075" for 127.0.0.1 at 2011-04-03 17:46:24 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"aaaaa", "_"=>"1301849182075", "id"=>"qqqq"}
+Completed 200 OK in 1ms (Views: 0.3ms)
+
+
+Started GET "/chat/qqqq?user_id=bbbb&_=1301849185068" for 127.0.0.1 at 2011-04-03 17:46:25 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"bbbb", "_"=>"1301849185068", "id"=>"qqqq"}
+Completed 200 OK in 1ms (Views: 0.4ms)
+
+
+Started GET "/chat/qqqq?user_id=aaaaa&_=1301849185091" for 127.0.0.1 at 2011-04-03 17:46:25 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"aaaaa", "_"=>"1301849185091", "id"=>"qqqq"}
+Completed 200 OK in 3002ms (Views: 0.4ms)
+
+
+Started GET "/chat/qqqq?user_id=bbbb&_=1301849186083" for 127.0.0.1 at 2011-04-03 17:46:28 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"bbbb", "_"=>"1301849186083", "id"=>"qqqq"}
+Completed 200 OK in 3001ms (Views: 0.4ms)
+
+
+Started GET "/chat/qqqq?user_id=aaaaa&_=1301849189135" for 127.0.0.1 at 2011-04-03 17:46:31 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"aaaaa", "_"=>"1301849189135", "id"=>"qqqq"}
+Completed 200 OK in 3001ms (Views: 0.4ms)
+
+
+Started PUT "/chat/qqqq" for 127.0.0.1 at 2011-04-03 17:46:34 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"name"=>"qqqq", "user_id"=>"bbbb", "id"=>"qqqq", "users"=>["bbbb", "aaaaa"], "messages"=>"", "message"=>"bien y tu"}
+Completed 200 OK in 1ms (Views: 0.3ms)
+
+
+Started GET "/chat/qqqq?user_id=bbbb&_=1301849192128" for 127.0.0.1 at 2011-04-03 17:46:34 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"bbbb", "_"=>"1301849192128", "id"=>"qqqq"}
+Completed 200 OK in 1ms (Views: 0.3ms)
+
+
+Started GET "/chat/qqqq?user_id=bbbb&_=1301849195149" for 127.0.0.1 at 2011-04-03 17:46:35 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"bbbb", "_"=>"1301849195149", "id"=>"qqqq"}
+Completed 200 OK in 3001ms (Views: 0.4ms)
+
+
+Started GET "/chat/qqqq?user_id=aaaaa&_=1301849195146" for 127.0.0.1 at 2011-04-03 17:46:38 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"aaaaa", "_"=>"1301849195146", "id"=>"qqqq"}
+Completed 200 OK in 1ms (Views: 0.3ms)
+
+
+Started GET "/chat/qqqq?user_id=bbbb&_=1301849199166" for 127.0.0.1 at 2011-04-03 17:46:39 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"bbbb", "_"=>"1301849199166", "id"=>"qqqq"}
+Completed 200 OK in 3002ms (Views: 0.4ms)
+
+
+Started GET "/chat/qqqq?user_id=aaaaa&_=1301849199187" for 127.0.0.1 at 2011-04-03 17:46:42 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"aaaaa", "_"=>"1301849199187", "id"=>"qqqq"}
+Completed 200 OK in 3002ms (Views: 0.4ms)
+
+
+Started PUT "/chat/qqqq" for 127.0.0.1 at 2011-04-03 17:46:45 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"name"=>"qqqq", "user_id"=>"aaaaa", "id"=>"qqqq", "users"=>["bbbb", "aaaaa"], "messages"=>["bbbb:bien y tu"], "message"=>"bien tambien"}
+Completed 200 OK in 1ms (Views: 0.3ms)
+
+
+Started GET "/chat/qqqq?user_id=bbbb&_=1301849203183" for 127.0.0.1 at 2011-04-03 17:46:45 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"bbbb", "_"=>"1301849203183", "id"=>"qqqq"}
+Completed 200 OK in 1ms (Views: 0.3ms)
+
+
+Started GET "/chat/qqqq?user_id=bbbb&_=1301849206204" for 127.0.0.1 at 2011-04-03 17:46:46 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"bbbb", "_"=>"1301849206204", "id"=>"qqqq"}
+Completed 200 OK in 3001ms (Views: 0.4ms)
+
+
+Started GET "/chat/qqqq?user_id=aaaaa&_=1301849206213" for 127.0.0.1 at 2011-04-03 17:46:49 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"aaaaa", "_"=>"1301849206213", "id"=>"qqqq"}
+Completed 200 OK in 1ms (Views: 0.3ms)
+
+
+Started GET "/chat/qqqq?user_id=bbbb&_=1301849210225" for 127.0.0.1 at 2011-04-03 17:46:50 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"bbbb", "_"=>"1301849210225", "id"=>"qqqq"}
+Completed 200 OK in 3002ms (Views: 0.5ms)
+
+
+Started GET "/chat/qqqq?user_id=aaaaa&_=1301849210245" for 127.0.0.1 at 2011-04-03 17:46:53 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"aaaaa", "_"=>"1301849210245", "id"=>"qqqq"}
+Completed 200 OK in 3002ms (Views: 0.4ms)
+
+
+Started GET "/chat/qqqq?user_id=bbbb&_=1301849214246" for 127.0.0.1 at 2011-04-03 17:46:56 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"bbbb", "_"=>"1301849214246", "id"=>"qqqq"}
+Completed 200 OK in 3001ms (Views: 0.4ms)
+
+
+Started GET "/chat/qqqq?user_id=aaaaa&_=1301849217266" for 127.0.0.1 at 2011-04-03 17:46:59 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"aaaaa", "_"=>"1301849217266", "id"=>"qqqq"}
+Completed 200 OK in 3001ms (Views: 0.4ms)
+
+
+Started GET "/chat/qqqq?user_id=bbbb&_=1301849220257" for 127.0.0.1 at 2011-04-03 17:47:02 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"bbbb", "_"=>"1301849220257", "id"=>"qqqq"}
+Completed 200 OK in 3002ms (Views: 0.4ms)
+
+
+Started GET "/chat/qqqq?user_id=aaaaa&_=1301849223281" for 127.0.0.1 at 2011-04-03 17:47:05 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"aaaaa", "_"=>"1301849223281", "id"=>"qqqq"}
+Completed 200 OK in 3001ms (Views: 0.2ms)
+
+
+Started GET "/chat/qqqq?user_id=bbbb&_=1301849226270" for 127.0.0.1 at 2011-04-03 17:47:08 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"bbbb", "_"=>"1301849226270", "id"=>"qqqq"}
+Completed 200 OK in 3001ms (Views: 0.2ms)
+
+
+Started DELETE "/chat/qqqq?user_id=bbbb" for 127.0.0.1 at 2011-04-03 17:47:11 +0100
+  Processing by ChatController#destroy as JSON
+  Parameters: {"user_id"=>"bbbb", "id"=>"qqqq"}
+Completed 200 OK in 1ms (Views: 0.4ms)
+
+
+Started GET "/chat/qqqq?user_id=aaaaa&_=1301849230271" for 127.0.0.1 at 2011-04-03 17:47:11 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"aaaaa", "_"=>"1301849230271", "id"=>"qqqq"}
+Completed 200 OK in 3001ms (Views: 0.4ms)
+
+
+Started GET "/chat/qqqq?user_id=bbbb&_=1301849232277" for 127.0.0.1 at 2011-04-03 17:47:14 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"bbbb", "_"=>"1301849232277", "id"=>"qqqq"}
+Completed 200 OK in 3001ms (Views: 0.4ms)
+
+
+Started GET "/chat/qqqq?user_id=aaaaa&_=1301849235312" for 127.0.0.1 at 2011-04-03 17:47:17 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"aaaaa", "_"=>"1301849235312", "id"=>"qqqq"}
+Completed 200 OK in 3001ms (Views: 0.4ms)
+
+
+Started GET "/chat/qqqq?user_id=bbbb&_=1301849238300" for 127.0.0.1 at 2011-04-03 17:47:20 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"bbbb", "_"=>"1301849238300", "id"=>"qqqq"}
+Completed 200 OK in 3001ms (Views: 0.4ms)
+
+
+Started GET "/chat/qqqq?user_id=aaaaa&_=1301849241315" for 127.0.0.1 at 2011-04-03 17:47:23 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"aaaaa", "_"=>"1301849241315", "id"=>"qqqq"}
+Completed 200 OK in 3006ms (Views: 0.4ms)
+
+
+Started GET "/chat/qqqq?user_id=bbbb&_=1301849244307" for 127.0.0.1 at 2011-04-03 17:47:26 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"bbbb", "_"=>"1301849244307", "id"=>"qqqq"}
+Completed 200 OK in 3001ms (Views: 0.4ms)
+
+
+Started GET "/chat/qqqq?user_id=aaaaa&_=1301849248336" for 127.0.0.1 at 2011-04-03 17:47:29 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"aaaaa", "_"=>"1301849248336", "id"=>"qqqq"}
+Completed 200 OK in 3001ms (Views: 0.3ms)
+
+
+Started GET "/chat/qqqq?user_id=bbbb&_=1301849250328" for 127.0.0.1 at 2011-04-03 17:47:32 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"bbbb", "_"=>"1301849250328", "id"=>"qqqq"}
+Completed 200 OK in 3001ms (Views: 0.4ms)
+
+
+Started GET "/chat/qqqq?user_id=bbbb&_=1301849256336" for 127.0.0.1 at 2011-04-03 17:47:36 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"bbbb", "_"=>"1301849256336", "id"=>"qqqq"}
+Completed 200 OK in 3001ms (Views: 0.2ms)
+
+
+Started GET "/chat/qqqq?user_id=aaaaa&_=1301849256358" for 127.0.0.1 at 2011-04-03 17:47:39 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"aaaaa", "_"=>"1301849256358", "id"=>"qqqq"}
+Completed 200 OK in 3005ms (Views: 0.2ms)
+
+
+Started GET "/chat/qqqq?user_id=bbbb&_=1301849260349" for 127.0.0.1 at 2011-04-03 17:47:42 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"bbbb", "_"=>"1301849260349", "id"=>"qqqq"}
+Completed 200 OK in 3001ms (Views: 0.4ms)
+
+
+Started GET "/chat/qqqq?user_id=bbbb&_=1301849266365" for 127.0.0.1 at 2011-04-03 17:47:46 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"bbbb", "_"=>"1301849266365", "id"=>"qqqq"}
+Completed 200 OK in 3001ms (Views: 0.4ms)
+
+
+Started GET "/chat/qqqq?user_id=aaaaa&_=1301849270367" for 127.0.0.1 at 2011-04-03 17:47:50 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"aaaaa", "_"=>"1301849270367", "id"=>"qqqq"}
+Completed 200 OK in 3001ms (Views: 0.4ms)
+
+
+Started GET "/chat/qqqq?user_id=bbbb&_=1301849270379" for 127.0.0.1 at 2011-04-03 17:47:53 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"bbbb", "_"=>"1301849270379", "id"=>"qqqq"}
+Completed 200 OK in 3001ms (Views: 0.4ms)
+
+
+Started GET "/chat/qqqq?user_id=bbbb&_=1301849277399" for 127.0.0.1 at 2011-04-03 17:47:57 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"bbbb", "_"=>"1301849277399", "id"=>"qqqq"}
+Completed 200 OK in 3001ms (Views: 0.4ms)
+
+
+Started GET "/chat/qqqq?user_id=bbbb&_=1301849281412" for 127.0.0.1 at 2011-04-03 17:48:01 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"bbbb", "_"=>"1301849281412", "id"=>"qqqq"}
+Completed 200 OK in 3001ms (Views: 0.4ms)
+
+
+Started GET "/chat/qqqq?user_id=aaaaa&_=1301849281413" for 127.0.0.1 at 2011-04-03 17:48:04 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"aaaaa", "_"=>"1301849281413", "id"=>"qqqq"}
+Completed 200 OK in 3006ms (Views: 0.4ms)
+
+
+Started GET "/chat/qqqq?user_id=bbbb&_=1301849285426" for 127.0.0.1 at 2011-04-03 17:48:07 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"bbbb", "_"=>"1301849285426", "id"=>"qqqq"}
+Completed 200 OK in 3001ms (Views: 0.4ms)
+
+
+Started GET "/chat/qqqq?user_id=bbbb&_=1301849291443" for 127.0.0.1 at 2011-04-03 17:48:11 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"bbbb", "_"=>"1301849291443", "id"=>"qqqq"}
+Completed 200 OK in 3002ms (Views: 0.4ms)
+
+
+Started GET "/chat/qqqq?user_id=bbbb&_=1301849295456" for 127.0.0.1 at 2011-04-03 17:48:15 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"bbbb", "_"=>"1301849295456", "id"=>"qqqq"}
+Completed 200 OK in 3001ms (Views: 0.4ms)
+
+
+Started GET "/chat/qqqq?user_id=aaaaa&_=1301849295456" for 127.0.0.1 at 2011-04-03 17:48:18 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"aaaaa", "_"=>"1301849295456", "id"=>"qqqq"}
+Completed 200 OK in 3001ms (Views: 0.4ms)
+
+
+Started GET "/chat/qqqq?user_id=bbbb&_=1301849299474" for 127.0.0.1 at 2011-04-03 17:48:21 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"bbbb", "_"=>"1301849299474", "id"=>"qqqq"}
+Completed 200 OK in 3001ms (Views: 0.4ms)
+
+
+Started GET "/chat/qqqq?user_id=bbbb&_=1301849305482" for 127.0.0.1 at 2011-04-03 17:48:25 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"bbbb", "_"=>"1301849305482", "id"=>"qqqq"}
+Completed 200 OK in 3001ms (Views: 0.4ms)
+
+
+Started GET "/chat/qqqq?user_id=bbbb&_=1301849309495" for 127.0.0.1 at 2011-04-03 17:48:29 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"bbbb", "_"=>"1301849309495", "id"=>"qqqq"}
+Completed 200 OK in 3001ms (Views: 0.4ms)
+
+
+Started GET "/chat/qqqq?user_id=aaaaa&_=1301849309495" for 127.0.0.1 at 2011-04-03 17:48:32 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"aaaaa", "_"=>"1301849309495", "id"=>"qqqq"}
+Completed 200 OK in 3001ms (Views: 0.4ms)
+
+
+Started GET "/chat/qqqq?user_id=bbbb&_=1301849313511" for 127.0.0.1 at 2011-04-03 17:48:35 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"bbbb", "_"=>"1301849313511", "id"=>"qqqq"}

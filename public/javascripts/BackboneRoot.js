@@ -91,11 +91,12 @@ Backbone.sync = function(method, model, success, error) {
         }
     }
 
-    if ((type === 'GET' || type === 'PUT') && model.id) {
+    if ((type === 'GET' || type === 'PUT' || type === 'DELETE') && model.id) {
         params.url = params.url + "/" + model.id;
     }
 
-    if ((type === 'GET' && params.queryAttribute)) {
+    if (((type === 'GET' || type === 'DELETE') && params.queryAttribute)) {
+        alert(model.get(params.queryAttribute));
         params.url = params.url + "?" + params.queryAttribute + "=" + model.get(params.queryAttribute);
     }
     // Make the request.

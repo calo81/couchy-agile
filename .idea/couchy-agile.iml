@@ -135,6 +135,11 @@
     <orderEntry type="library" scope="PROVIDED" name="[gem] activerecord (v3.0.5, /var/lib/gems/1.9.1/gems/activerecord-3.0.5)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] railties (v3.0.5, /var/lib/gems/1.9.1/gems/railties-3.0.5)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] actionmailer (v3.0.5, /var/lib/gems/1.9.1/gems/actionmailer-3.0.5)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] jasmine (v1.0.2.0, /var/lib/gems/1.9.1/gems/jasmine-1.0.2.0)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] childprocess (v0.1.8, /var/lib/gems/1.9.1/gems/childprocess-0.1.8)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] rubyzip (v0.9.4, /var/lib/gems/1.9.1/gems/rubyzip-0.9.4)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] selenium-webdriver (v0.1.4, /var/lib/gems/1.9.1/gems/selenium-webdriver-0.1.4)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] ffi (v1.0.7, /var/lib/gems/1.9.1/gems/ffi-1.0.7)" level="application" />
   </component>
 </module>
 

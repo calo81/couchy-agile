@@ -35,7 +35,7 @@ MainChatView = Backbone.View.extend({
         }
         var usersString="";
         for (var i in users) {
-            usersString += users[i].id+"<br/>";
+            usersString += users[i]+"<br/>";
         }
         $("#chatUsers").html(usersString);
     },
