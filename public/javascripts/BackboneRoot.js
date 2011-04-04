@@ -59,6 +59,7 @@ Backbone.sync = function(method, model, success, error) {
     var modelJSON = (method === 'create' || method === 'update') ?
             JSON.stringify(model.toJSON()) : null;
 
+    var queryAttribute = model.queryAttribute?model.queryAttribute():"";
     // Default JSON-request options.
     var params = {
         url:          getUrl(model),
@@ -69,7 +70,7 @@ Backbone.sync = function(method, model, success, error) {
         processData:  false,
         success:      success,
         error:        error,
-        queryAttribute:  model.queryAttribute()
+        queryAttribute:  queryAttribute
     };
 
     // For older servers, emulate JSON by encoding the request into an HTML-form.
@@ -95,7 +96,7 @@ Backbone.sync = function(method, model, success, error) {
         params.url = params.url + "/" + model.id;
     }
 
-    if (((type === 'GET' || type === 'DELETE') && params.queryAttribute)) {
+    if (((type === 'GET' || type === 'DELETE') && params.queryAttribute!="")) {
         alert(model.get(params.queryAttribute));
         params.url = params.url + "?" + params.queryAttribute + "=" + model.get(params.queryAttribute);
     }

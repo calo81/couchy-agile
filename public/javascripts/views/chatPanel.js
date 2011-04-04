@@ -35,6 +35,8 @@ var ChatPanel = Backbone.View.extend({
 
     mainChatView:{},
 
+    chatCollection:new Chat.Collection(),
+
     render: function(elementToAppendTo) {
         $(elementToAppendTo).html(this.template.tag);
         this.renderChildren();
@@ -48,6 +50,12 @@ var ChatPanel = Backbone.View.extend({
 
     renderChildren:function() {
         $("#chatUl").html("");
+        this.chatCollection.fetch();
+        var self=this;
+        this.chatCollection.each(function(model){
+           var chatView = new Chat.View({model:model});
+           self.chatViews = self.chatViews.concat(chatView);
+        });
         this.chatViews.forEach(function(value, index, array) {
             value.render("#chatUl");
         });

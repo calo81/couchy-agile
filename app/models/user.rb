@@ -1,7 +1,7 @@
 class User
   include ActiveModel::Serializers::JSON
   self.include_root_in_json = false
-  attr_accessor :id
+  attr_accessor :id, :chats
 
   @@users={}
 
@@ -33,7 +33,7 @@ class User
   end
 
   def self.find(user_id)
-     @@users[user_id]
+    @@users[user_id] || @@users[user_id]=User.new(user_id)
   end
 
 

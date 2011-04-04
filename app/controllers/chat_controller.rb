@@ -1,7 +1,10 @@
 class ChatController < ApplicationController
 
   def index
-    #render :json => Chat.all.to_json
+    chats = Chat.all.map{ |key,value|
+        {:id=>value.id,:name=>value.id}
+    }
+    render :json => chats.to_json
   end
 
   def show
@@ -19,7 +22,7 @@ class ChatController < ApplicationController
       user = User.find(params[:user_id]) || User.new(params[:user_id])
       chat=Chat.join(User.find(params[:user_id]), params[:id])
     end
-     render :json => {:id => params[:id], :users => chat.users.map { |user| user.id }}.to_json
+    render :json => {:id => params[:id], :users => chat.users.map { |user| user.id }}.to_json
   end
 
   def create

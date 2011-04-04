@@ -20,8 +20,8 @@ describe ChatController do
     Chat.should_receive(:find).with("chat-1").and_return(chat_mock)
     User.should_receive(:find).with("user-1").and_return("user-1")
     chat_mock.should_receive(:send_message).with("user-1", "El mensaje enviado al chat")
-    chat_mock.should_receive(:to_json).and_return({"id"=>"xx"})
-    chat_controller.should_receive(:render).with({:json=>{"id"=>"xx"}})
+    chat_mock.should_receive(:users).and_return([User.new("user-1"),User.new("user-2")])
+    chat_controller.should_receive(:render)
     chat_controller.update
   end
 
@@ -30,16 +30,9 @@ describe ChatController do
     chat_controller.params={:name=>"chat-1", :user_id =>"user-1"}
     chat_mock = mock("chat_mock")
     Chat.should_receive(:join).with(an_instance_of(User), "chat-1").and_return(chat_mock)
-    chat_mock.should_receive(:to_json).and_return({"id"=>"xx"})
-    chat_controller.should_receive(:render).with({:json=>{"id"=>"xx"}})
+    chat_mock.should_receive(:users).and_return([User.new("user-1"),User.new("user-2")])
+    chat_controller.should_receive(:render)
     chat_controller.create
-  end
-
-  it "will return all json chats when index called" do
-    chat_controller = ChatController.new
-    chat1=Chat.new("chat-1")
-    chat2=Chat.new("chat-2")
-    chat_controller.index
   end
 
   it "will just return on delete without id" do
@@ -67,6 +60,13 @@ describe ChatController do
     chat.should_receive(:leave).with("user-1")
     chat_controller.should_receive(:render)
     chat_controller.destroy
+   end
+
+  it "will return all chats when called with a GET without id the index executes" do
+    chat_controller = ChatController.new
+    Chat.should_receive(:all).and_return([])
+    chat_controller.should_receive(:render)
+    chat_controller.index
   end
 
 end
