@@ -4,15 +4,18 @@ Chat.Collection = Backbone.Collection.extend({
 
     url:"/chat",
 
-    setUserIdOnModel:function(models, resp) {
-        models.each(function(model){
-           model.set({user_id:window.user.get()});
-        });
-        return this;
-    },
-
     fetch:function(options) {
-        Backbone.Collection.prototype.fetch.call(this, {success:this.setUserIdOnModel});
+        var success = function(models, resp) {
+            models.each(function(model) {
+                model.set({user_id:window.user.get()});
+            });
+            if (options.success) {
+                options.success(models, resp);
+            }
+            return this;
+        };
+
+        Backbone.Collection.prototype.fetch.call(this, {success:success});
     }
 
 });

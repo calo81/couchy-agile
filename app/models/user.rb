@@ -43,7 +43,7 @@ class User
   end
 
   def wait_for_messages(chatid)
-    maxWaitingSeconds=3
+    maxWaitingSeconds=1
     while (no_messages_for_chat?(chatid)) and maxWaitingSeconds>0
       sleep(1)
       maxWaitingSeconds -= 1

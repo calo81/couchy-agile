@@ -40,11 +40,11 @@ var wrapError = function(onError, model, options) {
 // Backbone.sync  Overriden toi support GET and PUT in Restful way GET /model/{id}, also including query string params for GET (just 1 right now)
 
 function makeLongPollingCall(params,success) {
-    $.PeriodicalUpdater(params.url, {
+  return  $.PeriodicalUpdater(params.url, {
         method: 'get',          // method; get or post
         data: params.data,               // array of values to be passed to the page - e.g. {name: "John", greeting: "hello"}
         minTimeout: 1000,       // starting value for the timeout in milliseconds
-        maxTimeout: 8000,       // maximum length of time between requests
+        maxTimeout: 3000,       // maximum length of time between requests
         multiplier: 2,          // the amount to expand the timeout by if the response hasn't changed (up to maxTimeout)
         type: 'json',           // response type - text, xml, json, etc.  See $.ajax config options
         maxCalls: 0,            // maximum number of calls. 0 = no limit.
@@ -97,12 +97,12 @@ Backbone.sync = function(method, model, success, error) {
     }
 
     if (((type === 'GET' || type === 'DELETE') && params.queryAttribute!="")) {
-        alert(model.get(params.queryAttribute));
         params.url = params.url + "?" + params.queryAttribute + "=" + model.get(params.queryAttribute);
     }
     // Make the request.
     if (type === 'GET' && model.longPollingGet) {
-        makeLongPollingCall(params,success);
+       var handler = makeLongPollingCall(params,success);
+       model.asyncPollingHandler = handler;
     }
     else {
         $.ajax(params);

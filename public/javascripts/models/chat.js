@@ -8,6 +8,8 @@ Chat.Model = Backbone.Model.extend({
 
     longPollingGet:true,
 
+    asyncPollingHandler:{},
+
     queryAttribute:function(){
       return "user_id";
     },
@@ -17,7 +19,7 @@ Chat.Model = Backbone.Model.extend({
     },
 
     sendMessage:function(message){
-        this.save({message:message});
+        this.save({message:message},{silent:true});
     }
 });
 

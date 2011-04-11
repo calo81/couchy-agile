@@ -1,6 +1,8 @@
 MainChatViewTemplate = {
     text: "<div id='mainChatWindow'>" +
             "<h2><%= chatName %></h2>" +
+             "<a class='a-no-borders closechataction' id='close<%= chatId %>' href='#'>" +
+            "<img src='/images/close_button.gif' alt='close'/></a>" +
             "<div>" +
             "<div id='chatBox'></div>" +
             "<div id='chatUsers'></div>" +
@@ -23,9 +25,21 @@ MainChatView = Backbone.View.extend({
 
     render:function(appendTo) {
         var chatName = this.model.get("name");
-        $(appendTo).html(this.template.compile({"chatName":chatName}));
+        $(appendTo).html(this.template.compile({"chatName":chatName,"chatId":this.model.cid}));
         this.startPolling();
     },
+
+    close:function(event) {
+        if (event.data.self.model.isNew()) {
+            event.data.self.remove();
+        } else {
+            event.data.self.model.destroy();
+            event.data.self.remove();
+        }
+        event.data.self.model.asyncPollingHandler.stop();
+        EventHandler.trigger("onDeleteMainChat");
+    },
+
 
     renderFromUpdate:function() {
         var messages = this.get("messages");
@@ -46,6 +60,7 @@ MainChatView = Backbone.View.extend({
 
     sendMessage:function(event) {
         event.data.self.model.sendMessage($("#message").val());
+        $("#message").val("");
     },
 
     sendMessageOnEnter:function(event) {
@@ -60,6 +75,7 @@ MainChatView = Backbone.View.extend({
         $("#sendMessage").live("click", {self:this}, this.sendMessage);
         $('#mainChatWindow input').live("keypress",{self:this}, this.sendMessageOnEnter);
         this.model.bind("change", this.renderFromUpdate);
+        $("#close" + this.model.cid).live("click", {self:this}, this.close);
 
     },
 

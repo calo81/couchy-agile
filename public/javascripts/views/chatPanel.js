@@ -9,7 +9,7 @@ ChatPanelTemplate = {
             "</div>" +
             "<div id='mainChat'>" +
             "</div>" +
-           "</div>",
+            "</div>",
 
 
     compile:function(options) {
@@ -28,7 +28,8 @@ var ChatPanel = Backbone.View.extend({
     initEvents:function() {
         $("#newChat").live('click', {self:this}, this.createChat);
         EventHandler.bind(this, "chatRemoved");
-        EventHandler.bind(this,"onShowMainChat");
+        EventHandler.bind(this, "onShowMainChat");
+        EventHandler.bind(this, "onDeleteMainChat");
     },
 
     chatViews:[],
@@ -40,6 +41,7 @@ var ChatPanel = Backbone.View.extend({
     render: function(elementToAppendTo) {
         $(elementToAppendTo).html(this.template.tag);
         this.renderChildren();
+        this.renderMainChat();
 
     },
     chatRemoved: function(chatId) {
@@ -50,27 +52,48 @@ var ChatPanel = Backbone.View.extend({
 
     renderChildren:function() {
         $("#chatUl").html("");
-        this.chatCollection.fetch();
-        var self=this;
-        this.chatCollection.each(function(model){
-           var chatView = new Chat.View({model:model});
-           self.chatViews = self.chatViews.concat(chatView);
-        });
-        this.chatViews.forEach(function(value, index, array) {
-            value.render("#chatUl");
-        });
+        var self = this;
+        this.chatCollection.fetch({success:function(collection, response) {
+            self.chatViews = [];
+            collection.each(function(model) {
+                var chatView = new Chat.View({model:model});
+                self.chatViews = self.chatViews.concat(chatView);
+            });
+            self.chatViews.forEach(function(value, index, array) {
+                value.render("#chatUl");
+            });
+        }});
     },
 
     addChat:function(chat) {
         var chatView = new Chat.View({model:chat});
         this.chatViews = this.chatViews.concat(chatView);
-        this.renderChildren();
+        chatView.render("#chatUl");
+    },
+
+    stopPollingsIfAny:function() {
+        this.chatCollection.each(function(chat) {
+            if (chat.asyncPollingHandler.stop) {
+                chat.asyncPollingHandler.stop();
+            }
+        });
     },
 
     onShowMainChat:function(chat) {
         $("#mainChat").html("");
         this.mainChatView = new MainChatView({model:chat});
-        this.mainChatView.render("#mainChat");
+        this.renderMainChat();
+    },
+
+    onDeleteMainChat:function(){
+        this.mainChatView = {};
+    },
+
+    renderMainChat:function() {
+        this.stopPollingsIfAny();
+        if (this.mainChatView.render) {
+            this.mainChatView.render("#mainChat");
+        }
     },
 
     createChat: function(event) {
