@@ -14,6 +14,8 @@ src_files:
   - public/javascripts/application.js
   - public/javascripts/jquery-1.5.1.js
   - public/javascripts/jquery-ui-1.8.10.custom.min.js
+  - public/javascripts/util/jquery-extras.js
+  - public/javascripts/util/eventHandler.js
   - public/javascripts/underscore.js
   - public/javascripts/backbone.js
   - public/javascripts/BackboneRoot.js
@@ -21,6 +23,7 @@ src_files:
   - public/javascripts/Song.js
   - public/javascripts/models/chat.js
   - public/javascripts/views/chatView.js
+  - public/javascripts/views/mainChatView.js
 
 
 # stylesheets
