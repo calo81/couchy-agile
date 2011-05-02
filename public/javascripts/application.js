@@ -6,3 +6,10 @@ window.user={
        return $("#user").val();
     }
 };
+
+window.tempStory={
+    get:function(){
+       return "defaultStory"
+    }
+};
+
