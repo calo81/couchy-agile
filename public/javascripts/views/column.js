@@ -15,8 +15,9 @@ ColumnView = Backbone.View.extend({
     renderFromPanel:function(){
         return this.template.compile({title:this.title});
     },
-    addTask:function(){
-
+    addTask:function(element){
+        var card = new Card({model:new Task()});
+        card.renderForEdit(element[0].id);
     },
 
     initEvents:function(){

@@ -49447,3 +49447,162 @@ Completed 200 OK in 1ms (Views: 0.4ms)
 Started GET "/chat" for 127.0.0.1 at 2011-05-02 20:29:45 +0100
   Processing by ChatController#index as JSON
 Completed 200 OK in 1ms (Views: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-03 22:17:57 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 37ms (Views: 36.5ms)
+
+
+Started GET "/chat" for 127.0.0.1 at 2011-05-03 22:18:00 +0100
+  Processing by ChatController#index as JSON
+Completed 200 OK in 6ms (Views: 4.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-03 22:53:13 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 5ms (Views: 4.5ms)
+
+
+Started GET "/chat" for 127.0.0.1 at 2011-05-03 22:53:15 +0100
+  Processing by ChatController#index as JSON
+Completed 200 OK in 1ms (Views: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-03 22:53:54 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 6ms (Views: 6.0ms)
+
+
+Started GET "/chat" for 127.0.0.1 at 2011-05-03 22:53:56 +0100
+  Processing by ChatController#index as JSON
+Completed 200 OK in 3ms (Views: 2.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-03 22:55:50 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 3ms (Views: 2.7ms)
+
+
+Started GET "/chat" for 127.0.0.1 at 2011-05-03 22:55:52 +0100
+  Processing by ChatController#index as JSON
+Completed 200 OK in 1ms (Views: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-03 22:56:49 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 5ms (Views: 5.2ms)
+
+
+Started GET "/chat" for 127.0.0.1 at 2011-05-03 22:56:51 +0100
+  Processing by ChatController#index as JSON
+Completed 200 OK in 1ms (Views: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-03 22:57:15 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 9ms (Views: 8.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-03 22:58:05 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 7ms (Views: 6.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-03 23:01:40 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 8ms (Views: 7.4ms)
+
+
+Started GET "/chat" for 127.0.0.1 at 2011-05-03 23:02:25 +0100
+  Processing by ChatController#index as JSON
+Completed 200 OK in 1ms (Views: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-03 23:02:26 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 6ms (Views: 5.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-03 23:03:32 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 8ms (Views: 7.9ms)
+
+
+Started GET "/chat" for 127.0.0.1 at 2011-05-03 23:03:33 +0100
+  Processing by ChatController#index as JSON
+Completed 200 OK in 1ms (Views: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-03 23:05:24 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 8ms (Views: 7.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-03 23:09:02 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 2ms (Views: 2.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-03 23:10:27 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 8ms (Views: 7.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-03 23:14:39 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 7ms (Views: 6.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-03 23:14:40 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 8ms (Views: 7.4ms)
+
+
+Started GET "/chat" for 127.0.0.1 at 2011-05-03 23:14:45 +0100
+  Processing by ChatController#index as JSON
+Completed 200 OK in 1ms (Views: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-03 23:17:53 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 8ms (Views: 7.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-03 23:17:57 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 7ms (Views: 6.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-03 23:18:27 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 6ms (Views: 6.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-03 23:19:09 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 8ms (Views: 7.8ms)
+
+
+Started GET "/chat" for 127.0.0.1 at 2011-05-03 23:19:12 +0100
+  Processing by ChatController#index as JSON
+Completed 200 OK in 1ms (Views: 0.4ms)
