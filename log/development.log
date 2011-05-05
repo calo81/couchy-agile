@@ -49606,3 +49606,143 @@ Completed 200 OK in 8ms (Views: 7.8ms)
 Started GET "/chat" for 127.0.0.1 at 2011-05-03 23:19:12 +0100
   Processing by ChatController#index as JSON
 Completed 200 OK in 1ms (Views: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-05 11:25:56 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 6ms (Views: 5.6ms)
+
+
+Started GET "/chat" for 127.0.0.1 at 2011-05-05 11:26:05 +0100
+  Processing by ChatController#index as JSON
+Completed 200 OK in 3ms (Views: 3.0ms)
+
+
+Started GET "/chat" for 127.0.0.1 at 2011-05-05 11:26:09 +0100
+  Processing by ChatController#index as JSON
+Completed 200 OK in 0ms (Views: 0.1ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-05-05 11:26:13 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"qqq", "user_id"=>"aaaa"}
+Completed 200 OK in 0ms (Views: 0.1ms)
+
+
+Started GET "/chat/qqq?user_id=aaaa&_=1304591175045" for 127.0.0.1 at 2011-05-05 11:26:15 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"aaaa", "_"=>"1304591175045", "id"=>"qqq"}
+Completed 200 OK in 1001ms (Views: 0.2ms)
+
+
+Started GET "/chat/qqq?user_id=aaaa&_=1304591177060" for 127.0.0.1 at 2011-05-05 11:26:17 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"aaaa", "_"=>"1304591177060", "id"=>"qqq"}
+Completed 200 OK in 1000ms (Views: 0.1ms)
+
+
+Started GET "/chat/qqq?user_id=aaaa&_=1304591179075" for 127.0.0.1 at 2011-05-05 11:26:19 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"aaaa", "_"=>"1304591179075", "id"=>"qqq"}
+Completed 200 OK in 1000ms (Views: 0.1ms)
+
+
+Started GET "/chat/qqq?user_id=aaaa&_=1304591182089" for 127.0.0.1 at 2011-05-05 11:26:22 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"aaaa", "_"=>"1304591182089", "id"=>"qqq"}
+Completed 200 OK in 1001ms (Views: 0.2ms)
+
+
+Started GET "/chat/qqq?user_id=aaaa&_=1304591186121" for 127.0.0.1 at 2011-05-05 11:26:26 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"aaaa", "_"=>"1304591186121", "id"=>"qqq"}
+Completed 200 OK in 1000ms (Views: 0.1ms)
+
+
+Started GET "/chat/qqq?user_id=aaaa&_=1304591190134" for 127.0.0.1 at 2011-05-05 11:26:30 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"aaaa", "_"=>"1304591190134", "id"=>"qqq"}
+Completed 200 OK in 1000ms (Views: 0.1ms)
+
+
+Started GET "/chat/qqq?user_id=aaaa&_=1304591194149" for 127.0.0.1 at 2011-05-05 11:26:34 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"aaaa", "_"=>"1304591194149", "id"=>"qqq"}
+Completed 200 OK in 1000ms (Views: 0.1ms)
+
+
+Started PUT "/chat/qqq" for 127.0.0.1 at 2011-05-05 11:26:36 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"name"=>"qqq", "user_id"=>"aaaa", "id"=>"qqq", "users"=>["aaaa"], "messages"=>"", "message"=>"dsvsv"}
+Completed 200 OK in 0ms (Views: 0.1ms)
+
+
+Started GET "/chat/qqq?user_id=aaaa&_=1304591198162" for 127.0.0.1 at 2011-05-05 11:26:38 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"aaaa", "_"=>"1304591198162", "id"=>"qqq"}
+Completed 200 OK in 0ms (Views: 0.1ms)
+
+
+Started GET "/chat/qqq?user_id=aaaa&_=1304591199176" for 127.0.0.1 at 2011-05-05 11:26:39 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"aaaa", "_"=>"1304591199176", "id"=>"qqq"}
+Completed 200 OK in 1000ms (Views: 0.1ms)
+
+
+Started GET "/chat/qqq?user_id=aaaa&_=1304591201189" for 127.0.0.1 at 2011-05-05 11:26:41 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"aaaa", "_"=>"1304591201189", "id"=>"qqq"}
+Completed 200 OK in 1000ms (Views: 0.1ms)
+
+
+Started DELETE "/chat/qqq?user_id=aaaa" for 127.0.0.1 at 2011-05-05 11:26:42 +0100
+  Processing by ChatController#destroy as JSON
+  Parameters: {"user_id"=>"aaaa", "id"=>"qqq"}
+Completed 200 OK in 0ms (Views: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-05 13:42:51 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 6ms (Views: 5.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-05 13:43:40 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 3ms (Views: 2.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-05 13:50:35 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 3ms (Views: 2.6ms)
+
+
+Started POST "/task" for 127.0.0.1 at 2011-05-05 13:50:45 +0100
+
+ActionController::RoutingError (No route matches "/task"):
+  
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-05 13:54:49 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 3ms (Views: 2.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-05 13:55:24 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 3ms (Views: 2.5ms)
+
+
+Started POST "/task" for 127.0.0.1 at 2011-05-05 13:55:34 +0100
+
+ActionController::RoutingError (No route matches "/task"):
+  
+
+Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
