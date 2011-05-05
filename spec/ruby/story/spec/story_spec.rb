@@ -16,4 +16,12 @@ describe Story do
     story=Story.new(:description=>'desc 1')
     story.save.should be_false
   end
+
+  it "When finding by title not exist create and return" do
+    story = Story.find_by_title!("any title")
+    story.should_not be_nil
+    story.id.should_not be_nil
+    story_again =  Story.find_by_title("any title")
+    story.should == story_again
+  end
 end

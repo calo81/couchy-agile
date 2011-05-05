@@ -7,10 +7,10 @@ describe "Task" do
   end
 
   it "should be able to be created and saved with task description and story" do
-    card = Task.new :story => 1, :description => "Primera Task", :title => "Task1", :story =>Story.new, :status =>:new
+    card = Task.new :story => Story.new, :description => "Primera Task", :title => "Task1", :story =>Story.new, :status =>:new
     card.save
     card.id.should_not be_nil
-    card.story.should == 1
+    card.story.id.should_not be nil
     card.description.should == "Primera Task"
   end
 

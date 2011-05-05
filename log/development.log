@@ -49746,3 +49746,373 @@ ActionController::RoutingError (No route matches "/task"):
   
 
 Rendered /usr/local/lib/ruby/gems/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-05 21:25:20 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (34.2ms)
+Completed 200 OK in 38ms (Views: 37.3ms)
+
+
+Started GET "/chat" for 127.0.0.1 at 2011-05-05 21:25:35 +0100
+  Processing by ChatController#index as JSON
+Completed 200 OK in 7ms (Views: 5.8ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-05-05 21:25:42 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"vv", "user_id"=>"aa"}
+Completed 200 OK in 2ms (Views: 0.4ms)
+
+
+Started GET "/chat/vv?user_id=aa&_=1304627143506" for 127.0.0.1 at 2011-05-05 21:25:43 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"aa", "_"=>"1304627143506", "id"=>"vv"}
+Completed 200 OK in 1001ms (Views: 0.3ms)
+
+
+Started GET "/chat/vv?user_id=aa&_=1304627145532" for 127.0.0.1 at 2011-05-05 21:25:45 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"aa", "_"=>"1304627145532", "id"=>"vv"}
+Completed 200 OK in 1001ms (Views: 0.3ms)
+
+
+Started GET "/chat/vv?user_id=aa&_=1304627147550" for 127.0.0.1 at 2011-05-05 21:25:47 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"aa", "_"=>"1304627147550", "id"=>"vv"}
+Completed 200 OK in 1001ms (Views: 0.4ms)
+
+
+Started GET "/chat/vv?user_id=aa&_=1304627150572" for 127.0.0.1 at 2011-05-05 21:25:50 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"aa", "_"=>"1304627150572", "id"=>"vv"}
+Completed 200 OK in 1001ms (Views: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-05 21:38:33 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 3ms (Views: 3.2ms)
+
+
+Started POST "/task" for 127.0.0.1 at 2011-05-05 21:38:47 +0100
+
+ActionController::RoutingError (No route matches "/task"):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.8ms)
+
+
+Started POST "/task" for 127.0.0.1 at 2011-05-05 21:45:22 +0100
+  Processing by TaskController#create as JSON
+  Parameters: {"story"=>"dfvd", "title"=>"sdv", "points"=>"ds", "developer"=>"efcdc", "description"=>"dcsdc", "status"=>"columnNew"}
+Completed   in 476ms
+
+NoMethodError (undefined method `new?' for "dfvd":String):
+  app/controllers/task_controller.rb:3:in `new'
+  app/controllers/task_controller.rb:3:in `create'
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.6ms)
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.9ms)
+
+
+Started POST "/task" for 127.0.0.1 at 2011-05-05 21:45:24 +0100
+  Processing by TaskController#create as JSON
+  Parameters: {"story"=>"dfvd", "title"=>"sdv", "points"=>"ds", "developer"=>"efcdc", "description"=>"dcsdc", "status"=>"columnNew"}
+Completed   in 1ms
+
+NoMethodError (undefined method `new?' for "dfvd":String):
+  app/controllers/task_controller.rb:3:in `new'
+  app/controllers/task_controller.rb:3:in `create'
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.5ms)
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-05 22:13:07 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 16ms (Views: 15.3ms)
+
+
+Started POST "/task" for 127.0.0.1 at 2011-05-05 22:13:22 +0100
+  Processing by TaskController#create as JSON
+  Parameters: {"story"=>"sdcsdc", "title"=>"dsc", "points"=>"csdc", "developer"=>"sdcsd", "description"=>"dcsd", "status"=>"columnNew"}
+Completed   in 16995ms
+
+NoMethodError (undefined method `persisted?' for "sdcsdc":String):
+  app/controllers/task_controller.rb:3:in `new'
+  app/controllers/task_controller.rb:3:in `create'
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.9ms)
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.9ms)
+
+
+Started POST "/task" for 127.0.0.1 at 2011-05-05 22:14:01 +0100
+  Processing by TaskController#create as JSON
+  Parameters: {"story"=>"sdcsdc", "title"=>"dsc", "points"=>"csdc", "developer"=>"sdcsd", "description"=>"dcsd", "status"=>"columnNew"}
+Completed   in 83553ms
+Completed   in 83553ms
+
+
+Started POST "/task" for 127.0.0.1 at 2011-05-05 22:17:42 +0100
+  Processing by TaskController#create as JSON
+  Parameters: {"story"=>"sdcsdc", "title"=>"dsc", "points"=>"csdc", "developer"=>"sdcsd", "description"=>"dcsd", "status"=>"columnNew"}
+Completed   in 5ms
+
+NoMethodError (undefined method `persisted?' for "sdcsdc":String):
+  app/controllers/task_controller.rb:3:in `new'
+  app/controllers/task_controller.rb:3:in `create'
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.5ms)
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-05 22:47:15 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 7ms (Views: 6.9ms)
+
+
+Started POST "/task" for 127.0.0.1 at 2011-05-05 22:47:31 +0100
+  Processing by TaskController#create as JSON
+  Parameters: {"story"=>"111", "title"=>"sdcf", "points"=>"3", "developer"=>"wedwe", "description"=>"wedd", "status"=>"columnNew"}
+Completed 200 OK in 167ms (Views: 3.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-05 22:52:45 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 8ms (Views: 7.8ms)
+
+
+Started POST "/task" for 127.0.0.1 at 2011-05-05 22:53:05 +0100
+  Processing by TaskController#create as JSON
+  Parameters: {"story"=>"scs", "title"=>"ddd", "points"=>"1", "developer"=>"cdc", "description"=>"dcd", "status"=>"columnNew"}
+Completed 200 OK in 100ms (Views: 4.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-05 22:55:39 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 9ms (Views: 8.7ms)
+
+
+Started POST "/task" for 127.0.0.1 at 2011-05-05 22:55:58 +0100
+  Processing by TaskController#create as JSON
+  Parameters: {"story"=>"dd", "title"=>"dc", "points"=>"kss", "developer"=>"dcdc", "description"=>"dcd", "status"=>"columnNew"}
+Completed 200 OK in 146ms (Views: 2.6ms)
+
+
+Started POST "/task" for 127.0.0.1 at 2011-05-05 22:56:50 +0100
+  Processing by TaskController#create as JSON
+  Parameters: {"story"=>"dd", "title"=>"dc", "points"=>"kss", "developer"=>"dcdc", "description"=>"dcd", "status"=>"columnNew"}
+Completed 200 OK in 114ms (Views: 0.6ms)
+
+
+Started POST "/task" for 127.0.0.1 at 2011-05-05 22:57:19 +0100
+  Processing by TaskController#create as JSON
+  Parameters: {"story"=>"dd", "title"=>"dc", "points"=>"kss", "developer"=>"dcdc", "description"=>"dcd", "status"=>"columnNew"}
+Completed 200 OK in 82ms (Views: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-05 23:15:27 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (32.3ms)
+Completed 200 OK in 33ms (Views: 33.3ms)
+
+
+Started POST "/task" for 127.0.0.1 at 2011-05-05 23:15:47 +0100
+  Processing by TaskController#create as JSON
+  Parameters: {"story"=>"cdc", "title"=>"dcd", "points"=>"dddd", "developer"=>"dcdcd", "description"=>"scsdc", "status"=>"columnNew"}
+Completed 200 OK in 215ms (Views: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-05 23:28:18 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 8ms (Views: 7.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-05 23:29:01 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 8ms (Views: 7.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-05 23:30:05 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 7ms (Views: 7.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-05 23:30:47 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 10ms (Views: 9.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-05 23:31:51 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 7ms (Views: 6.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-05 23:32:48 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 4ms (Views: 4.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-05 23:35:24 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 8ms (Views: 7.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-05 23:36:54 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 5ms (Views: 4.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-05 23:37:18 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 7ms (Views: 6.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-05 23:38:24 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 7ms (Views: 6.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-05 23:39:41 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 7ms (Views: 6.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-05 23:40:05 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 6ms (Views: 5.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-05 23:41:45 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 7ms (Views: 6.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-05 23:44:16 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 5ms (Views: 4.9ms)
+
+
+Started GET "/task" for 127.0.0.1 at 2011-05-05 23:44:17 +0100
+
+AbstractController::ActionNotFound (The action 'index' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.9ms)
+
+
+Started GET "/task" for 127.0.0.1 at 2011-05-05 23:44:17 +0100
+
+AbstractController::ActionNotFound (The action 'index' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (1.0ms)
+
+
+Started GET "/task" for 127.0.0.1 at 2011-05-05 23:44:17 +0100
+
+AbstractController::ActionNotFound (The action 'index' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started GET "/task" for 127.0.0.1 at 2011-05-05 23:44:17 +0100
+
+AbstractController::ActionNotFound (The action 'index' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started GET "/task" for 127.0.0.1 at 2011-05-05 23:44:21 +0100
+
+AbstractController::ActionNotFound (The action 'index' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started GET "/task" for 127.0.0.1 at 2011-05-05 23:44:21 +0100
+
+AbstractController::ActionNotFound (The action 'index' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.7ms)
+
+
+Started GET "/task" for 127.0.0.1 at 2011-05-05 23:44:21 +0100
+
+AbstractController::ActionNotFound (The action 'index' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.7ms)
+
+
+Started GET "/task" for 127.0.0.1 at 2011-05-05 23:44:21 +0100
+
+AbstractController::ActionNotFound (The action 'index' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-05 23:54:06 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 10ms (Views: 9.6ms)
+
+
+Started GET "/task" for 127.0.0.1 at 2011-05-05 23:54:07 +0100
+
+AbstractController::ActionNotFound (The action 'index' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started GET "/task" for 127.0.0.1 at 2011-05-05 23:54:07 +0100
+
+AbstractController::ActionNotFound (The action 'index' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (1.1ms)
+
+
+Started GET "/task" for 127.0.0.1 at 2011-05-05 23:54:07 +0100
+
+AbstractController::ActionNotFound (The action 'index' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.7ms)
+
+
+Started GET "/task" for 127.0.0.1 at 2011-05-05 23:54:07 +0100
+
+AbstractController::ActionNotFound (The action 'index' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)

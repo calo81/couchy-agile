@@ -5,6 +5,8 @@ class Task
 
   key :title, String, :required => true
   key :status, Symbol, :required => true
+  key :developer, String
+  key :description, String
   belongs_to :story
 
   def update_status(status)

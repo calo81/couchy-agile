@@ -11,8 +11,10 @@ ColumnView = Backbone.View.extend({
     el: "#panel",
     template: ColumnViewTemplate,
     title:"",
+    cards: new CardCollection,
 
     renderFromPanel:function(){
+        this.cards.fetch();
         return this.template.compile({title:this.title});
     },
     addTask:function(element){
