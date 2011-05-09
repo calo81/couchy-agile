@@ -17,6 +17,8 @@ describe "TaskController" do
   end
 
   it "should return all on Index" do
-
+    Task.should_receive(:all).and_return [double("task1"),double("task2")]
+    @controller.should_receive(:render)
+    @controller.index
   end
 end

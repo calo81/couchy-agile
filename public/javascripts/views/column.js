@@ -1,5 +1,11 @@
 ColumnViewTemplate = {
-    text : "<div class='column' id='column<%=title%>'><h2><%=title%></h2></div>",
+    text : "<div class='column' id='column<%=title%>'><h2><%=title%></h2>" +
+            "<div id='cards<%=title%>'>" +
+            "<% alert('n');" +
+            "_.each(cards,function(card){" +
+                "var cardView = new SmallCard({model:card});" +
+                 "%><%=cardView.renderString()%><%" +
+            "}); %></div></div>",
 
     compile:function(options) {
         var compiled = _.template(this.text);
@@ -15,7 +21,7 @@ ColumnView = Backbone.View.extend({
 
     renderFromPanel:function(){
         this.cards.fetch();
-        return this.template.compile({title:this.title});
+        return this.template.compile({title:this.title,cards:this.cards});
     },
     addTask:function(element){
         var card = new Card({model:new Task()});

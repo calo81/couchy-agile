@@ -5,4 +5,8 @@ class TaskController < ApplicationController
     card.save
     render  :json => {:id=>card.id}
   end
+
+  def index
+    render :json => Task.all
+  end
 end
