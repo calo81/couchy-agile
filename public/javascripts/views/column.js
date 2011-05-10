@@ -4,7 +4,7 @@ ColumnViewTemplate = {
             "<%" +
             "cards.forEach(function(card){" +
             "var cardView = new SmallCard({model:card});" +
-            "%><%=cardView.renderString()%><%" +
+            "%><%=cardView.renderStringForColumn(title)%><%" +
             "}); %></div></div>",
 
     compile:function(options) {
@@ -17,25 +17,31 @@ ColumnView = Backbone.View.extend({
     el: "#panel",
     template: ColumnViewTemplate,
     title:"",
-    cards: new CardCollection,
     panelId:"cardPanel",
 
     renderWithReturnedCards:function(collection, response) {
-        EventHandler.trigger("retrievedCardsEvent", {});
+        var columnHtml = collection.column.template.compile({title:collection.column.title,cards:collection.column.cards});
+        $("#" + collection.column.panelId).append(columnHtml);
+        collection.column.initEvents();
     },
 
-    retrievedCardsEvent:function() {
-        var columnHtml = this.template.compile({title:this.title,cards:this.cards});
-        $("#" + this.panelId).append(columnHtml);
+    renderEmpty:function(collection, response){
+       var columnHtml = collection.column.template.compile({title:collection.column.title,cards:[]});
+        $("#" + collection.column.panelId).append(columnHtml);
+        collection.column.initEvents();
     },
 
-    renderFromPanel:function() {
-        this.cards.fetch({success:this.renderWithReturnedCards});
-    },
+    renderFromPanel
+            :
+            function() {
+                this.cards.fetch({success:this.renderWithReturnedCards,error:this.renderEmpty});
+            }
+    ,
     addTask:function(element) {
         var card = new Card({model:new Task()});
         card.renderForEdit(element[0].id);
-    },
+    }
+    ,
 
     initEvents:function() {
         $("#column" + this.title).contextMenu("columnContextMenu" + this.title, {
@@ -44,14 +50,12 @@ ColumnView = Backbone.View.extend({
             }
         });
 
-    },
-
-    initInitialEvents:function() {
-        EventHandler.bind(this, "retrievedCardsEvent");
-    },
+    }
+    ,
 
     initialize: function(title) {
         this.title = title;
-        this.initInitialEvents();
+        this.cards=new CardCollection();
+        this.cards.column=this;
     }
 })

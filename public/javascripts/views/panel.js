@@ -22,11 +22,6 @@ Panel.View = Backbone.View.extend({
       this.startedColumn.renderFromPanel();
       this.doneColumn.renderFromPanel();
       this.inTestColumn.renderFromPanel();
-
-      this.nonStartedColumn.initEvents();
-      this.startedColumn.initEvents();
-      this.doneColumn.initEvents();
-      this.inTestColumn.initEvents();
      },
 
      initialize: function() {
