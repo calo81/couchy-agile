@@ -1,7 +1,7 @@
 SmallCardTemplate = {
     text : "<ul id='notes'>"+
         "<li>      "+
-            "<p>Push new feature to Kiln for code review</p>  "+
+            "<p><%=card.title%></p>  "+
         "</li> "+
     "</ul>",
 
@@ -14,6 +14,6 @@ SmallCardTemplate = {
 SmallCard = Backbone.View.extend({
     template:SmallCardTemplate,
     renderString:function() {
-        return this.template.text;
+        return this.template.compile({card:this.model});
     }
 })

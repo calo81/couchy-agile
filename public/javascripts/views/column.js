@@ -1,10 +1,10 @@
 ColumnViewTemplate = {
     text : "<div class='column' id='column<%=title%>'><h2><%=title%></h2>" +
             "<div id='cards<%=title%>'>" +
-            "<% alert('n');" +
-            "_.each(cards,function(card){" +
-                "var cardView = new SmallCard({model:card});" +
-                 "%><%=cardView.renderString()%><%" +
+            "<%" +
+            "cards.forEach(function(card){" +
+            "var cardView = new SmallCard({model:card});" +
+            "%><%=cardView.renderString()%><%" +
             "}); %></div></div>",
 
     compile:function(options) {
@@ -18,18 +18,27 @@ ColumnView = Backbone.View.extend({
     template: ColumnViewTemplate,
     title:"",
     cards: new CardCollection,
+    panelId:"cardPanel",
 
-    renderFromPanel:function(){
-        this.cards.fetch();
-        return this.template.compile({title:this.title,cards:this.cards});
+    renderWithReturnedCards:function(collection, response) {
+        EventHandler.trigger("retrievedCardsEvent", {});
     },
-    addTask:function(element){
+
+    retrievedCardsEvent:function() {
+        var columnHtml = this.template.compile({title:this.title,cards:this.cards});
+        $("#" + this.panelId).append(columnHtml);
+    },
+
+    renderFromPanel:function() {
+        this.cards.fetch({success:this.renderWithReturnedCards});
+    },
+    addTask:function(element) {
         var card = new Card({model:new Task()});
         card.renderForEdit(element[0].id);
     },
 
-    initEvents:function(){
-        $("#column"+this.title).contextMenu("columnContextMenu"+this.title,{
+    initEvents:function() {
+        $("#column" + this.title).contextMenu("columnContextMenu" + this.title, {
             'Add Task': {
                 click: this.addTask
             }
@@ -37,7 +46,12 @@ ColumnView = Backbone.View.extend({
 
     },
 
+    initInitialEvents:function() {
+        EventHandler.bind(this, "retrievedCardsEvent");
+    },
+
     initialize: function(title) {
-        this.title=title;
+        this.title = title;
+        this.initInitialEvents();
     }
 })

@@ -1,9 +1,5 @@
 Panel.Template = {
-    text : "<div class='panel'>" +
-            "<%= nonStartedColumn.renderFromPanel() %>"+
-            "<%= startedColumn.renderFromPanel() %>"+
-            "<%= inTestColumn.renderFromPanel() %>"+
-            "<%= doneColumn.renderFromPanel() %>" +
+    text : "<div class='panel' id='cardPanel'>" +
             "</div>"  ,
 
     compile:function(options) {
@@ -21,7 +17,12 @@ Panel.View = Backbone.View.extend({
     inTestColumn:ColumnView,
 
     render: function(elementToAppendTo) {
-      $(elementToAppendTo).html(this.template.compile({nonStartedColumn:this.nonStartedColumn,startedColumn:this.startedColumn,doneColumn:this.doneColumn,inTestColumn:this.inTestColumn}));
+      $(elementToAppendTo).html(this.template.compile());
+      this.nonStartedColumn.renderFromPanel();
+      this.startedColumn.renderFromPanel();
+      this.doneColumn.renderFromPanel();
+      this.inTestColumn.renderFromPanel();
+
       this.nonStartedColumn.initEvents();
       this.startedColumn.initEvents();
       this.doneColumn.initEvents();
