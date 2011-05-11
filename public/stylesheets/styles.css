@@ -12,17 +12,16 @@
 }
 
 .context-menu a {
-  display: block;
-  padding: 3px;
-  text-decoration: none;
-  color: #333;
+    display: block;
+    padding: 3px;
+    text-decoration: none;
+    color: #333;
 }
 
 .context-menu a:hover {
-  background-color: #666;
-  color: white;
+    background-color: #666;
+    color: white;
 }
-
 
 .panel {
     float: left;
@@ -133,72 +132,80 @@
     -webkit-border-top-left-radius: 5px;
 }
 
-form {  /* set width in form, not fieldset (still takes up more room w/ fieldset width */
-  font:100% verdana,arial,sans-serif;
-  margin: 0;
-  padding: 0;
-  min-width: 500px;
-  max-width: 600px;
-  width: 560px;
+form {
+/* set width in form, not fieldset (still takes up more room w/ fieldset width */
+    font: 100% verdana, arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-width: 500px;
+    max-width: 600px;
+    width: 560px;
 }
 
 form fieldset {
-  / * clear: both; note that this clear causes inputs to break to left in ie5.x mac, commented out */
-  border-color: #000;
-  border-width: 1px;
-  border-style: solid;
-  padding: 10px;        /* padding in fieldset support spotty in IE */
-  margin: 0;
+/ * clear : both;
+    note that this clear causes inputs to break to left in ie5 . x mac, commented out */ border-color: #000;
+    border-width: 1px;
+    border-style: solid;
+    padding: 10px; /* padding in fieldset support spotty in IE */
+    margin: 0;
 }
 
 form fieldset legend {
-	font-size:1.1em; /* bump up legend font size, not too large or it'll overwrite border on left */
-                       /* be careful with padding, it'll shift the nice offset on top of border  */
+    font-size: 1.1em; /* bump up legend font size, not too large or it'll overwrite border on left */
+/* be careful with padding, it'll shift the nice offset on top of border  */
 }
 
 form label {
-	display: block;  /* block float the labels to left column, set a width */
-	float: left;
-	width: 150px;
-	padding: 0;
-	margin: 5px 0 0; /* set top margin same as form input - textarea etc. elements */
-	text-align: right;
+    display: block; /* block float the labels to left column, set a width */
+    float: left;
+    width: 150px;
+    padding: 0;
+    margin: 5px 0 0; /* set top margin same as form input - textarea etc. elements */
+    text-align: right;
 }
 
-form fieldset label:first-letter { /* use first-letter pseudo-class to underline accesskey, note that */
-	text-decoration:underline;    /* Firefox 1.07 WIN and Explorer 5.2 Mac don't support first-letter */
-                                    /* pseudo-class on legend elements, but do support it on label elements */
-                                    /* we instead underline first letter on each label element and accesskey */
-                                    /* each input. doing only legends would  lessens cognitive load */
-                                   /* opera breaks after first letter underlined legends but not labels */
+form fieldset label:first-letter {
+/* use first-letter pseudo-class to underline accesskey, note that */
+    text-decoration: underline; /* Firefox 1.07 WIN and Explorer 5.2 Mac don't support first-letter */
+/* pseudo-class on legend elements, but do support it on label elements */
+/* we instead underline first letter on each label element and accesskey */
+/* each input. doing only legends would  lessens cognitive load */
+/* opera breaks after first letter underlined legends but not labels */
 }
 
 form input, form textarea {
-	/* display: inline; inline display must not be set or will hide submit buttons in IE 5x mac */
-	width:auto;      /* set width of form elements to auto-size, otherwise watch for wrap on resize */
-	margin:5px 0 0 10px; /* set margin on left of form elements rather than right of
-                              label aligns textarea better in IE */
+/* display: inline; inline display must not be set or will hide submit buttons in IE 5x mac */
+    width: auto; /* set width of form elements to auto-size, otherwise watch for wrap on resize */
+    margin: 5px 0 0 10px;
+    /* set margin on left of form elements rather than right of
+label aligns textarea better in IE */
 }
 
 form input#reset {
-	margin-left:0px; /* set margin-left back to zero on reset button (set above) */
+    margin-left: 0px; /* set margin-left back to zero on reset button (set above) */
 }
 
-textarea { overflow: auto; }
+textarea {
+    overflow: auto;
+}
 
 form small {
-	display: block;
-	margin: 0 0 5px 160px; /* instructions/comments left margin set to align w/ right column inputs */
-	padding: 1px 3px;
-	font-size: 88%;
+    display: block;
+    margin: 0 0 5px 160px; /* instructions/comments left margin set to align w/ right column inputs */
+    padding: 1px 3px;
+    font-size: 88%;
 }
 
-form .required{font-weight:bold;} /* uses class instead of div, more efficient */
+form .required {
+    font-weight: bold;
+}
+
+/* uses class instead of div, more efficient */
 
 form br {
-	clear:left; /* setting clear on inputs didn't work consistently, so brs added for degrade */
+    clear: left; /* setting clear on inputs didn't work consistently, so brs added for degrade */
 }
-
 
 #notes div {
     position: relative;
@@ -206,8 +213,8 @@ form br {
     margin: 25px auto;
     padding: 15px 15px 15px 15px;
     background: #fff no-repeat 4px 8px;
-    -webkit-box-shadow: 0 2px 12px rgba(0,0,0,.5);
-    -moz-box-shadow: 0 2px 12px rgba(0,0,0,.5);
+    -webkit-box-shadow: 0 2px 12px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 0 2px 12px rgba(0, 0, 0, .5);
     box-shadow: 0 1px 2px #000;
     -webkit-transform: rotate(-.5deg);
     -moz-transform: rotate(-.5deg);
@@ -220,8 +227,7 @@ form br {
     -o-transform: rotate(.5deg);
 }
 
-#notes div.kiln
-{
+#notes div.kiln {
     background-image: url(https://rob.kilnhg.com/Content/Images/kiln_focus.gif);
 }
 
@@ -229,7 +235,7 @@ form br {
     text-align: center;
     color: #000;
     text-shadow: white 1px 1px 0px;
-    overflow:hidden;
+    overflow: hidden;
 }
 
 #notes div::before {
@@ -241,8 +247,8 @@ form br {
     width: 75px;
     height: 25px;
     z-index: 2;
-    background-color: rgba(243,245,228,0.5);
-    border: 2px solid rgba(255,255,255,0.5);
+    background-color: rgba(243, 245, 228, 0.5);
+    border: 2px solid rgba(255, 255, 255, 0.5);
     -webkit-box-shadow: 0 0 5px #888;
     -moz-box-shadow: 0 0 5px #888;
     box-shadow: 2px 2px 2px #000;
@@ -255,4 +261,10 @@ form br {
     -webkit-transform: rotate(6deg);
     -moz-transform: rotate(6deg);
     -o-transform: rotate(6deg);
+}
+
+.columnUl li {
+    list-style: none;
+    width: 300px;
+    height: 90px;
 }

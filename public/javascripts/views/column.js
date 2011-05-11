@@ -1,6 +1,6 @@
 ColumnViewTemplate = {
     text : "<div class='column' id='column<%=title%>'><h2><%=title%></h2>" +
-            "<div id='cards<%=title%>'><ul class='xx'>" +
+            "<div id='cards<%=title%>'><ul class='columnUl'>" +
             "<%" +
             "cards.forEach(function(card){" +
             "var cardView = new SmallCard({model:card});" +
@@ -49,8 +49,8 @@ ColumnView = Backbone.View.extend({
                 click: this.addTask
             }
         });
-        $(".xx").sortable({
-            connectWith: ".xx",
+        $(".columnUl").sortable({
+            connectWith: ".columnUl",
             dropOnEmpty: true,
             placeholder: "ui-state-highlight"
 		});
