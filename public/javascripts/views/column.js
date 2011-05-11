@@ -1,11 +1,11 @@
 ColumnViewTemplate = {
     text : "<div class='column' id='column<%=title%>'><h2><%=title%></h2>" +
-            "<div id='cards<%=title%>'>" +
+            "<div id='cards<%=title%>'><ul class='xx'>" +
             "<%" +
             "cards.forEach(function(card){" +
             "var cardView = new SmallCard({model:card});" +
             "%><%=cardView.renderStringForColumn(title)%><%" +
-            "}); %></div></div>",
+            "}); %><li></li></ul></div></div>",
 
     compile:function(options) {
         var compiled = _.template(this.text);
@@ -49,7 +49,11 @@ ColumnView = Backbone.View.extend({
                 click: this.addTask
             }
         });
-
+        $(".xx").sortable({
+            connectWith: ".xx",
+            dropOnEmpty: true,
+            placeholder: "ui-state-highlight"
+		});
     }
     ,
 

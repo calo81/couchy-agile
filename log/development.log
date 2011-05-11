@@ -52095,3 +52095,206 @@ Completed 200 OK in 8ms (Views: 7.6ms)
 Started GET "/task" for 127.0.0.1 at 2011-05-10 21:55:33 +0100
   Processing by TaskController#index as JSON
 Completed 200 OK in 127ms (Views: 2.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-11 22:26:33 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 36ms (Views: 35.9ms)
+
+
+Started GET "/task" for 127.0.0.1 at 2011-05-11 22:26:34 +0100
+  Processing by TaskController#index as JSON
+Completed 200 OK in 414ms (Views: 8.3ms)
+
+
+Started GET "/task" for 127.0.0.1 at 2011-05-11 22:26:34 +0100
+  Processing by TaskController#index as JSON
+Completed 200 OK in 326ms (Views: 3.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-11 22:26:50 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 5ms (Views: 5.0ms)
+
+
+Started GET "/task" for 127.0.0.1 at 2011-05-11 22:26:50 +0100
+  Processing by TaskController#index as JSON
+Completed 200 OK in 347ms (Views: 4.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-11 22:31:35 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 7ms (Views: 6.4ms)
+
+
+Started GET "/task" for 127.0.0.1 at 2011-05-11 22:31:37 +0100
+  Processing by TaskController#index as JSON
+Completed 200 OK in 246ms (Views: 5.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-11 22:31:52 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 8ms (Views: 7.3ms)
+
+
+Started GET "/task" for 127.0.0.1 at 2011-05-11 22:31:53 +0100
+  Processing by TaskController#index as JSON
+Completed 200 OK in 320ms (Views: 4.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-11 22:32:27 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 6ms (Views: 5.6ms)
+
+
+Started GET "/task" for 127.0.0.1 at 2011-05-11 22:32:27 +0100
+  Processing by TaskController#index as JSON
+Completed 200 OK in 227ms (Views: 5.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-11 22:35:50 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 7ms (Views: 6.5ms)
+
+
+Started GET "/task" for 127.0.0.1 at 2011-05-11 22:35:51 +0100
+  Processing by TaskController#index as JSON
+Completed 200 OK in 301ms (Views: 3.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-11 22:42:01 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 8ms (Views: 7.4ms)
+
+
+Started GET "/task" for 127.0.0.1 at 2011-05-11 22:42:02 +0100
+  Processing by TaskController#index as JSON
+Completed 200 OK in 269ms (Views: 4.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-11 22:42:58 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 6ms (Views: 6.0ms)
+
+
+Started GET "/task" for 127.0.0.1 at 2011-05-11 22:42:59 +0100
+  Processing by TaskController#index as JSON
+Completed 200 OK in 281ms (Views: 3.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-11 22:44:00 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 7ms (Views: 7.3ms)
+
+
+Started GET "/task" for 127.0.0.1 at 2011-05-11 22:44:01 +0100
+  Processing by TaskController#index as JSON
+Completed 200 OK in 558ms (Views: 5.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-11 22:45:06 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 4ms (Views: 3.8ms)
+
+
+Started GET "/task" for 127.0.0.1 at 2011-05-11 22:45:07 +0100
+  Processing by TaskController#index as JSON
+Completed 200 OK in 78ms (Views: 4.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-11 22:52:24 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 34ms (Views: 34.2ms)
+
+
+Started GET "/task" for 127.0.0.1 at 2011-05-11 22:52:25 +0100
+  Processing by TaskController#index as JSON
+Completed 200 OK in 365ms (Views: 2.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-11 22:55:19 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 4ms (Views: 3.8ms)
+
+
+Started GET "/task" for 127.0.0.1 at 2011-05-11 22:55:20 +0100
+  Processing by TaskController#index as JSON
+Completed 200 OK in 266ms (Views: 2.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-11 22:56:38 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 4ms (Views: 3.9ms)
+
+
+Started GET "/task" for 127.0.0.1 at 2011-05-11 22:56:38 +0100
+  Processing by TaskController#index as JSON
+Completed 200 OK in 243ms (Views: 4.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-11 22:58:19 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 4ms (Views: 3.7ms)
+
+
+Started GET "/task" for 127.0.0.1 at 2011-05-11 22:58:20 +0100
+  Processing by TaskController#index as JSON
+Completed 200 OK in 516ms (Views: 4.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-11 23:04:53 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 4ms (Views: 3.7ms)
+
+
+Started GET "/task" for 127.0.0.1 at 2011-05-11 23:04:55 +0100
+  Processing by TaskController#index as JSON
+Completed 200 OK in 647ms (Views: 3.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-11 23:07:01 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 6ms (Views: 5.9ms)
+
+
+Started GET "/task" for 127.0.0.1 at 2011-05-11 23:07:02 +0100
+  Processing by TaskController#index as JSON
+Completed 200 OK in 568ms (Views: 4.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-11 23:07:45 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 6ms (Views: 5.8ms)
+
+
+Started GET "/task" for 127.0.0.1 at 2011-05-11 23:07:46 +0100
+  Processing by TaskController#index as JSON
+Completed 200 OK in 585ms (Views: 2.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-11 23:10:08 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 6ms (Views: 5.9ms)
+
+
+Started GET "/task" for 127.0.0.1 at 2011-05-11 23:10:09 +0100
+  Processing by TaskController#index as JSON
+Completed 200 OK in 216ms (Views: 3.7ms)

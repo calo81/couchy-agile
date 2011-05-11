@@ -21,14 +21,12 @@ Panel.View = Backbone.View.extend({
       this.nonStartedColumn.renderFromPanel();
       this.startedColumn.renderFromPanel();
       this.doneColumn.renderFromPanel();
-      this.inTestColumn.renderFromPanel();
      },
 
      initialize: function() {
           this.startedColumn = new ColumnView("Started")
           this.nonStartedColumn = new ColumnView("New")
           this.doneColumn = new ColumnView("Done")
-          this.inTestColumn = new ColumnView("Test")
     }
 
 })

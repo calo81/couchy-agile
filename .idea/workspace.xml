@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c830e7ca-6a80-4d28-bff6-3f4f0d1340ac" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/couchy-agile.iml" afterPath="$PROJECT_DIR$/.idea/couchy-agile.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/pids/server.pid" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/views/column.js" afterPath="$PROJECT_DIR$/public/javascripts/views/column.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/views/panel.js" afterPath="$PROJECT_DIR$/public/javascripts/views/panel.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/views/smallCard.js" afterPath="$PROJECT_DIR$/public/javascripts/views/smallCard.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/styles.css" afterPath="$PROJECT_DIR$/public/stylesheets/styles.css" />
     </list>
     <ignored path="couchy-agile.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,10 +42,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="panel.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="panel.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/javascripts/views/panel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="42" selection-start="693" selection-end="693" vertical-scroll-proportion="0.38929442">
+            <state line="22" column="40" selection-start="650" selection-end="650" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/stylesheets/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="202" column="10" selection-start="4464" selection-end="4464" vertical-scroll-proportion="0.54241645">
               <folding />
             </state>
           </provider>
@@ -54,7 +63,16 @@
       <file leaf-file-name="smallCard.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/javascripts/views/smallCard.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="13" selection-start="656" selection-end="656" vertical-scroll-proportion="0.0">
+            <state line="4" column="18" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery-extras.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/javascripts/util/jquery-extras.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -72,7 +90,7 @@
       <file leaf-file-name="column.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/javascripts/views/column.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="39" selection-start="902" selection-end="902" vertical-scroll-proportion="0.0">
+            <state line="7" column="28" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -113,10 +131,10 @@
         <option value="$PROJECT_DIR$/app/controllers/task_controller.rb" />
         <option value="$PROJECT_DIR$/spec/ruby/task/task_controller_spec.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/public/stylesheets/styles.css" />
-        <option value="$PROJECT_DIR$/public/javascripts/views/smallCard.js" />
-        <option value="$PROJECT_DIR$/public/javascripts/views/column.js" />
         <option value="$PROJECT_DIR$/public/javascripts/views/panel.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/views/column.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/views/smallCard.js" />
+        <option value="$PROJECT_DIR$/public/stylesheets/styles.css" />
       </list>
     </option>
   </component>
@@ -153,7 +171,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -244,23 +262,23 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="collections" />
+              <option name="myItemId" value="util" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="RailsProjectView" />
+      <pane id="Scope" />
       <pane id="Favorites" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="org.jetbrains.plugins.ruby.settings.RubyIdeSdkConfigurable" />
-    <property name="GoToClass.includeJavaFiles" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="recentsLimit" value="5" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
   </component>
   <component name="RunManager" selected="Rails.Development: couchy-agile">
     <configuration default="false" name="task_controller_spec" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
@@ -755,11 +773,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spec/ruby/task/task_controller_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="25" selection-start="656" selection-end="656" vertical-scroll-proportion="0.5989305" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/ruby/task/task_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="39" selection-start="209" selection-end="209" vertical-scroll-proportion="0.036674816" />
@@ -778,11 +791,6 @@
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="265" selection-start="571" selection-end="571" vertical-scroll-proportion="0.24193548" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="200" column="66" selection-start="4452" selection-end="4452" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/views/card.js">
@@ -810,37 +818,47 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/views/mainChatView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="7" selection-start="2147" selection-end="2185" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/collections/cardCollection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/util/jquery-extras.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/views/mainChatView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="7" selection-start="2147" selection-end="2185" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/views/smallCard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="13" selection-start="656" selection-end="656" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/views/column.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="39" selection-start="902" selection-end="902" vertical-scroll-proportion="0.0">
+        <state line="7" column="28" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/views/panel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="42" selection-start="693" selection-end="693" vertical-scroll-proportion="0.38929442">
+        <state line="22" column="40" selection-start="650" selection-end="650" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/views/smallCard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="18" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="202" column="10" selection-start="4464" selection-end="4464" vertical-scroll-proportion="0.54241645">
           <folding />
         </state>
       </provider>

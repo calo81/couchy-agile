@@ -31,7 +31,7 @@
 
 .column {
     float: left;
-    width: 20%;
+    width: 30%;
     background-color: #A8A8A9;
     margin-right: 5px;
     padding: 10px;
@@ -200,7 +200,7 @@ form br {
 }
 
 
-#notes li {
+#notes div {
     position: relative;
     min-height: 30px;
     margin: 25px auto;
@@ -214,25 +214,25 @@ form br {
     -o-transform: rotate(-.5deg);
 }
 
-#notes li:nth-child(even) {
+#notes div:nth-child(even) {
     -webkit-transform: rotate(.5deg);
     -moz-transform: rotate(.5deg);
     -o-transform: rotate(.5deg);
 }
 
-#notes li.kiln
+#notes div.kiln
 {
     background-image: url(https://rob.kilnhg.com/Content/Images/kiln_focus.gif);
 }
 
-#notes li p {
+#notes div p {
     text-align: center;
     color: #000;
     text-shadow: white 1px 1px 0px;
     overflow:hidden;
 }
 
-#notes li::before {
+#notes div::before {
     content: ' ';
     display: block;
     position: absolute;
@@ -251,7 +251,7 @@ form br {
     -o-transform: rotate(-6deg);
 }
 
-#notes li:nth-child(even)::before {
+#notes div:nth-child(even)::before {
     -webkit-transform: rotate(6deg);
     -moz-transform: rotate(6deg);
     -o-transform: rotate(6deg);

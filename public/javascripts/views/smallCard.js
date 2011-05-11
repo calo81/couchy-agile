@@ -1,9 +1,9 @@
 SmallCardTemplate = {
-    text : "<ul id='notes'>" +
-            "<li>      " +
+    text : "<li><div id='notes'>" +
+            "<div>      " +
             "<p><%=card.get('title')%></p>  " +
-            "</li> " +
-            "</ul>",
+            "</div> " +
+            "</div></li>",
 
     compile:function(options) {
         var compiled = _.template(this.text);
@@ -19,7 +19,7 @@ SmallCard = Backbone.View.extend({
         }
     },
     initEvents:function(){
-         $("#notes").liveDraggable();
+         //$("#notes").liveDraggable({ connectToSortable: '.column' });
     },
 
     initialize:function(){
