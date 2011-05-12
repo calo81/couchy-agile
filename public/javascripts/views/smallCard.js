@@ -1,5 +1,5 @@
 SmallCardTemplate = {
-    text : "<li><div id='notes'>" +
+    text : "<li id='<%=card.get('title')%>'><div id='notes'>" +
             "<div>      " +
             "<p><%=card.get('title')%></p>  " +
             "</div> " +
@@ -18,8 +18,15 @@ SmallCard = Backbone.View.extend({
             return this.template.compile({card:this.model});
         }
     },
+
+    cardAddedToColumn:function(options){
+       if(options.cardId==this.model.get('title')){
+           this.model.save({status:options.column});
+       }
+    },
+
     initEvents:function(){
-         //$("#notes").liveDraggable({ connectToSortable: '.column' });
+       EventHandler.bind(this,"cardAddedToColumn");
     },
 
     initialize:function(){

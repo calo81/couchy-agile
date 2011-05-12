@@ -42,6 +42,9 @@ ColumnView = Backbone.View.extend({
         card.renderForEdit(element[0].id);
     }
     ,
+    cardReceived:function(event,ui){
+     EventHandler.trigger("cardAddedToColumn",{column:this.parentNode.id,cardId:ui.item[0].id});
+    },
 
     initEvents:function() {
         $("#column" + this.title).contextMenu("columnContextMenu" + this.title, {
@@ -52,7 +55,8 @@ ColumnView = Backbone.View.extend({
         $(".columnUl").sortable({
             connectWith: ".columnUl",
             dropOnEmpty: true,
-            placeholder: "ui-state-highlight"
+            placeholder: "ui-state-highlight",
+            receive: this.cardReceived
 		});
     }
     ,

@@ -112,26 +112,6 @@
     margin-top: 1px;
 }
 
-#mainChatWindow {
-    background: #DDDDDD
-}
-
-#mainChatWindow h2 {
-    background: #E78F08;
-    color: white;
-}
-
-#mainChatWindow div {
-    color: #333;
-}
-
-#mainChatWindow {
-    -moz-border-radius-topright: 5px;
-    -moz-border-radius-topleft: 5px;
-    -webkit-border-top-right-radius: 5px;
-    -webkit-border-top-left-radius: 5px;
-}
-
 form {
 /* set width in form, not fieldset (still takes up more room w/ fieldset width */
     font: 100% verdana, arial, sans-serif;

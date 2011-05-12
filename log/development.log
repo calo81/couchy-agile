@@ -52434,3 +52434,2018 @@ Completed 200 OK in 3ms (Views: 1.9ms)
 Started GET "/task" for 127.0.0.1 at 2011-05-11 23:54:43 +0100
   Processing by TaskController#index as JSON
 Completed 200 OK in 83ms (Views: 4.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-12 21:06:51 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 30ms (Views: 29.5ms)
+
+
+Started GET "/task" for 127.0.0.1 at 2011-05-12 21:06:53 +0100
+  Processing by TaskController#index as JSON
+Completed 200 OK in 733ms (Views: 8.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-12 21:11:19 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 36ms (Views: 35.8ms)
+
+
+Started GET "/task" for 127.0.0.1 at 2011-05-12 21:11:20 +0100
+  Processing by TaskController#index as JSON
+Completed 200 OK in 81ms (Views: 31.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-12 21:17:00 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 8ms (Views: 7.8ms)
+
+
+Started GET "/task" for 127.0.0.1 at 2011-05-12 21:17:00 +0100
+  Processing by TaskController#index as JSON
+Completed 200 OK in 62ms (Views: 2.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-12 21:21:31 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 6ms (Views: 6.1ms)
+
+
+Started GET "/task" for 127.0.0.1 at 2011-05-12 21:21:31 +0100
+  Processing by TaskController#index as JSON
+Completed 200 OK in 57ms (Views: 3.4ms)
+
+
+Started GET "/chat" for 127.0.0.1 at 2011-05-12 21:22:28 +0100
+  Processing by ChatController#index as JSON
+Completed 200 OK in 1ms (Views: 0.9ms)
+
+
+Started POST "/chat" for 127.0.0.1 at 2011-05-12 21:22:36 +0100
+  Processing by ChatController#create as JSON
+  Parameters: {"name"=>"gg", "user_id"=>"gg"}
+Completed 200 OK in 1ms (Views: 0.2ms)
+
+
+Started GET "/chat/gg?user_id=gg&_=1305231757205" for 127.0.0.1 at 2011-05-12 21:22:37 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"gg", "_"=>"1305231757205", "id"=>"gg"}
+Completed 200 OK in 1002ms (Views: 0.5ms)
+
+
+Started GET "/chat/gg?user_id=gg&_=1305231759254" for 127.0.0.1 at 2011-05-12 21:22:39 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"gg", "_"=>"1305231759254", "id"=>"gg"}
+Completed 200 OK in 1001ms (Views: 0.3ms)
+
+
+Started DELETE "/chat/gg?user_id=gg" for 127.0.0.1 at 2011-05-12 21:22:40 +0100
+  Processing by ChatController#destroy as JSON
+  Parameters: {"user_id"=>"gg", "id"=>"gg"}
+Completed 200 OK in 1ms (Views: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-12 21:25:28 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 8ms (Views: 7.7ms)
+
+
+Started GET "/task" for 127.0.0.1 at 2011-05-12 21:25:29 +0100
+  Processing by TaskController#index as JSON
+Completed 200 OK in 53ms (Views: 2.9ms)
+
+
+Started GET "/chat" for 127.0.0.1 at 2011-05-12 21:25:30 +0100
+  Processing by ChatController#index as JSON
+Completed 200 OK in 1ms (Views: 0.3ms)
+
+
+Started PUT "/chat/gg" for 127.0.0.1 at 2011-05-12 21:25:32 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"id"=>"gg", "name"=>"gg", "user_id"=>"gg"}
+Completed 200 OK in 1ms (Views: 0.2ms)
+
+
+Started GET "/chat/gg?user_id=gg&_=1305231934023" for 127.0.0.1 at 2011-05-12 21:25:34 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"gg", "_"=>"1305231934023", "id"=>"gg"}
+Completed 200 OK in 1001ms (Views: 0.3ms)
+
+
+Started GET "/chat/gg?user_id=gg&_=1305231936061" for 127.0.0.1 at 2011-05-12 21:25:36 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"gg", "_"=>"1305231936061", "id"=>"gg"}
+Completed 200 OK in 1001ms (Views: 0.3ms)
+
+
+Started GET "/chat/gg?user_id=gg&_=1305231938097" for 127.0.0.1 at 2011-05-12 21:25:38 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"gg", "_"=>"1305231938097", "id"=>"gg"}
+Completed 200 OK in 1001ms (Views: 0.2ms)
+
+
+Started GET "/chat/gg?user_id=gg&_=1305231941119" for 127.0.0.1 at 2011-05-12 21:25:41 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"gg", "_"=>"1305231941119", "id"=>"gg"}
+Completed 200 OK in 1001ms (Views: 0.3ms)
+
+
+Started DELETE "/chat/gg?user_id=gg" for 127.0.0.1 at 2011-05-12 21:25:42 +0100
+  Processing by ChatController#destroy as JSON
+  Parameters: {"user_id"=>"gg", "id"=>"gg"}
+Completed 200 OK in 0ms (Views: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-12 21:26:17 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 9ms (Views: 9.0ms)
+
+
+Started GET "/task" for 127.0.0.1 at 2011-05-12 21:26:17 +0100
+  Processing by TaskController#index as JSON
+Completed 200 OK in 54ms (Views: 3.9ms)
+
+
+Started GET "/chat" for 127.0.0.1 at 2011-05-12 21:26:19 +0100
+  Processing by ChatController#index as JSON
+Completed 200 OK in 1ms (Views: 0.3ms)
+
+
+Started PUT "/chat/gg" for 127.0.0.1 at 2011-05-12 21:26:20 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"id"=>"gg", "name"=>"gg", "user_id"=>"gg"}
+Completed 200 OK in 1ms (Views: 0.2ms)
+
+
+Started GET "/chat/gg?user_id=gg&_=1305231981545" for 127.0.0.1 at 2011-05-12 21:26:21 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"gg", "_"=>"1305231981545", "id"=>"gg"}
+Completed 200 OK in 1001ms (Views: 0.3ms)
+
+
+Started GET "/chat/gg?user_id=gg&_=1305231983584" for 127.0.0.1 at 2011-05-12 21:26:23 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"gg", "_"=>"1305231983584", "id"=>"gg"}
+Completed 200 OK in 1001ms (Views: 0.3ms)
+
+
+Started DELETE "/chat/gg?user_id=gg" for 127.0.0.1 at 2011-05-12 21:26:25 +0100
+  Processing by ChatController#destroy as JSON
+  Parameters: {"user_id"=>"gg", "id"=>"gg"}
+Completed 200 OK in 0ms (Views: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-12 21:26:44 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 6ms (Views: 6.2ms)
+
+
+Started GET "/task" for 127.0.0.1 at 2011-05-12 21:26:44 +0100
+  Processing by TaskController#index as JSON
+Completed 200 OK in 56ms (Views: 3.9ms)
+
+
+Started GET "/chat" for 127.0.0.1 at 2011-05-12 21:26:46 +0100
+  Processing by ChatController#index as JSON
+Completed 200 OK in 1ms (Views: 0.3ms)
+
+
+Started PUT "/chat/gg" for 127.0.0.1 at 2011-05-12 21:26:47 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"id"=>"gg", "name"=>"gg", "user_id"=>"gg"}
+Completed 200 OK in 0ms (Views: 0.2ms)
+
+
+Started GET "/chat/gg?user_id=gg&_=1305232008844" for 127.0.0.1 at 2011-05-12 21:26:48 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"gg", "_"=>"1305232008844", "id"=>"gg"}
+Completed 200 OK in 1001ms (Views: 0.4ms)
+
+
+Started GET "/chat/gg?user_id=gg&_=1305232010888" for 127.0.0.1 at 2011-05-12 21:26:50 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"gg", "_"=>"1305232010888", "id"=>"gg"}
+Completed 200 OK in 1001ms (Views: 0.4ms)
+
+
+Started GET "/chat/gg?user_id=gg&_=1305232012916" for 127.0.0.1 at 2011-05-12 21:26:52 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"gg", "_"=>"1305232012916", "id"=>"gg"}
+Completed 200 OK in 1001ms (Views: 0.3ms)
+
+
+Started GET "/chat/gg?user_id=gg&_=1305232015964" for 127.0.0.1 at 2011-05-12 21:26:55 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"gg", "_"=>"1305232015964", "id"=>"gg"}
+Completed 200 OK in 1001ms (Views: 0.3ms)
+
+
+Started GET "/chat/gg?user_id=gg&_=1305232020001" for 127.0.0.1 at 2011-05-12 21:27:00 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"gg", "_"=>"1305232020001", "id"=>"gg"}
+Completed 200 OK in 1001ms (Views: 0.4ms)
+
+
+Started GET "/chat/gg?user_id=gg&_=1305232024066" for 127.0.0.1 at 2011-05-12 21:27:04 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"gg", "_"=>"1305232024066", "id"=>"gg"}
+Completed 200 OK in 1001ms (Views: 0.2ms)
+
+
+Started GET "/chat/gg?user_id=gg&_=1305232028859" for 127.0.0.1 at 2011-05-12 21:27:08 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"gg", "_"=>"1305232028859", "id"=>"gg"}
+Completed 200 OK in 1001ms (Views: 0.3ms)
+
+
+Started GET "/chat/gg?user_id=gg&_=1305232032895" for 127.0.0.1 at 2011-05-12 21:27:12 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"gg", "_"=>"1305232032895", "id"=>"gg"}
+Completed 200 OK in 1001ms (Views: 0.3ms)
+
+
+Started GET "/chat/gg?user_id=gg&_=1305232036940" for 127.0.0.1 at 2011-05-12 21:27:16 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"gg", "_"=>"1305232036940", "id"=>"gg"}
+Completed 200 OK in 1001ms (Views: 0.3ms)
+
+
+Started GET "/chat/gg?user_id=gg&_=1305232040974" for 127.0.0.1 at 2011-05-12 21:27:20 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"gg", "_"=>"1305232040974", "id"=>"gg"}
+Completed 200 OK in 1001ms (Views: 0.3ms)
+
+
+Started GET "/chat/gg?user_id=gg&_=1305232045005" for 127.0.0.1 at 2011-05-12 21:27:25 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"gg", "_"=>"1305232045005", "id"=>"gg"}
+Completed 200 OK in 1001ms (Views: 0.3ms)
+
+
+Started GET "/chat/gg?user_id=gg&_=1305232049039" for 127.0.0.1 at 2011-05-12 21:27:29 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"gg", "_"=>"1305232049039", "id"=>"gg"}
+Completed 200 OK in 1001ms (Views: 0.4ms)
+
+
+Started GET "/chat/gg?user_id=gg&_=1305232053076" for 127.0.0.1 at 2011-05-12 21:27:33 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"gg", "_"=>"1305232053076", "id"=>"gg"}
+Completed 200 OK in 1001ms (Views: 0.3ms)
+
+
+Started GET "/chat/gg?user_id=gg&_=1305232057106" for 127.0.0.1 at 2011-05-12 21:27:37 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"gg", "_"=>"1305232057106", "id"=>"gg"}
+Completed 200 OK in 1001ms (Views: 0.4ms)
+
+
+Started GET "/chat/gg?user_id=gg&_=1305232061137" for 127.0.0.1 at 2011-05-12 21:27:41 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"gg", "_"=>"1305232061137", "id"=>"gg"}
+Completed 200 OK in 1001ms (Views: 0.3ms)
+
+
+Started GET "/chat/gg?user_id=gg&_=1305232065174" for 127.0.0.1 at 2011-05-12 21:27:45 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"gg", "_"=>"1305232065174", "id"=>"gg"}
+Completed 200 OK in 1001ms (Views: 0.3ms)
+
+
+Started GET "/chat/gg?user_id=gg&_=1305232069209" for 127.0.0.1 at 2011-05-12 21:27:49 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"gg", "_"=>"1305232069209", "id"=>"gg"}
+Completed 200 OK in 1001ms (Views: 0.5ms)
+
+
+Started GET "/chat/gg?user_id=gg&_=1305232073242" for 127.0.0.1 at 2011-05-12 21:27:53 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"gg", "_"=>"1305232073242", "id"=>"gg"}
+Completed 200 OK in 1001ms (Views: 0.2ms)
+
+
+Started GET "/chat/gg?user_id=gg&_=1305232077274" for 127.0.0.1 at 2011-05-12 21:27:57 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"gg", "_"=>"1305232077274", "id"=>"gg"}
+Completed 200 OK in 1001ms (Views: 0.4ms)
+
+
+Started GET "/chat/gg?user_id=gg&_=1305232081309" for 127.0.0.1 at 2011-05-12 21:28:01 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"gg", "_"=>"1305232081309", "id"=>"gg"}
+Completed 200 OK in 1001ms (Views: 0.3ms)
+
+
+Started GET "/chat/gg?user_id=gg&_=1305232085342" for 127.0.0.1 at 2011-05-12 21:28:05 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"gg", "_"=>"1305232085342", "id"=>"gg"}
+Completed 200 OK in 1001ms (Views: 0.2ms)
+
+
+Started GET "/chat/gg?user_id=gg&_=1305232089374" for 127.0.0.1 at 2011-05-12 21:28:09 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"gg", "_"=>"1305232089374", "id"=>"gg"}
+Completed 200 OK in 1001ms (Views: 0.3ms)
+
+
+Started GET "/chat/gg?user_id=gg&_=1305232093405" for 127.0.0.1 at 2011-05-12 21:28:13 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"gg", "_"=>"1305232093405", "id"=>"gg"}
+Completed 200 OK in 1001ms (Views: 0.4ms)
+
+
+Started GET "/chat/gg?user_id=gg&_=1305232097436" for 127.0.0.1 at 2011-05-12 21:28:17 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"gg", "_"=>"1305232097436", "id"=>"gg"}
+Completed 200 OK in 1001ms (Views: 0.3ms)
+
+
+Started GET "/chat/gg?user_id=gg&_=1305232101474" for 127.0.0.1 at 2011-05-12 21:28:21 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"gg", "_"=>"1305232101474", "id"=>"gg"}
+Completed 200 OK in 1001ms (Views: 0.2ms)
+
+
+Started GET "/chat/gg?user_id=gg&_=1305232105504" for 127.0.0.1 at 2011-05-12 21:28:25 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"gg", "_"=>"1305232105504", "id"=>"gg"}
+Completed 200 OK in 1001ms (Views: 0.3ms)
+
+
+Started GET "/chat/gg?user_id=gg&_=1305232109535" for 127.0.0.1 at 2011-05-12 21:28:29 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"gg", "_"=>"1305232109535", "id"=>"gg"}
+Completed 200 OK in 1001ms (Views: 0.3ms)
+
+
+Started GET "/chat/gg?user_id=gg&_=1305232113566" for 127.0.0.1 at 2011-05-12 21:28:33 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"gg", "_"=>"1305232113566", "id"=>"gg"}
+Completed 200 OK in 1001ms (Views: 0.3ms)
+
+
+Started GET "/chat/gg?user_id=gg&_=1305232117605" for 127.0.0.1 at 2011-05-12 21:28:37 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"gg", "_"=>"1305232117605", "id"=>"gg"}
+Completed 200 OK in 1001ms (Views: 0.4ms)
+
+
+Started DELETE "/chat/gg?user_id=gg" for 127.0.0.1 at 2011-05-12 21:28:41 +0100
+  Processing by ChatController#destroy as JSON
+  Parameters: {"user_id"=>"gg", "id"=>"gg"}
+Completed 200 OK in 1ms (Views: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-12 21:28:42 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 8ms (Views: 7.9ms)
+
+
+Started GET "/task" for 127.0.0.1 at 2011-05-12 21:28:43 +0100
+  Processing by TaskController#index as JSON
+Completed 200 OK in 58ms (Views: 3.9ms)
+
+
+Started GET "/chat" for 127.0.0.1 at 2011-05-12 21:28:45 +0100
+  Processing by ChatController#index as JSON
+Completed 200 OK in 1ms (Views: 0.4ms)
+
+
+Started PUT "/chat/gg" for 127.0.0.1 at 2011-05-12 21:28:47 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"id"=>"gg", "name"=>"gg", "user_id"=>"gg"}
+Completed 200 OK in 0ms (Views: 0.1ms)
+
+
+Started GET "/chat/gg?user_id=gg&_=1305232128305" for 127.0.0.1 at 2011-05-12 21:28:48 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"gg", "_"=>"1305232128305", "id"=>"gg"}
+Completed 200 OK in 1001ms (Views: 0.6ms)
+
+
+Started GET "/chat/gg?user_id=gg&_=1305232130424" for 127.0.0.1 at 2011-05-12 21:28:50 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"gg", "_"=>"1305232130424", "id"=>"gg"}
+Completed 200 OK in 1001ms (Views: 0.3ms)
+
+
+Started GET "/chat/gg?user_id=gg&_=1305232132592" for 127.0.0.1 at 2011-05-12 21:28:52 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"gg", "_"=>"1305232132592", "id"=>"gg"}
+Completed 200 OK in 1001ms (Views: 0.3ms)
+
+
+Started GET "/chat/gg?user_id=gg&_=1305232135711" for 127.0.0.1 at 2011-05-12 21:28:55 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"gg", "_"=>"1305232135711", "id"=>"gg"}
+Completed 200 OK in 1001ms (Views: 0.3ms)
+
+
+Started PUT "/chat/gg" for 127.0.0.1 at 2011-05-12 21:28:58 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"id"=>"gg", "name"=>"gg", "user_id"=>"gg", "users"=>["gg"], "messages"=>"", "message"=>"sdfsdf"}
+Completed 200 OK in 0ms (Views: 0.2ms)
+
+
+Started GET "/chat/gg?user_id=gg&_=1305232139745" for 127.0.0.1 at 2011-05-12 21:28:59 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"gg", "_"=>"1305232139745", "id"=>"gg"}
+Completed 200 OK in 1ms (Views: 0.2ms)
+
+
+Started GET "/chat/gg?user_id=gg&_=1305232140775" for 127.0.0.1 at 2011-05-12 21:29:00 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"gg", "_"=>"1305232140775", "id"=>"gg"}
+Completed 200 OK in 1001ms (Views: 0.3ms)
+
+
+Started GET "/chat/gg?user_id=gg&_=1305232142806" for 127.0.0.1 at 2011-05-12 21:29:02 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"gg", "_"=>"1305232142806", "id"=>"gg"}
+Completed 200 OK in 1001ms (Views: 0.3ms)
+
+
+Started PUT "/chat/gg" for 127.0.0.1 at 2011-05-12 21:29:03 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"id"=>"gg", "name"=>"gg", "user_id"=>"gg", "users"=>["gg"], "messages"=>"", "message"=>"dkbdkbb"}
+Completed 200 OK in 0ms (Views: 0.1ms)
+
+
+Started GET "/chat/gg?user_id=gg&_=1305232144839" for 127.0.0.1 at 2011-05-12 21:29:04 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"gg", "_"=>"1305232144839", "id"=>"gg"}
+Completed 200 OK in 1ms (Views: 0.3ms)
+
+
+Started GET "/chat/gg?user_id=gg&_=1305232145908" for 127.0.0.1 at 2011-05-12 21:29:05 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"gg", "_"=>"1305232145908", "id"=>"gg"}
+Completed 200 OK in 1001ms (Views: 0.3ms)
+
+
+Started GET "/chat/gg?user_id=gg&_=1305232147980" for 127.0.0.1 at 2011-05-12 21:29:07 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"gg", "_"=>"1305232147980", "id"=>"gg"}
+Completed 200 OK in 1001ms (Views: 0.3ms)
+
+
+Started GET "/chat/gg?user_id=gg&_=1305232150006" for 127.0.0.1 at 2011-05-12 21:29:10 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"gg", "_"=>"1305232150006", "id"=>"gg"}
+Completed 200 OK in 1001ms (Views: 0.4ms)
+
+
+Started PUT "/chat/gg" for 127.0.0.1 at 2011-05-12 21:29:11 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"id"=>"gg", "name"=>"gg", "user_id"=>"gg", "users"=>["gg"], "messages"=>"", "message"=>"yes"}
+Completed 200 OK in 1ms (Views: 0.3ms)
+
+
+Started GET "/chat/gg?user_id=gg&_=1305232153041" for 127.0.0.1 at 2011-05-12 21:29:13 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"gg", "_"=>"1305232153041", "id"=>"gg"}
+Completed 200 OK in 1ms (Views: 0.2ms)
+
+
+Started GET "/chat/gg?user_id=gg&_=1305232154072" for 127.0.0.1 at 2011-05-12 21:29:14 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"gg", "_"=>"1305232154072", "id"=>"gg"}
+Completed 200 OK in 1001ms (Views: 0.3ms)
+
+
+Started GET "/chat/gg?user_id=gg&_=1305232156207" for 127.0.0.1 at 2011-05-12 21:29:16 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"gg", "_"=>"1305232156207", "id"=>"gg"}
+Completed 200 OK in 1001ms (Views: 0.4ms)
+
+
+Started GET "/chat/gg?user_id=gg&_=1305232158245" for 127.0.0.1 at 2011-05-12 21:29:18 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"gg", "_"=>"1305232158245", "id"=>"gg"}
+Completed 200 OK in 1001ms (Views: 0.3ms)
+
+
+Started DELETE "/chat/gg?user_id=gg" for 127.0.0.1 at 2011-05-12 21:29:19 +0100
+  Processing by ChatController#destroy as JSON
+  Parameters: {"user_id"=>"gg", "id"=>"gg"}
+Completed 200 OK in 1ms (Views: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-12 21:32:58 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 10ms (Views: 9.4ms)
+
+
+Started GET "/task" for 127.0.0.1 at 2011-05-12 21:32:58 +0100
+  Processing by TaskController#index as JSON
+Completed 200 OK in 54ms (Views: 3.2ms)
+
+
+Started GET "/chat" for 127.0.0.1 at 2011-05-12 21:32:59 +0100
+  Processing by ChatController#index as JSON
+Completed 200 OK in 1ms (Views: 0.3ms)
+
+
+Started PUT "/chat/gg" for 127.0.0.1 at 2011-05-12 21:33:01 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"id"=>"gg", "name"=>"gg", "user_id"=>"gg"}
+Completed 200 OK in 1ms (Views: 0.2ms)
+
+
+Started GET "/chat/gg?user_id=gg&_=1305232382429" for 127.0.0.1 at 2011-05-12 21:33:02 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"gg", "_"=>"1305232382429", "id"=>"gg"}
+Completed 200 OK in 1001ms (Views: 0.4ms)
+
+
+Started GET "/chat/gg?user_id=gg&_=1305232384470" for 127.0.0.1 at 2011-05-12 21:33:04 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"gg", "_"=>"1305232384470", "id"=>"gg"}
+Completed 200 OK in 1001ms (Views: 0.3ms)
+
+
+Started GET "/chat/gg?user_id=gg&_=1305232386509" for 127.0.0.1 at 2011-05-12 21:33:06 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"gg", "_"=>"1305232386509", "id"=>"gg"}
+Completed 200 OK in 1001ms (Views: 0.3ms)
+
+
+Started DELETE "/chat/gg?user_id=gg" for 127.0.0.1 at 2011-05-12 21:33:08 +0100
+  Processing by ChatController#destroy as JSON
+  Parameters: {"user_id"=>"gg", "id"=>"gg"}
+Completed 200 OK in 0ms (Views: 0.2ms)
+
+
+Started PUT "/chat/gg" for 127.0.0.1 at 2011-05-12 21:33:19 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"id"=>"gg", "name"=>"gg", "user_id"=>"gg", "users"=>["gg"], "messages"=>""}
+Completed 200 OK in 0ms (Views: 0.1ms)
+
+
+Started GET "/chat/gg?user_id=gg&_=1305232400958" for 127.0.0.1 at 2011-05-12 21:33:20 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"gg", "_"=>"1305232400958", "id"=>"gg"}
+Completed 200 OK in 1001ms (Views: 0.5ms)
+
+
+Started GET "/chat/gg?user_id=gg&_=1305232403003" for 127.0.0.1 at 2011-05-12 21:33:23 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"gg", "_"=>"1305232403003", "id"=>"gg"}
+Completed 200 OK in 1001ms (Views: 0.2ms)
+
+
+Started GET "/chat/gg?user_id=gg&_=1305232406225" for 127.0.0.1 at 2011-05-12 21:33:26 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"gg", "_"=>"1305232406225", "id"=>"gg"}
+Completed 200 OK in 1001ms (Views: 0.4ms)
+
+
+Started PUT "/chat/gg" for 127.0.0.1 at 2011-05-12 21:33:27 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"id"=>"gg", "name"=>"gg", "user_id"=>"gg", "users"=>["gg"], "messages"=>""}
+Completed 200 OK in 0ms (Views: 0.2ms)
+
+
+Started GET "/chat/gg?user_id=gg&_=1305232408727" for 127.0.0.1 at 2011-05-12 21:33:28 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"gg", "_"=>"1305232408727", "id"=>"gg"}
+Completed 200 OK in 1001ms (Views: 0.3ms)
+
+
+Started GET "/chat/gg?user_id=gg&_=1305232410281" for 127.0.0.1 at 2011-05-12 21:33:30 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"gg", "_"=>"1305232410281", "id"=>"gg"}
+Completed 200 OK in 1001ms (Views: 0.3ms)
+
+
+Started GET "/chat/gg?user_id=gg&_=1305232410781" for 127.0.0.1 at 2011-05-12 21:33:31 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"gg", "_"=>"1305232410781", "id"=>"gg"}
+Completed 200 OK in 1001ms (Views: 0.3ms)
+
+
+Started GET "/chat/gg?user_id=gg&_=1305232414335" for 127.0.0.1 at 2011-05-12 21:33:34 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"gg", "_"=>"1305232414335", "id"=>"gg"}
+Completed 200 OK in 1001ms (Views: 0.3ms)
+
+
+Started GET "/chat/gg?user_id=gg&_=1305232414357" for 127.0.0.1 at 2011-05-12 21:33:35 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"gg", "_"=>"1305232414357", "id"=>"gg"}
+Completed 200 OK in 1001ms (Views: 0.4ms)
+
+
+Started DELETE "/chat/gg?user_id=gg" for 127.0.0.1 at 2011-05-12 21:33:36 +0100
+  Processing by ChatController#destroy as JSON
+  Parameters: {"user_id"=>"gg", "id"=>"gg"}
+Completed 200 OK in 0ms (Views: 0.2ms)
+
+
+Started DELETE "/chat/gg?user_id=gg" for 127.0.0.1 at 2011-05-12 21:33:36 +0100
+  Processing by ChatController#destroy as JSON
+  Parameters: {"user_id"=>"gg", "id"=>"gg"}
+Completed 200 OK in 1ms (Views: 0.3ms)
+
+
+Started GET "/chat/gg?user_id=gg&_=1305232418400" for 127.0.0.1 at 2011-05-12 21:33:38 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"gg", "_"=>"1305232418400", "id"=>"gg"}
+Completed 200 OK in 1001ms (Views: 0.3ms)
+
+
+Started GET "/chat/gg?user_id=gg&_=1305232420444" for 127.0.0.1 at 2011-05-12 21:33:40 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"gg", "_"=>"1305232420444", "id"=>"gg"}
+Completed 200 OK in 1001ms (Views: 0.3ms)
+
+
+Started GET "/chat/gg?user_id=gg&_=1305232422487" for 127.0.0.1 at 2011-05-12 21:33:42 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"gg", "_"=>"1305232422487", "id"=>"gg"}
+Completed 200 OK in 1001ms (Views: 0.3ms)
+
+
+Started GET "/chat/gg?user_id=gg&_=1305232425538" for 127.0.0.1 at 2011-05-12 21:33:45 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"gg", "_"=>"1305232425538", "id"=>"gg"}
+Completed 200 OK in 1001ms (Views: 0.4ms)
+
+
+Started PUT "/chat/gg" for 127.0.0.1 at 2011-05-12 21:33:46 +0100
+  Processing by ChatController#update as JSON
+  Parameters: {"id"=>"gg", "name"=>"gg", "user_id"=>"gg", "users"=>[], "messages"=>""}
+Completed 200 OK in 1ms (Views: 0.2ms)
+
+
+Started GET "/chat/gg?user_id=gg&_=1305232427648" for 127.0.0.1 at 2011-05-12 21:33:47 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"gg", "_"=>"1305232427648", "id"=>"gg"}
+Completed 200 OK in 1001ms (Views: 0.3ms)
+
+
+Started DELETE "/chat/gg?user_id=gg" for 127.0.0.1 at 2011-05-12 21:33:48 +0100
+  Processing by ChatController#destroy as JSON
+  Parameters: {"user_id"=>"gg", "id"=>"gg"}
+Completed 200 OK in 0ms (Views: 0.2ms)
+
+
+Started GET "/chat/gg?user_id=gg&_=1305232429582" for 127.0.0.1 at 2011-05-12 21:33:49 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"gg", "_"=>"1305232429582", "id"=>"gg"}
+Completed 200 OK in 1001ms (Views: 0.3ms)
+
+
+Started GET "/chat/gg?user_id=gg&_=1305232431629" for 127.0.0.1 at 2011-05-12 21:33:51 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"gg", "_"=>"1305232431629", "id"=>"gg"}
+Completed 200 OK in 1001ms (Views: 0.4ms)
+
+
+Started GET "/chat/gg?user_id=gg&_=1305232433675" for 127.0.0.1 at 2011-05-12 21:33:53 +0100
+  Processing by ChatController#show as JSON
+  Parameters: {"user_id"=>"gg", "_"=>"1305232433675", "id"=>"gg"}
+Completed 200 OK in 1001ms (Views: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-12 21:33:55 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 8ms (Views: 7.6ms)
+
+
+Started GET "/task" for 127.0.0.1 at 2011-05-12 21:33:55 +0100
+  Processing by TaskController#index as JSON
+Completed 200 OK in 51ms (Views: 2.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-12 21:49:39 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 6ms (Views: 5.5ms)
+
+
+Started GET "/task" for 127.0.0.1 at 2011-05-12 21:49:40 +0100
+  Processing by TaskController#index as JSON
+Completed 200 OK in 56ms (Views: 3.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-12 21:49:57 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 7ms (Views: 6.4ms)
+
+
+Started GET "/task" for 127.0.0.1 at 2011-05-12 21:49:58 +0100
+  Processing by TaskController#index as JSON
+Completed 200 OK in 52ms (Views: 2.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-12 21:50:07 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 6ms (Views: 5.5ms)
+
+
+Started GET "/task" for 127.0.0.1 at 2011-05-12 21:50:08 +0100
+  Processing by TaskController#index as JSON
+Completed 200 OK in 49ms (Views: 2.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-12 21:50:56 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 5ms (Views: 4.6ms)
+
+
+Started GET "/task" for 127.0.0.1 at 2011-05-12 21:50:57 +0100
+  Processing by TaskController#index as JSON
+Completed 200 OK in 54ms (Views: 3.8ms)
+
+
+Started PUT "/task/4dc31af37ac8c51fb3000001" for 127.0.0.1 at 2011-05-12 21:51:05 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.9ms)
+
+
+Started PUT "/task/4dc31c417ac8c52027000001" for 127.0.0.1 at 2011-05-12 21:51:05 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc31cee7ac8c52065000001" for 127.0.0.1 at 2011-05-12 21:51:05 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc31d227ac8c52065000002" for 127.0.0.1 at 2011-05-12 21:51:05 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc31d3f7ac8c52065000003" for 127.0.0.1 at 2011-05-12 21:51:05 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (1.2ms)
+
+
+Started PUT "/task/4dc321937ac8c52065000004" for 127.0.0.1 at 2011-05-12 21:51:05 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc58be47ac8c5789a000001" for 127.0.0.1 at 2011-05-12 21:51:05 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc859f27ac8c514a8000001" for 127.0.0.1 at 2011-05-12 21:51:05 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc31af37ac8c51fb3000001" for 127.0.0.1 at 2011-05-12 21:51:05 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc31c417ac8c52027000001" for 127.0.0.1 at 2011-05-12 21:51:05 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc31cee7ac8c52065000001" for 127.0.0.1 at 2011-05-12 21:51:05 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc31d227ac8c52065000002" for 127.0.0.1 at 2011-05-12 21:51:05 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc31d3f7ac8c52065000003" for 127.0.0.1 at 2011-05-12 21:51:05 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc321937ac8c52065000004" for 127.0.0.1 at 2011-05-12 21:51:05 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc58be47ac8c5789a000001" for 127.0.0.1 at 2011-05-12 21:51:05 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc859f27ac8c514a8000001" for 127.0.0.1 at 2011-05-12 21:51:05 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc31af37ac8c51fb3000001" for 127.0.0.1 at 2011-05-12 21:51:05 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (1.1ms)
+
+
+Started PUT "/task/4dc31c417ac8c52027000001" for 127.0.0.1 at 2011-05-12 21:51:05 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc31cee7ac8c52065000001" for 127.0.0.1 at 2011-05-12 21:51:05 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.9ms)
+
+
+Started PUT "/task/4dc31d227ac8c52065000002" for 127.0.0.1 at 2011-05-12 21:51:05 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc31d3f7ac8c52065000003" for 127.0.0.1 at 2011-05-12 21:51:06 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (1.0ms)
+
+
+Started PUT "/task/4dc321937ac8c52065000004" for 127.0.0.1 at 2011-05-12 21:51:06 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (1.7ms)
+
+
+Started PUT "/task/4dc58be47ac8c5789a000001" for 127.0.0.1 at 2011-05-12 21:51:06 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc859f27ac8c514a8000001" for 127.0.0.1 at 2011-05-12 21:51:06 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.9ms)
+
+
+Started PUT "/task/4dc31af37ac8c51fb3000001" for 127.0.0.1 at 2011-05-12 21:51:16 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (1.2ms)
+
+
+Started PUT "/task/4dc31c417ac8c52027000001" for 127.0.0.1 at 2011-05-12 21:51:17 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc31cee7ac8c52065000001" for 127.0.0.1 at 2011-05-12 21:51:17 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc31d227ac8c52065000002" for 127.0.0.1 at 2011-05-12 21:51:17 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc31d3f7ac8c52065000003" for 127.0.0.1 at 2011-05-12 21:51:17 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (1.2ms)
+
+
+Started PUT "/task/4dc321937ac8c52065000004" for 127.0.0.1 at 2011-05-12 21:51:17 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (1.2ms)
+
+
+Started PUT "/task/4dc58be47ac8c5789a000001" for 127.0.0.1 at 2011-05-12 21:51:17 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc859f27ac8c514a8000001" for 127.0.0.1 at 2011-05-12 21:51:17 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (1.0ms)
+
+
+Started PUT "/task/4dc31c417ac8c52027000001" for 127.0.0.1 at 2011-05-12 21:51:17 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.9ms)
+
+
+Started PUT "/task/4dc31af37ac8c51fb3000001" for 127.0.0.1 at 2011-05-12 21:51:17 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc31d227ac8c52065000002" for 127.0.0.1 at 2011-05-12 21:51:17 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc31cee7ac8c52065000001" for 127.0.0.1 at 2011-05-12 21:51:17 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc321937ac8c52065000004" for 127.0.0.1 at 2011-05-12 21:51:17 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc31d3f7ac8c52065000003" for 127.0.0.1 at 2011-05-12 21:51:17 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc58be47ac8c5789a000001" for 127.0.0.1 at 2011-05-12 21:51:17 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc859f27ac8c514a8000001" for 127.0.0.1 at 2011-05-12 21:51:17 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (1.0ms)
+
+
+Started PUT "/task/4dc31af37ac8c51fb3000001" for 127.0.0.1 at 2011-05-12 21:51:17 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc31c417ac8c52027000001" for 127.0.0.1 at 2011-05-12 21:51:17 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (1.0ms)
+
+
+Started PUT "/task/4dc31cee7ac8c52065000001" for 127.0.0.1 at 2011-05-12 21:51:17 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc31d227ac8c52065000002" for 127.0.0.1 at 2011-05-12 21:51:17 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.9ms)
+
+
+Started PUT "/task/4dc31d3f7ac8c52065000003" for 127.0.0.1 at 2011-05-12 21:51:17 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc321937ac8c52065000004" for 127.0.0.1 at 2011-05-12 21:51:17 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (1.1ms)
+
+
+Started PUT "/task/4dc58be47ac8c5789a000001" for 127.0.0.1 at 2011-05-12 21:51:17 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc859f27ac8c514a8000001" for 127.0.0.1 at 2011-05-12 21:51:17 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.9ms)
+
+
+Started PUT "/task/4dc31af37ac8c51fb3000001" for 127.0.0.1 at 2011-05-12 21:51:47 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc31c417ac8c52027000001" for 127.0.0.1 at 2011-05-12 21:51:48 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc31cee7ac8c52065000001" for 127.0.0.1 at 2011-05-12 21:51:50 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (1.2ms)
+
+
+Started PUT "/task/4dc31d227ac8c52065000002" for 127.0.0.1 at 2011-05-12 21:51:50 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.9ms)
+
+
+Started PUT "/task/4dc31d3f7ac8c52065000003" for 127.0.0.1 at 2011-05-12 21:51:51 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc321937ac8c52065000004" for 127.0.0.1 at 2011-05-12 21:51:51 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc31af37ac8c51fb3000001" for 127.0.0.1 at 2011-05-12 21:51:51 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc859f27ac8c514a8000001" for 127.0.0.1 at 2011-05-12 21:51:51 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (1.2ms)
+
+
+Started PUT "/task/4dc58be47ac8c5789a000001" for 127.0.0.1 at 2011-05-12 21:51:51 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc31c417ac8c52027000001" for 127.0.0.1 at 2011-05-12 21:51:51 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc31cee7ac8c52065000001" for 127.0.0.1 at 2011-05-12 21:51:51 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc31d227ac8c52065000002" for 127.0.0.1 at 2011-05-12 21:51:51 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.9ms)
+
+
+Started PUT "/task/4dc31d3f7ac8c52065000003" for 127.0.0.1 at 2011-05-12 21:51:51 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.9ms)
+
+
+Started PUT "/task/4dc321937ac8c52065000004" for 127.0.0.1 at 2011-05-12 21:51:51 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc859f27ac8c514a8000001" for 127.0.0.1 at 2011-05-12 21:51:51 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc58be47ac8c5789a000001" for 127.0.0.1 at 2011-05-12 21:51:51 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc31af37ac8c51fb3000001" for 127.0.0.1 at 2011-05-12 21:51:51 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc31c417ac8c52027000001" for 127.0.0.1 at 2011-05-12 21:51:51 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc31cee7ac8c52065000001" for 127.0.0.1 at 2011-05-12 21:51:51 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (1.0ms)
+
+
+Started PUT "/task/4dc31d227ac8c52065000002" for 127.0.0.1 at 2011-05-12 21:51:51 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (1.4ms)
+
+
+Started PUT "/task/4dc31d3f7ac8c52065000003" for 127.0.0.1 at 2011-05-12 21:51:51 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc321937ac8c52065000004" for 127.0.0.1 at 2011-05-12 21:51:51 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc58be47ac8c5789a000001" for 127.0.0.1 at 2011-05-12 21:51:51 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (1.0ms)
+
+
+Started PUT "/task/4dc859f27ac8c514a8000001" for 127.0.0.1 at 2011-05-12 21:51:51 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc31af37ac8c51fb3000001" for 127.0.0.1 at 2011-05-12 21:52:53 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (2.3ms)
+
+
+Started PUT "/task/4dc31c417ac8c52027000001" for 127.0.0.1 at 2011-05-12 21:52:53 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc31cee7ac8c52065000001" for 127.0.0.1 at 2011-05-12 21:52:53 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc31d3f7ac8c52065000003" for 127.0.0.1 at 2011-05-12 21:52:53 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (1.2ms)
+
+
+Started PUT "/task/4dc31d227ac8c52065000002" for 127.0.0.1 at 2011-05-12 21:52:53 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc321937ac8c52065000004" for 127.0.0.1 at 2011-05-12 21:52:53 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (1.3ms)
+
+
+Started PUT "/task/4dc859f27ac8c514a8000001" for 127.0.0.1 at 2011-05-12 21:52:53 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.9ms)
+
+
+Started PUT "/task/4dc58be47ac8c5789a000001" for 127.0.0.1 at 2011-05-12 21:52:53 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc31af37ac8c51fb3000001" for 127.0.0.1 at 2011-05-12 21:52:53 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc31c417ac8c52027000001" for 127.0.0.1 at 2011-05-12 21:52:53 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.9ms)
+
+
+Started PUT "/task/4dc31d227ac8c52065000002" for 127.0.0.1 at 2011-05-12 21:52:53 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc31cee7ac8c52065000001" for 127.0.0.1 at 2011-05-12 21:52:53 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc31d3f7ac8c52065000003" for 127.0.0.1 at 2011-05-12 21:52:53 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc321937ac8c52065000004" for 127.0.0.1 at 2011-05-12 21:52:53 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (1.4ms)
+
+
+Started PUT "/task/4dc859f27ac8c514a8000001" for 127.0.0.1 at 2011-05-12 21:52:53 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (1.1ms)
+
+
+Started PUT "/task/4dc58be47ac8c5789a000001" for 127.0.0.1 at 2011-05-12 21:52:53 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc31af37ac8c51fb3000001" for 127.0.0.1 at 2011-05-12 21:52:53 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (1.0ms)
+
+
+Started PUT "/task/4dc31c417ac8c52027000001" for 127.0.0.1 at 2011-05-12 21:52:53 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc31d227ac8c52065000002" for 127.0.0.1 at 2011-05-12 21:52:53 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.9ms)
+
+
+Started PUT "/task/4dc31cee7ac8c52065000001" for 127.0.0.1 at 2011-05-12 21:52:53 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (1.9ms)
+
+
+Started PUT "/task/4dc321937ac8c52065000004" for 127.0.0.1 at 2011-05-12 21:52:53 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (1.1ms)
+
+
+Started PUT "/task/4dc31d3f7ac8c52065000003" for 127.0.0.1 at 2011-05-12 21:52:53 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.9ms)
+
+
+Started PUT "/task/4dc58be47ac8c5789a000001" for 127.0.0.1 at 2011-05-12 21:52:53 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (1.1ms)
+
+
+Started PUT "/task/4dc859f27ac8c514a8000001" for 127.0.0.1 at 2011-05-12 21:52:53 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-12 21:53:17 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 7ms (Views: 6.9ms)
+
+
+Started GET "/task" for 127.0.0.1 at 2011-05-12 21:53:18 +0100
+  Processing by TaskController#index as JSON
+Completed 200 OK in 105ms (Views: 52.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-12 21:53:57 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 7ms (Views: 6.3ms)
+
+
+Started GET "/task" for 127.0.0.1 at 2011-05-12 21:53:57 +0100
+  Processing by TaskController#index as JSON
+Completed 200 OK in 51ms (Views: 2.8ms)
+
+
+Started PUT "/task/4dc31af37ac8c51fb3000001" for 127.0.0.1 at 2011-05-12 21:54:02 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc31af37ac8c51fb3000001" for 127.0.0.1 at 2011-05-12 21:54:02 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc31af37ac8c51fb3000001" for 127.0.0.1 at 2011-05-12 21:54:02 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc31c417ac8c52027000001" for 127.0.0.1 at 2011-05-12 21:54:54 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc31c417ac8c52027000001" for 127.0.0.1 at 2011-05-12 21:54:54 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc31c417ac8c52027000001" for 127.0.0.1 at 2011-05-12 21:54:54 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc31cee7ac8c52065000001" for 127.0.0.1 at 2011-05-12 21:55:00 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc31d227ac8c52065000002" for 127.0.0.1 at 2011-05-12 21:55:00 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc31d3f7ac8c52065000003" for 127.0.0.1 at 2011-05-12 21:55:00 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc31d3f7ac8c52065000003" for 127.0.0.1 at 2011-05-12 21:55:00 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (1.1ms)
+
+
+Started PUT "/task/4dc31cee7ac8c52065000001" for 127.0.0.1 at 2011-05-12 21:55:00 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc31d227ac8c52065000002" for 127.0.0.1 at 2011-05-12 21:55:00 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.9ms)
+
+
+Started PUT "/task/4dc31cee7ac8c52065000001" for 127.0.0.1 at 2011-05-12 21:55:00 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.9ms)
+
+
+Started PUT "/task/4dc31d227ac8c52065000002" for 127.0.0.1 at 2011-05-12 21:55:00 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc31d3f7ac8c52065000003" for 127.0.0.1 at 2011-05-12 21:55:00 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (1.2ms)
+
+
+Started PUT "/task/4dc31cee7ac8c52065000001" for 127.0.0.1 at 2011-05-12 21:55:21 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (1.0ms)
+
+
+Started PUT "/task/4dc31d227ac8c52065000002" for 127.0.0.1 at 2011-05-12 21:55:21 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc31d227ac8c52065000002" for 127.0.0.1 at 2011-05-12 21:55:22 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (1.2ms)
+
+
+Started PUT "/task/4dc31d3f7ac8c52065000003" for 127.0.0.1 at 2011-05-12 21:55:22 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (1.2ms)
+
+
+Started PUT "/task/4dc31cee7ac8c52065000001" for 127.0.0.1 at 2011-05-12 21:55:22 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc31d3f7ac8c52065000003" for 127.0.0.1 at 2011-05-12 21:55:22 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc31cee7ac8c52065000001" for 127.0.0.1 at 2011-05-12 21:55:22 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.9ms)
+
+
+Started PUT "/task/4dc31d227ac8c52065000002" for 127.0.0.1 at 2011-05-12 21:55:22 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc31d3f7ac8c52065000003" for 127.0.0.1 at 2011-05-12 21:55:22 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc31cee7ac8c52065000001" for 127.0.0.1 at 2011-05-12 21:55:26 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.9ms)
+
+
+Started PUT "/task/4dc31d3f7ac8c52065000003" for 127.0.0.1 at 2011-05-12 21:55:26 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.9ms)
+
+
+Started PUT "/task/4dc31d227ac8c52065000002" for 127.0.0.1 at 2011-05-12 21:55:26 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc31d227ac8c52065000002" for 127.0.0.1 at 2011-05-12 21:55:26 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc31cee7ac8c52065000001" for 127.0.0.1 at 2011-05-12 21:55:26 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.9ms)
+
+
+Started PUT "/task/4dc31d3f7ac8c52065000003" for 127.0.0.1 at 2011-05-12 21:55:26 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc31cee7ac8c52065000001" for 127.0.0.1 at 2011-05-12 21:55:26 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc31d227ac8c52065000002" for 127.0.0.1 at 2011-05-12 21:55:26 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc31d3f7ac8c52065000003" for 127.0.0.1 at 2011-05-12 21:55:26 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-12 21:59:18 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 6ms (Views: 5.3ms)
+
+
+Started GET "/task" for 127.0.0.1 at 2011-05-12 21:59:19 +0100
+  Processing by TaskController#index as JSON
+Completed 200 OK in 51ms (Views: 2.2ms)
+
+
+Started PUT "/task/4dc31af37ac8c51fb3000001" for 127.0.0.1 at 2011-05-12 21:59:24 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (1.2ms)
+
+
+Started PUT "/task/4dc31af37ac8c51fb3000001" for 127.0.0.1 at 2011-05-12 21:59:24 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (1.2ms)
+
+
+Started PUT "/task/4dc31af37ac8c51fb3000001" for 127.0.0.1 at 2011-05-12 21:59:24 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc31c417ac8c52027000001" for 127.0.0.1 at 2011-05-12 21:59:32 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc31c417ac8c52027000001" for 127.0.0.1 at 2011-05-12 21:59:32 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc31c417ac8c52027000001" for 127.0.0.1 at 2011-05-12 21:59:32 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc31cee7ac8c52065000001" for 127.0.0.1 at 2011-05-12 21:59:38 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (1.0ms)
+
+
+Started PUT "/task/4dc31d227ac8c52065000002" for 127.0.0.1 at 2011-05-12 21:59:38 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.9ms)
+
+
+Started PUT "/task/4dc31d3f7ac8c52065000003" for 127.0.0.1 at 2011-05-12 21:59:38 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (1.0ms)
+
+
+Started PUT "/task/4dc31d227ac8c52065000002" for 127.0.0.1 at 2011-05-12 21:59:38 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc31cee7ac8c52065000001" for 127.0.0.1 at 2011-05-12 21:59:38 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.7ms)
+
+
+Started PUT "/task/4dc31d3f7ac8c52065000003" for 127.0.0.1 at 2011-05-12 21:59:38 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (1.2ms)
+
+
+Started PUT "/task/4dc31cee7ac8c52065000001" for 127.0.0.1 at 2011-05-12 21:59:38 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (2.4ms)
+
+
+Started PUT "/task/4dc31d227ac8c52065000002" for 127.0.0.1 at 2011-05-12 21:59:38 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (1.2ms)
+
+
+Started PUT "/task/4dc31d3f7ac8c52065000003" for 127.0.0.1 at 2011-05-12 21:59:38 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (2.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-12 21:59:54 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 7ms (Views: 6.7ms)
+
+
+Started GET "/task" for 127.0.0.1 at 2011-05-12 21:59:55 +0100
+  Processing by TaskController#index as JSON
+Completed 200 OK in 51ms (Views: 2.9ms)
+
+
+Started PUT "/task/4dc31af37ac8c51fb3000001" for 127.0.0.1 at 2011-05-12 22:01:17 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc31af37ac8c51fb3000001" for 127.0.0.1 at 2011-05-12 22:01:24 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc31af37ac8c51fb3000001" for 127.0.0.1 at 2011-05-12 22:01:25 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-12 22:04:05 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 8ms (Views: 7.4ms)
+
+
+Started GET "/task" for 127.0.0.1 at 2011-05-12 22:04:06 +0100
+  Processing by TaskController#index as JSON
+Completed 200 OK in 69ms (Views: 4.2ms)
+
+
+Started PUT "/task/4dc31af37ac8c51fb3000001" for 127.0.0.1 at 2011-05-12 22:04:27 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (1.0ms)
+
+
+Started PUT "/task/4dc31af37ac8c51fb3000001" for 127.0.0.1 at 2011-05-12 22:04:27 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc31af37ac8c51fb3000001" for 127.0.0.1 at 2011-05-12 22:04:27 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc31af37ac8c51fb3000001" for 127.0.0.1 at 2011-05-12 22:05:00 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc31af37ac8c51fb3000001" for 127.0.0.1 at 2011-05-12 22:05:09 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc31af37ac8c51fb3000001" for 127.0.0.1 at 2011-05-12 22:05:47 +0100
+
+AbstractController::ActionNotFound (The action 'update' could not be found for TaskController):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)

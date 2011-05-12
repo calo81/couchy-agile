@@ -1,8 +1,6 @@
 MainChatViewTemplate = {
     text: "<div id='mainChatWindow'>" +
             "<h2><%= chatName %></h2>" +
-             "<a class='a-no-borders closechataction' id='close<%= chatId %>' href='#'>" +
-            "<img src='/images/close_button.gif' alt='close'/></a>" +
             "<div>" +
             "<div id='chatBox'></div>" +
             "<div id='chatUsers'></div>" +
@@ -26,6 +24,9 @@ MainChatView = Backbone.View.extend({
     render:function(appendTo) {
         var chatName = this.model.get("name");
         $(appendTo).html(this.template.compile({"chatName":chatName,"chatId":this.model.cid}));
+        $("#mainChatWindow").dialog({modal:false,title:"Chat", width: 600 });
+        $("#mainChatWindow").bind("dialogbeforeclose", {self:this}, this.close);
+
         this.startPolling();
     },
 
@@ -71,12 +72,9 @@ MainChatView = Backbone.View.extend({
     },
 
     initEvents:function() {
-        $("#mainChatWindow").liveDraggable();
         $("#sendMessage").live("click", {self:this}, this.sendMessage);
         $('#mainChatWindow input').live("keypress",{self:this}, this.sendMessageOnEnter);
         this.model.bind("change", this.renderFromUpdate);
-        $("#close" + this.model.cid).live("click", {self:this}, this.close);
-
     },
 
     initialize:function() {
