@@ -21,4 +21,13 @@ describe "TaskController" do
     @controller.should_receive(:render)
     @controller.index
   end
+
+  it "should update status on model when status different from saved" do
+    task = Task.new :id=>5,:status=>:new
+    Task.should_receive(:find_by_id).with(5).and_return(task)
+    task.should_receive(:update_status)
+    @controller.params = {:id=>5,:status=>:started}
+    @controller.should_receive(:render)
+    @controller.update
+  end
 end

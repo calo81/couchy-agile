@@ -54449,3 +54449,146 @@ AbstractController::ActionNotFound (The action 'update' could not be found for T
   
 
 Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-12 22:56:59 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 33ms (Views: 32.9ms)
+
+
+Started GET "/task" for 127.0.0.1 at 2011-05-12 22:57:01 +0100
+  Processing by TaskController#index as JSON
+Completed 200 OK in 116ms (Views: 7.1ms)
+
+
+Started GET "/task" for 127.0.0.1 at 2011-05-12 22:57:01 +0100
+  Processing by TaskController#index as JSON
+Completed 200 OK in 96ms (Views: 4.5ms)
+
+
+Started PUT "/task/4dc31af37ac8c51fb3000001" for 127.0.0.1 at 2011-05-12 22:57:16 +0100
+  Processing by TaskController#update as JSON
+  Parameters: {"description"=>nil, "developer"=>nil, "id"=>"4dc31af37ac8c51fb3000001", "status"=>"cardsStarted", "story_id"=>nil, "title"=>"sdcf"}
+Completed   in 105ms
+
+ActionView::MissingTemplate (Missing template task/update with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml], :formats=>[:json, :js, :"*/*"], :locale=>[:en, :en]} in view paths "/home/cscarioni/ossources/couchy-agile/app/views"):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (1.4ms)
+
+
+Started PUT "/task/4dc31af37ac8c51fb3000001" for 127.0.0.1 at 2011-05-12 22:57:16 +0100
+  Processing by TaskController#update as JSON
+  Parameters: {"description"=>nil, "developer"=>nil, "id"=>"4dc31af37ac8c51fb3000001", "status"=>"cardsStarted", "story_id"=>nil, "title"=>"sdcf"}
+Completed   in 47ms
+
+ActionView::MissingTemplate (Missing template task/update with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml], :formats=>[:json, :js, :"*/*"], :locale=>[:en, :en]} in view paths "/home/cscarioni/ossources/couchy-agile/app/views"):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (1.4ms)
+
+
+Started PUT "/task/4dc31af37ac8c51fb3000001" for 127.0.0.1 at 2011-05-12 22:57:17 +0100
+  Processing by TaskController#update as JSON
+  Parameters: {"description"=>nil, "developer"=>nil, "id"=>"4dc31af37ac8c51fb3000001", "status"=>"cardsStarted", "story_id"=>nil, "title"=>"sdcf"}
+Completed   in 57ms
+
+ActionView::MissingTemplate (Missing template task/update with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml], :formats=>[:json, :js, :"*/*"], :locale=>[:en, :en]} in view paths "/home/cscarioni/ossources/couchy-agile/app/views"):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (1.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-12 22:59:20 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 12ms (Views: 10.9ms)
+
+
+Started GET "/task" for 127.0.0.1 at 2011-05-12 22:59:21 +0100
+  Processing by TaskController#index as JSON
+Completed 200 OK in 143ms (Views: 7.6ms)
+
+
+Started GET "/task" for 127.0.0.1 at 2011-05-12 22:59:21 +0100
+  Processing by TaskController#index as JSON
+Completed 200 OK in 89ms (Views: 5.3ms)
+
+
+Started PUT "/task/4dc31c417ac8c52027000001" for 127.0.0.1 at 2011-05-12 22:59:29 +0100
+  Processing by TaskController#update as JSON
+  Parameters: {"description"=>nil, "developer"=>nil, "id"=>"4dc31c417ac8c52027000001", "status"=>"cardsStarted", "story_id"=>nil, "title"=>"ddd"}
+Completed 200 OK in 62ms (Views: 0.5ms)
+
+
+Started PUT "/task/4dc31c417ac8c52027000001" for 127.0.0.1 at 2011-05-12 22:59:30 +0100
+  Processing by TaskController#update as JSON
+  Parameters: {"description"=>nil, "developer"=>nil, "id"=>"4dc31c417ac8c52027000001", "status"=>"cardsStarted", "story_id"=>nil, "title"=>"ddd"}
+Completed   in 77ms
+
+ActionView::MissingTemplate (Missing template task/update with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml], :formats=>[:json, :js, :"*/*"], :locale=>[:en, :en]} in view paths "/home/cscarioni/ossources/couchy-agile/app/views"):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.8ms)
+
+
+Started PUT "/task/4dc31c417ac8c52027000001" for 127.0.0.1 at 2011-05-12 22:59:30 +0100
+  Processing by TaskController#update as JSON
+  Parameters: {"description"=>nil, "developer"=>nil, "id"=>"4dc31c417ac8c52027000001", "status"=>"cardsStarted", "story_id"=>nil, "title"=>"ddd"}
+Completed   in 48ms
+
+ActionView::MissingTemplate (Missing template task/update with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml], :formats=>[:json, :js, :"*/*"], :locale=>[:en, :en]} in view paths "/home/cscarioni/ossources/couchy-agile/app/views"):
+  
+
+Rendered /home/cscarioni/.gem/ruby/1.9.1/gems/actionpack-3.0.1/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-12 23:00:51 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 7ms (Views: 6.8ms)
+
+
+Started GET "/task" for 127.0.0.1 at 2011-05-12 23:00:52 +0100
+  Processing by TaskController#index as JSON
+Completed 200 OK in 87ms (Views: 4.3ms)
+
+
+Started GET "/task" for 127.0.0.1 at 2011-05-12 23:00:52 +0100
+  Processing by TaskController#index as JSON
+Completed 200 OK in 54ms (Views: 4.0ms)
+
+
+Started PUT "/task/4dc321937ac8c52065000004" for 127.0.0.1 at 2011-05-12 23:01:10 +0100
+  Processing by TaskController#update as JSON
+  Parameters: {"description"=>"scsdc", "developer"=>"dcdcd", "id"=>"4dc321937ac8c52065000004", "status"=>"cardsStarted", "story_id"=>nil, "title"=>"dcd"}
+Completed 200 OK in 51ms (Views: 0.3ms)
+
+
+Started PUT "/task/4dc321937ac8c52065000004" for 127.0.0.1 at 2011-05-12 23:01:10 +0100
+  Processing by TaskController#update as JSON
+  Parameters: {"description"=>"scsdc", "developer"=>"dcdcd", "id"=>"4dc321937ac8c52065000004", "status"=>"cardsStarted", "story_id"=>nil, "title"=>"dcd"}
+Completed 200 OK in 44ms (Views: 0.5ms)
+
+
+Started PUT "/task/4dc321937ac8c52065000004" for 127.0.0.1 at 2011-05-12 23:01:10 +0100
+  Processing by TaskController#update as JSON
+  Parameters: {"description"=>"scsdc", "developer"=>"dcdcd", "id"=>"4dc321937ac8c52065000004", "status"=>"cardsStarted", "story_id"=>nil, "title"=>"dcd"}
+Completed 200 OK in 52ms (Views: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-12 23:01:18 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 4ms (Views: 3.7ms)
+
+
+Started GET "/task" for 127.0.0.1 at 2011-05-12 23:01:19 +0100
+  Processing by TaskController#index as JSON
+Completed 200 OK in 54ms (Views: 2.3ms)
+
+
+Started GET "/task" for 127.0.0.1 at 2011-05-12 23:01:19 +0100
+  Processing by TaskController#index as JSON
+Completed 200 OK in 57ms (Views: 4.6ms)
