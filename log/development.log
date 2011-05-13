@@ -54592,3 +54592,186 @@ Completed 200 OK in 54ms (Views: 2.3ms)
 Started GET "/task" for 127.0.0.1 at 2011-05-12 23:01:19 +0100
   Processing by TaskController#index as JSON
 Completed 200 OK in 57ms (Views: 4.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-13 10:59:03 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 7ms (Views: 6.2ms)
+
+
+Started GET "/task" for 127.0.0.1 at 2011-05-13 10:59:04 +0100
+  Processing by TaskController#index as JSON
+Completed 200 OK in 75ms (Views: 4.6ms)
+
+
+Started GET "/task" for 127.0.0.1 at 2011-05-13 10:59:04 +0100
+  Processing by TaskController#index as JSON
+Completed 200 OK in 24ms (Views: 1.7ms)
+
+
+Started PUT "/task/4dc31cee7ac8c52065000001" for 127.0.0.1 at 2011-05-13 10:59:06 +0100
+  Processing by TaskController#update as JSON
+  Parameters: {"description"=>"dcd", "developer"=>"dcdc", "id"=>"4dc31cee7ac8c52065000001", "status"=>"cardsStarted", "story_id"=>nil, "title"=>"dc"}
+Completed 200 OK in 23ms (Views: 0.2ms)
+
+
+Started PUT "/task/4dc31d227ac8c52065000002" for 127.0.0.1 at 2011-05-13 10:59:06 +0100
+  Processing by TaskController#update as JSON
+  Parameters: {"description"=>"dcd", "developer"=>"dcdc", "id"=>"4dc31d227ac8c52065000002", "status"=>"cardsStarted", "story_id"=>nil, "title"=>"dc"}
+Completed 200 OK in 19ms (Views: 0.2ms)
+
+
+Started PUT "/task/4dc31d3f7ac8c52065000003" for 127.0.0.1 at 2011-05-13 10:59:06 +0100
+  Processing by TaskController#update as JSON
+  Parameters: {"description"=>"dcd", "developer"=>"dcdc", "id"=>"4dc31d3f7ac8c52065000003", "status"=>"cardsStarted", "story_id"=>nil, "title"=>"dc"}
+Completed 200 OK in 19ms (Views: 0.2ms)
+
+
+Started PUT "/task/4dc31cee7ac8c52065000001" for 127.0.0.1 at 2011-05-13 10:59:06 +0100
+  Processing by TaskController#update as JSON
+  Parameters: {"description"=>"dcd", "developer"=>"dcdc", "id"=>"4dc31cee7ac8c52065000001", "status"=>"cardsStarted", "story_id"=>nil, "title"=>"dc"}
+Completed 200 OK in 19ms (Views: 0.2ms)
+
+
+Started PUT "/task/4dc31d227ac8c52065000002" for 127.0.0.1 at 2011-05-13 10:59:06 +0100
+  Processing by TaskController#update as JSON
+  Parameters: {"description"=>"dcd", "developer"=>"dcdc", "id"=>"4dc31d227ac8c52065000002", "status"=>"cardsStarted", "story_id"=>nil, "title"=>"dc"}
+Completed 200 OK in 18ms (Views: 0.2ms)
+
+
+Started PUT "/task/4dc31d3f7ac8c52065000003" for 127.0.0.1 at 2011-05-13 10:59:06 +0100
+  Processing by TaskController#update as JSON
+  Parameters: {"description"=>"dcd", "developer"=>"dcdc", "id"=>"4dc31d3f7ac8c52065000003", "status"=>"cardsStarted", "story_id"=>nil, "title"=>"dc"}
+Completed 200 OK in 18ms (Views: 0.2ms)
+
+
+Started PUT "/task/4dc31cee7ac8c52065000001" for 127.0.0.1 at 2011-05-13 10:59:06 +0100
+  Processing by TaskController#update as JSON
+  Parameters: {"description"=>"dcd", "developer"=>"dcdc", "id"=>"4dc31cee7ac8c52065000001", "status"=>"cardsStarted", "story_id"=>nil, "title"=>"dc"}
+Completed 200 OK in 19ms (Views: 0.2ms)
+
+
+Started PUT "/task/4dc31d227ac8c52065000002" for 127.0.0.1 at 2011-05-13 10:59:06 +0100
+  Processing by TaskController#update as JSON
+  Parameters: {"description"=>"dcd", "developer"=>"dcdc", "id"=>"4dc31d227ac8c52065000002", "status"=>"cardsStarted", "story_id"=>nil, "title"=>"dc"}
+Completed 200 OK in 18ms (Views: 0.2ms)
+
+
+Started PUT "/task/4dc31d3f7ac8c52065000003" for 127.0.0.1 at 2011-05-13 10:59:06 +0100
+  Processing by TaskController#update as JSON
+  Parameters: {"description"=>"dcd", "developer"=>"dcdc", "id"=>"4dc31d3f7ac8c52065000003", "status"=>"cardsStarted", "story_id"=>nil, "title"=>"dc"}
+Completed 200 OK in 19ms (Views: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-13 10:59:24 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 3ms (Views: 2.7ms)
+
+
+Started GET "/task" for 127.0.0.1 at 2011-05-13 10:59:24 +0100
+  Processing by TaskController#index as JSON
+Completed 200 OK in 22ms (Views: 1.6ms)
+
+
+Started GET "/task" for 127.0.0.1 at 2011-05-13 10:59:24 +0100
+  Processing by TaskController#index as JSON
+Completed 200 OK in 22ms (Views: 1.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-13 11:01:42 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 3ms (Views: 2.9ms)
+
+
+Started GET "/task" for 127.0.0.1 at 2011-05-13 11:01:43 +0100
+  Processing by TaskController#index as JSON
+Completed 200 OK in 22ms (Views: 1.7ms)
+
+
+Started PUT "/task/4dc58be47ac8c5789a000001" for 127.0.0.1 at 2011-05-13 11:01:46 +0100
+  Processing by TaskController#update as JSON
+  Parameters: {"description"=>"sd", "developer"=>"ds", "id"=>"4dc58be47ac8c5789a000001", "status"=>"columnStarted", "story_id"=>nil, "title"=>"dff"}
+Completed 200 OK in 19ms (Views: 0.2ms)
+
+
+Started PUT "/task/4dc58be47ac8c5789a000001" for 127.0.0.1 at 2011-05-13 11:01:46 +0100
+  Processing by TaskController#update as JSON
+  Parameters: {"description"=>"sd", "developer"=>"ds", "id"=>"4dc58be47ac8c5789a000001", "status"=>"columnStarted", "story_id"=>nil, "title"=>"dff"}
+Completed 200 OK in 64ms (Views: 0.2ms)
+
+
+Started PUT "/task/4dc58be47ac8c5789a000001" for 127.0.0.1 at 2011-05-13 11:01:46 +0100
+  Processing by TaskController#update as JSON
+  Parameters: {"description"=>"sd", "developer"=>"ds", "id"=>"4dc58be47ac8c5789a000001", "status"=>"columnStarted", "story_id"=>nil, "title"=>"dff"}
+Completed 200 OK in 18ms (Views: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-13 11:01:48 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 3ms (Views: 3.0ms)
+
+
+Started GET "/task" for 127.0.0.1 at 2011-05-13 11:01:48 +0100
+  Processing by TaskController#index as JSON
+Completed 200 OK in 22ms (Views: 1.8ms)
+
+
+Started GET "/task" for 127.0.0.1 at 2011-05-13 11:01:49 +0100
+  Processing by TaskController#index as JSON
+Completed 200 OK in 22ms (Views: 1.7ms)
+
+
+Started PUT "/task/4dc58be47ac8c5789a000001" for 127.0.0.1 at 2011-05-13 11:05:42 +0100
+  Processing by TaskController#update as JSON
+  Parameters: {"description"=>"sd", "developer"=>"ds", "id"=>"4dc58be47ac8c5789a000001", "status"=>"columnDone", "story_id"=>nil, "title"=>"dff"}
+Completed 200 OK in 21ms (Views: 0.3ms)
+
+
+Started PUT "/task/4dc58be47ac8c5789a000001" for 127.0.0.1 at 2011-05-13 11:05:42 +0100
+  Processing by TaskController#update as JSON
+  Parameters: {"description"=>"sd", "developer"=>"ds", "id"=>"4dc58be47ac8c5789a000001", "status"=>"columnDone", "story_id"=>nil, "title"=>"dff"}
+Completed 200 OK in 18ms (Views: 0.2ms)
+
+
+Started PUT "/task/4dc58be47ac8c5789a000001" for 127.0.0.1 at 2011-05-13 11:05:42 +0100
+  Processing by TaskController#update as JSON
+  Parameters: {"description"=>"sd", "developer"=>"ds", "id"=>"4dc58be47ac8c5789a000001", "status"=>"columnDone", "story_id"=>nil, "title"=>"dff"}
+Completed 200 OK in 19ms (Views: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-05-13 11:05:44 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 4ms (Views: 3.4ms)
+
+
+Started GET "/task" for 127.0.0.1 at 2011-05-13 11:05:45 +0100
+  Processing by TaskController#index as JSON
+Completed 200 OK in 25ms (Views: 1.7ms)
+
+
+Started GET "/task" for 127.0.0.1 at 2011-05-13 11:05:46 +0100
+  Processing by TaskController#index as JSON
+Completed 200 OK in 22ms (Views: 1.9ms)
+
+
+Started PUT "/task/4dc859f27ac8c514a8000001" for 127.0.0.1 at 2011-05-13 11:23:36 +0100
+  Processing by TaskController#update as JSON
+  Parameters: {"description"=>"xvc", "developer"=>"xv", "id"=>"4dc859f27ac8c514a8000001", "status"=>"columnStarted", "story_id"=>nil, "title"=>"sv"}
+Completed 200 OK in 20ms (Views: 0.2ms)
+
+
+Started PUT "/task/4dc859f27ac8c514a8000001" for 127.0.0.1 at 2011-05-13 11:23:36 +0100
+  Processing by TaskController#update as JSON
+  Parameters: {"description"=>"xvc", "developer"=>"xv", "id"=>"4dc859f27ac8c514a8000001", "status"=>"columnStarted", "story_id"=>nil, "title"=>"sv"}
+Completed 200 OK in 18ms (Views: 0.2ms)
+
+
+Started PUT "/task/4dc859f27ac8c514a8000001" for 127.0.0.1 at 2011-05-13 11:23:36 +0100
+  Processing by TaskController#update as JSON
+  Parameters: {"description"=>"xvc", "developer"=>"xv", "id"=>"4dc859f27ac8c514a8000001", "status"=>"columnStarted", "story_id"=>nil, "title"=>"sv"}
+Completed 200 OK in 18ms (Views: 0.2ms)

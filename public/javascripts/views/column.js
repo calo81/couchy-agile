@@ -43,7 +43,7 @@ ColumnView = Backbone.View.extend({
     }
     ,
     cardReceived:function(event,ui){
-     EventHandler.trigger("cardAddedToColumn",{column:this.parentNode.id,cardId:ui.item[0].id});
+     EventHandler.trigger("cardAddedToColumn",{column:this.parentNode.parentNode.id,cardId:ui.item[0].id});
     },
 
     initEvents:function() {
