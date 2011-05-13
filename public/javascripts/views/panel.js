@@ -24,9 +24,14 @@ Panel.View = Backbone.View.extend({
      },
 
      initialize: function() {
-          this.startedColumn = new ColumnView("Started")
-          this.nonStartedColumn = new ColumnView("New")
-          this.doneColumn = new ColumnView("Done")
+          this.startedColumn = new ColumnView("Started");
+          this.nonStartedColumn = new ColumnView("New");
+          this.doneColumn = new ColumnView("Done");
+          EventHandler.bind(this,"taskAdded")
+    },
+
+    taskAdded:function(args){
+        this.render(this.el);
     }
 
 })

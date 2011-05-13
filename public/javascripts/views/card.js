@@ -32,8 +32,9 @@ Card = Backbone.View.extend({
         $("#taskSubmit").bind("click", {self:this}, this.createTaskFromFormAndSave);
     },
 
-    removeModal: function(model, response) {
+    removeModalAndGenerateEvent: function(model, response) {
         $("#taskModal").dialog('close');
+        EventHandler.trigger("taskAdded",{});
     },
 
     columnId:{},
@@ -41,7 +42,7 @@ Card = Backbone.View.extend({
     createTaskFromFormAndSave:function(event) {
         var task = new Task($("#cardForm").serializeObject());
         task.set({status:event.data.self.columnId}, {silent:true})
-        task.save({},{success:event.data.self.removeModal});
+        task.save({},{success:event.data.self.removeModalAndGenerateEvent});
     },
 
     renderForEdit:function(columnId) {
